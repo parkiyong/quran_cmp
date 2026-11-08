@@ -178,7 +178,7 @@ fun QuranHomeScreen(
                     Tab(
                         selected = selectedTab == 2,
                         onClick = { selectedTab = 2 },
-                        text = { Text("BOOKMARKS (${bookmarks.size})") }
+                        text = { Text("BOOKMARKS") }
                     )
                 }
             }
