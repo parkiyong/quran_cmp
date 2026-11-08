@@ -30,6 +30,7 @@ import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.LibraryMusic
 import androidx.compose.material.icons.filled.MenuBook
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.SwapHoriz
@@ -39,6 +40,8 @@ import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FloatingActionButton
@@ -99,6 +102,7 @@ fun QuranHomeScreen(
 
     var selectedTab by remember { mutableIntStateOf(0) }
     var showJumpDialog by remember { mutableStateOf(false) }
+    var showOverflowMenu by remember { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
@@ -123,17 +127,36 @@ fun QuranHomeScreen(
                         IconButton(onClick = { showJumpDialog = true }) {
                             Icon(Icons.Default.FastForward, contentDescription = "Jump to Page / Ayah")
                         }
-                        IconButton(onClick = onOpenMushafSelector) {
-                            Icon(Icons.Default.SwapHoriz, contentDescription = "Switch Mushaf Type")
-                        }
-                        IconButton(onClick = onOpenTranslationsManager) {
-                            Icon(Icons.Default.Translate, contentDescription = "Translations Manager")
-                        }
-                        IconButton(onClick = onOpenAudioManager) {
-                            Icon(Icons.Default.LibraryMusic, contentDescription = "Audio Manager")
-                        }
-                        IconButton(onClick = onOpenSettings) {
-                            Icon(Icons.Default.Settings, contentDescription = "Settings")
+                        Box {
+                            IconButton(onClick = { showOverflowMenu = true }) {
+                                Icon(Icons.Default.MoreVert, contentDescription = "More options")
+                            }
+                            DropdownMenu(
+                                expanded = showOverflowMenu,
+                                onDismissRequest = { showOverflowMenu = false }
+                            ) {
+                                DropdownMenuItem(
+                                    text = { Text("Switch Mushaf") },
+                                    leadingIcon = { Icon(Icons.Default.SwapHoriz, contentDescription = null) },
+                                    onClick = { showOverflowMenu = false; onOpenMushafSelector() }
+                                )
+                                DropdownMenuItem(
+                                    text = { Text("Translations") },
+                                    leadingIcon = { Icon(Icons.Default.Translate, contentDescription = null) },
+                                    onClick = { showOverflowMenu = false; onOpenTranslationsManager() }
+                                )
+                                DropdownMenuItem(
+                                    text = { Text("Audio Manager") },
+                                    leadingIcon = { Icon(Icons.Default.LibraryMusic, contentDescription = null) },
+                                    onClick = { showOverflowMenu = false; onOpenAudioManager() }
+                                )
+                                HorizontalDivider()
+                                DropdownMenuItem(
+                                    text = { Text("Settings") },
+                                    leadingIcon = { Icon(Icons.Default.Settings, contentDescription = null) },
+                                    onClick = { showOverflowMenu = false; onOpenSettings() }
+                                )
+                            }
                         }
                     }
                 )
