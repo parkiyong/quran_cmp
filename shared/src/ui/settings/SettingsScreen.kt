@@ -33,6 +33,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.jetbrains.kmpapp.data.model.PageAppearance
 import com.jetbrains.kmpapp.repository.QuranRepository
@@ -129,16 +131,31 @@ fun SettingsScreen(
                         )
 
                         Text("Page Theme", style = MaterialTheme.typography.labelLarge)
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.spacedBy(6.dp)
-                        ) {
-                            PageAppearance.entries.forEach { app ->
-                                FilterChip(
-                                    selected = settings.pageAppearance == app,
-                                    onClick = { repository.settingsRepository.setPageAppearance(app) },
-                                    label = { Text(app.displayName) }
-                                )
+                        // Equal-width, 2-column grid so long theme names never get squeezed
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            PageAppearance.entries.chunked(2).forEach { rowItems ->
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    rowItems.forEach { app ->
+                                        FilterChip(
+                                            selected = settings.pageAppearance == app,
+                                            onClick = { repository.settingsRepository.setPageAppearance(app) },
+                                            modifier = Modifier.weight(1f),
+                                            label = {
+                                                Text(
+                                                    text = app.displayName,
+                                                    modifier = Modifier.fillMaxWidth(),
+                                                    textAlign = TextAlign.Center,
+                                                    maxLines = 1,
+                                                    overflow = TextOverflow.Ellipsis
+                                                )
+                                            }
+                                        )
+                                    }
+                                    if (rowItems.size < 2) Spacer(Modifier.weight(1f))
+                                }
                             }
                         }
 
@@ -175,7 +192,7 @@ fun SettingsScreen(
                             Column(modifier = Modifier.weight(1f)) {
                                 Text("Dual-Page Spread Mode", fontWeight = FontWeight.SemiBold)
                                 Text(
-                                    "Display 2 Mushaf pages side-by-side in RTL order on wide screens/landscape",
+                                    "Show two pages side by side on wide screens",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
@@ -194,7 +211,7 @@ fun SettingsScreen(
                             Column(modifier = Modifier.weight(1f)) {
                                 Text("Show Page Header & Footer Info", fontWeight = FontWeight.SemiBold)
                                 Text(
-                                    "Display Surah name, Juz'/Rub' indicator, and page number on Mushaf pages",
+                                    "Surah, Juz' and page number on each page",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )

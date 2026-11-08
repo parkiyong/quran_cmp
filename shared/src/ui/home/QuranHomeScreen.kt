@@ -105,19 +105,11 @@ fun QuranHomeScreen(
             Column {
                 TopAppBar(
                     title = {
-                        Column {
-                            Text(
-                                text = "Quran (${settings.mushafType.displayName})",
-                                style = MaterialTheme.typography.titleMedium,
-                                fontWeight = FontWeight.Bold
-                            )
-                            val lastPage = repository.settingsRepository.getLastPage(settings.mushafType)
-                            Text(
-                                text = "Last read: Page $lastPage • ${QuranDisplayData.getSuraNameFromPage(quranInfo, lastPage)}",
-                                style = MaterialTheme.typography.labelSmall,
-                                color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.85f)
-                            )
-                        }
+                        Text(
+                            text = "Quran",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold
+                        )
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = MaterialTheme.colorScheme.primary,
