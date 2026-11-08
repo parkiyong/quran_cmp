@@ -5,14 +5,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -22,14 +20,14 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Label
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.FastForward
 import androidx.compose.material.icons.filled.History
-import androidx.compose.material.icons.filled.Label
 import androidx.compose.material.icons.filled.LibraryMusic
-import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
@@ -42,7 +40,6 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.HorizontalDivider
@@ -51,10 +48,9 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.ScrollableTabRow
+import androidx.compose.material3.SecondaryTabRow
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Tab
-import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
@@ -80,7 +76,6 @@ import com.jetbrains.kmpapp.data.model.SuraAyah
 import com.jetbrains.kmpapp.data.model.Tag
 import com.jetbrains.kmpapp.repository.QuranRepository
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuranHomeScreen(
     repository: QuranRepository,
@@ -89,7 +84,7 @@ fun QuranHomeScreen(
     onOpenMushafSelector: () -> Unit,
     onOpenTranslationsManager: () -> Unit,
     onOpenAudioManager: () -> Unit,
-    onOpenSettings: () -> Unit
+    onOpenSettings: () -> Unit,
 ) {
     val settings by repository.settingsRepository.settings.collectAsState()
     val bookmarks by repository.bookmarksHandler.bookmarks.collectAsState()
@@ -101,8 +96,8 @@ fun QuranHomeScreen(
     }
 
     var selectedTab by remember { mutableIntStateOf(0) }
-    var showJumpDialog by remember { mutableStateOf(false) }
-    var showOverflowMenu by remember { mutableStateOf(false) }
+    var showJumpDialog by remember { mutableStateOf(value = false) }
+    var showOverflowMenu by remember { mutableStateOf(value = false) }
 
     Scaffold(
         topBar = {
@@ -112,7 +107,7 @@ fun QuranHomeScreen(
                         Text(
                             text = "Quran",
                             style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Bold,
                         )
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
@@ -160,10 +155,10 @@ fun QuranHomeScreen(
                         }
                     }
                 )
-                TabRow(
+                SecondaryTabRow(
                     selectedTabIndex = selectedTab,
                     containerColor = MaterialTheme.colorScheme.primary,
-                    contentColor = MaterialTheme.colorScheme.onPrimary
+                    contentColor = MaterialTheme.colorScheme.onPrimary,
                 ) {
                     Tab(
                         selected = selectedTab == 0,
@@ -194,7 +189,7 @@ fun QuranHomeScreen(
                     modifier = Modifier.padding(horizontal = 16.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Icon(Icons.Default.MenuBook, contentDescription = null)
+                    Icon(Icons.AutoMirrored.Filled.MenuBook, contentDescription = null)
                     Spacer(Modifier.width(8.dp))
                     Text("Continue (p. $lastPage)")
                 }
@@ -232,12 +227,11 @@ fun QuranHomeScreen(
     if (showJumpDialog) {
         JumpToPageOrVerseDialog(
             quranInfo = quranInfo,
-            onDismiss = { showJumpDialog = false },
-            onJump = { page, verse ->
-                showJumpDialog = false
-                onOpenPage(page, verse)
-            }
-        )
+            onDismiss = { showJumpDialog = false }
+        ) { page, verse ->
+            showJumpDialog = false
+            onOpenPage(page, verse)
+        }
     }
 }
 
@@ -380,7 +374,7 @@ private fun JuzQuartersTab(
             val juzNumber = (index / 8) + 1
             val hizbNumber = (index / 4) + 1
             val quarterMod = index % 4
-            val isStartOfJuz = (index % 8 == 0)
+            val isStartOfJuz = (index % 8) == 0
             val page = quranInfo.getPageFromSuraAyah(verse.sura, verse.ayah)
             val quarterPreview = QuranDisplayData.quarterPrefixArray.getOrNull(index) ?: ""
             val suraName = QuranDisplayData.getSuraName(verse.sura, wantPrefix = true)
@@ -473,7 +467,6 @@ private fun JuzQuartersTab(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun BookmarksAndTagsTab(
     repository: QuranRepository,
@@ -484,7 +477,7 @@ private fun BookmarksAndTagsTab(
     onOpenPage: (Int, SuraAyah?) -> Unit
 ) {
     var selectedTagId by remember { mutableStateOf<Long?>(null) }
-    var showNewTagDialog by remember { mutableStateOf(false) }
+    var showNewTagDialog by remember { mutableStateOf(value = false) }
     var bookmarkToTag by remember { mutableStateOf<Bookmark?>(null) }
 
     val tagMap = remember(tags) { tags.associateBy { it.id } }
@@ -543,7 +536,7 @@ private fun BookmarksAndTagsTab(
             }
         }
 
-        if (recentPages.isNotEmpty() && selectedTagId == null) {
+        if (recentPages.isNotEmpty() && (selectedTagId == null)) {
             item {
                 Text(
                     text = "Recent Pages",
@@ -597,9 +590,8 @@ private fun BookmarksAndTagsTab(
                     title = QuranDisplayData.getSuraNameFromPage(quranInfo, bm.page),
                     subtitle = "Page ${bm.page} • Juz' ${quranInfo.getJuzFromPage(bm.page)}",
                     onClick = { onOpenPage(bm.page, null) },
-                    onTagClick = { bookmarkToTag = bm },
-                    onDeleteClick = { repository.bookmarksHandler.deleteBookmark(bm.id) }
-                )
+                    onTagClick = { bookmarkToTag = bm }
+                ) { repository.bookmarksHandler.deleteBookmark(bm.id) }
             }
         }
 
@@ -618,12 +610,11 @@ private fun BookmarksAndTagsTab(
                 BookmarkRowCard(
                     bookmark = bm,
                     tagMap = tagMap,
-                    title = "${QuranDisplayData.getSuraName(sura, true)} ($sura:$ayah)",
+                    title = "${QuranDisplayData.getSuraName(sura, wantPrefix = true)} ($sura:$ayah)",
                     subtitle = "Page ${bm.page} • Juz' ${quranInfo.getJuzFromPage(bm.page)}",
                     onClick = { onOpenPage(bm.page, SuraAyah(sura, ayah)) },
-                    onTagClick = { bookmarkToTag = bm },
-                    onDeleteClick = { repository.bookmarksHandler.deleteBookmark(bm.id) }
-                )
+                    onTagClick = { bookmarkToTag = bm }
+                ) { repository.bookmarksHandler.deleteBookmark(bm.id) }
             }
         }
 
@@ -722,7 +713,6 @@ private fun BookmarksAndTagsTab(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun BookmarkRowCard(
     bookmark: Bookmark,
@@ -760,7 +750,7 @@ private fun BookmarkRowCard(
                     )
                 }
                 IconButton(onClick = onTagClick) {
-                    Icon(Icons.Default.Label, contentDescription = "Tag Bookmark")
+                    Icon(Icons.AutoMirrored.Filled.Label, contentDescription = "Tag Bookmark")
                 }
                 IconButton(onClick = onDeleteClick) {
                     Icon(Icons.Default.Delete, contentDescription = "Delete Bookmark")
@@ -843,9 +833,9 @@ fun JumpToPageOrVerseDialog(
                 onClick = {
                     val p = pageInput.toIntOrNull()
                     val j = juzInput.toIntOrNull()
-                    if (p != null && quranInfo.isValidPage(p)) {
+                    if ((p != null) && quranInfo.isValidPage(p)) {
                         onJump(p, null)
-                    } else if (j != null && j in 1..30) {
+                    } else if ((j != null) && j in 1..30) {
                         val jPage = quranInfo.getStartingPageForJuz(j)
                         onJump(jPage, null)
                     } else {
