@@ -39,6 +39,5 @@ settings:
   kotlin:
     serialization: json
   jvm:
-    jdk:
-      version: 17
+    release: 17
 

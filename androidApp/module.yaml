@@ -13,6 +13,5 @@ settings:
     applicationId: com.jetbrains.kmpapp
     namespace: com.jetbrains.kmpapp
   jvm:
-    jdk:
-      version: 17
+    release: 17
 
