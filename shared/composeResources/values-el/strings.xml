@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_collection">Αγαπημένα</string>
+    <string name="highlight_color_blue">Μπλε</string>
+    <string name="highlight_color_green">Πράσινο</string>
+    <string name="highlight_color_purple">Μοβ</string>
+    <string name="highlight_color_yellow">Κίτρινο</string>
+    <string name="qarilist_dismiss">Απορρίψτε το</string>
+    <string name="qarilist_gapless">Συνεχής</string>
+    <string name="qarilist_gapped">Μη συνεχής</string>
+    <string name="qarilist_qaris_with_downloads">Απαγγελίες με λήψεις</string>
+    <string name="qarilist_ready_to_play">Έτοιμοι για ακρόαση</string>
+    <string name="qarilist_select_qari">Επιλέξτε ένα Καρί</string>
+    <string name="qarilist_selected">Επιλεγμένα</string>
+    <string name="reading_bookmark_red">Κόκκινο</string>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d συλλογή</item>
+        <item quantity="other">%d συλλογές</item>
+    </plurals>
+</resources>

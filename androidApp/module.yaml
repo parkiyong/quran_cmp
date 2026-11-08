@@ -12,3 +12,7 @@ settings:
   android:
     applicationId: com.jetbrains.kmpapp
     namespace: com.jetbrains.kmpapp
+  jvm:
+    jdk:
+      version: 17
+

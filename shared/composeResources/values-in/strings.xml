@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">Kontributor</string>
+    <string name="about_contributors_summary">Daftar orang yang berkontribusi dalam pengembangan Quran Android</string>
+    <string name="about_data_sources">Sumber Data</string>
+    <string name="about_description">Quran Android adalah aplikasi Al-Qur\'an gratis yang dikembangkan berkat kontribusi banyak pihak. Kami berharap Anda berkenan mendoakan para kontributor yang telah menghadirkan aplikasi ini.</string>
+    <string name="about_furqan_summary">Teks Utsmani dan Tafsir Bahasa Arab</string>
+    <string name="about_images">Gambar</string>
+    <string name="about_madani_images">Gambar Al-Qur\'an didasarkan pada font dari Kompleks Percetakan Al-Qur\'an Raja Fahd</string>
+    <string name="about_naskh_images">Gambar Al-Qur\'an untuk aplikasi Naskh diambil (dengan izin) dari SHL Info Systems</string>
+    <string name="about_noorhidayat_summary">Font Noorehira dan Terjemahan Mufti Taqi</string>
+    <string name="about_open_source">Proyek Sumber Terbuka</string>
+    <string name="about_others">Lainnya</string>
+    <string name="about_qaloon_images">Gambar Qalun digunakan dengan izin dari Nous Memes Editions Et Diffusion (Tunisia)</string>
+    <string name="about_quran_enc_summary">Terjemahan untuk banyak bahasa</string>
+    <string name="about_quran_ksu">Electronic Moshaf Project</string>
+    <string name="about_quran_ksu_summary">Electronic Moshaf Project dari Universitas Raja Saud adalah sumber aplikasi untuk Tafsir bahasa Arab dan terjemahan berbagai bahasa. Ini juga merupakan sumber untuk bacaan Dr. Ayman Suwaid.</string>
+    <string name="about_quranicaudio_summary">Murottal mp3 Al-Qur\'an tanpa jeda</string>
+    <string name="about_tanzil_summary">Terjemahan untuk beberapa bahasa</string>
+    <string name="app_name">Quran</string>
+    <string name="appearance">Tampilan</string>
+    <string name="audio_updated_text">Beberapa berkas audio Quran telah diperbarui. Quran telah menghapus salinan berkas ini agar versi terbaru dapat diunduh saat Anda memutarnya kembali.</string>
+    <string name="audio_updated_title">Pembaruan Berkas Audio Quran</string>
+    <string name="available_translations">Tersedia untuk Diunduh</string>
+    <string name="ayah_copied_popup">Ayat Disalin</string>
+    <string name="bookmark_ayah">Tandai ayat ini</string>
+    <string name="bookmarks_empty_subtitle">Ketuk ikon penanda untuk menyimpan halaman, atau tekan lama sebuah ayat untuk menandainya.</string>
+    <string name="bookmarks_empty_title">Belum ada penanda</string>
+    <string name="bookmarks_list_empty">Tidak Ada Penanda</string>
+    <string name="cancel">Batal</string>
+    <string name="canceling">Membatalkan…</string>
+    <string name="copy_ayah">Salin ayat</string>
+    <string name="default_collection">Favorit</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_tag">Hapus Label</string>
+    <string name="delete_translation">Hapus Terjemahan</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Terdapat pembaruan kecil yang penting untuk gambar Quran di perangkat Anda. Apakah Anda ingin mengunduh pembaruan ini sekarang?</string>
+    <string name="downloadPrompt">Quran Android memerlukan beberapa berkas tambahan agar dapat berfungsi dengan baik. Jika tidak diunduh sekarang, aplikasi mungkin tidak berjalan optimal dan membutuhkan koneksi internet saat membaca. Apakah Anda ingin mengunduh berkas tersebut sekarang?</string>
+    <string name="downloadPrompt_no">Tidak</string>
+    <string name="downloadPrompt_ok">Ya</string>
+    <string name="downloadPrompt_title">Unduh Berkas yang Diperlukan?</string>
+    <string name="downloadTabletPrompt">Kami baru saja menambahkan gambar dengan kualitas lebih baik untuk tablet. Apakah Anda ingin mengunduh gambar tersebut sekarang?</string>
+    <string name="download_cancel">Batal</string>
+    <string name="download_error_disk">Ruang penyimpanan tidak cukup untuk mengunduh</string>
+    <string name="download_error_general">Unduhan gagal</string>
+    <string name="download_error_invalid_download">Berkas yang diunduh rusak</string>
+    <string name="download_error_invalid_download_retry">Berkas rusak, mencoba mengunduh ulang</string>
+    <string name="download_error_network">Gagal mengunduh karena kesalahan jaringan</string>
+    <string name="download_error_network_retry">Kesalahan jaringan, mencoba melanjutkan...</string>
+    <string name="download_error_perms">Gagal mengunduh karena kesalahan perizinan</string>
+    <string name="download_extra_data">Kami perlu mengunduh beberapa berkas kecil untuk mendukung fitur berbagi dan terjemahan. Unduh sekarang?</string>
+    <string name="download_non_wifi_prompt">Anda tidak tersambung ke Wi-Fi. Tetap unduh datanya?</string>
+    <string name="download_processing">Memproses Unduhan...</string>
+    <string name="download_retry">Coba Lagi</string>
+    <string name="download_successful">Unduhan Berhasil</string>
+    <string name="downloaded_translations">Sudah Diunduh</string>
+    <string name="downloading">Mengunduh…</string>
+    <string name="downloading_message">Harap tunggu berkas selesai diunduh (mendukung jeda).</string>
+    <string name="edit_tag">Ubah Label</string>
+    <string name="email_us">Jika pertanyaan Anda tidak terjawab di atas, Anda dapat mengirim surel ke quranandroid@gmail.com untuk bantuan. Harap diingat bahwa kami menerima banyak surel, sehingga kami mungkin tidak dapat membalas semuanya.</string>
+    <string name="error_getting_translation_list">Gagal mengunduh daftar terjemahan. Harap coba lagi nanti.</string>
+    <string name="export_data_error">Kesalahan saat mengekspor data</string>
+    <string name="exported_data">Data diekspor ke %1$s</string>
+    <string name="extracting_title">Memproses...</string>
+    <string name="found_in_sura">Ditemukan di Surat %2$s (%1$d): ayat %3$d (halaman %4$d)</string>
+    <string name="from">Dari</string>
+    <string name="get_arabic_search_db">Unduh Basis Data Pencarian Bahasa Arab</string>
+    <string name="get_translations">Unduh Terjemahan</string>
+    <string name="gotoPage">Lompat ke halaman</string>
+    <string name="help">&lt;b&gt;Bagaimana cara memutar audio?&lt;/b&gt; &lt;br/&gt;Buka halaman Al-Qur\'an mana saja. Ketuk layar satu kali. Di bagian bawah, Anda akan melihat tombol putar dan teks dengan nama qari. Ketuk nama qari untuk memilih qari yang berbeda. Ketuk putar untuk mengunduh dan memutar halaman atau surat saat ini. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Bagaimana cara melihat terjemahan?&lt;/b&gt; &lt;br/&gt;Buka halaman Al-Qur\'an mana saja. Ketuk layar satu kali. Di bagian atas, Anda akan melihat ikon bola dunia (atau jika tidak terlihat, ketuk ikon dengan tiga titik persegi), ketuk ikon ini dan pilih terjemahan untuk melihatnya. &lt;br/&gt; Jika Anda belum mengunduh terjemahan, Anda akan diarahkan ke layar untuk mengunduh terjemahan. Pilih dan unduh terjemahan, lalu kembali dan ketuk ikon bola dunia lagi untuk melihat terjemahan. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Bagaimana cara menandai halaman?&lt;/b&gt; &lt;br/&gt;Buka halaman Al-Qur\'an mana saja. Ketuk layar satu kali. Di kanan atas, Anda akan melihat ikon penanda. Ketuk ikon penanda untuk menandai halaman (warna akan menjadi putih solid). Ketuk ikon penanda lagi untuk menghapus penanda. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Bagaimana cara memperbesar teks?&lt;/b&gt; &lt;br/&gt;Untuk halaman bahasa Arab, pegang perangkat Anda secara mendatar. Ini membuat teks lebih besar. Untuk terjemahan, buka pengaturan dan atur ukuran teks terjemahan. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Bagaimana cara membagikan ayat?&lt;/b&gt; &lt;br/&gt;Saat berada di halaman mushaf (bahasa Arab) mana pun, tekan dan tahan pada ayat mana saja untuk memunculkan menu di mana Anda dapat memilih untuk menandai, membagikan, atau menyalin ayat tersebut ke papan klip, melihat terjemahan, atau mendengarkan bacaannya.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;Font Malayalam/Tamil/Bengali/Urdu tidak berfungsi!&lt;/b&gt; &lt;br/&gt;Sayangnya, versi Android sebelum 4.0 tidak mendukung font tersebut, dan kami tidak dapat berbuat banyak untuk mengatasi hal ini.</string>
+    <string name="help_title">Pertanyaan yang Sering Diajukan</string>
+    <string name="highlight_color_blue">Biru</string>
+    <string name="highlight_color_green">Hijau</string>
+    <string name="highlight_color_purple">Ungu</string>
+    <string name="highlight_color_yellow">Kuning</string>
+    <string name="highlighting_database">Berkas yang Diperlukan</string>
+    <string name="icon_reveal_body">Aplikasi Quran kini membawa tanda bersama dari keluarga alat yang dibangun seputar firman Allah. Penanda, kemajuan, dan pengaturan Anda tetap berada di tempat Anda meninggalkannya.</string>
+    <string name="icon_reveal_title">Ikon baru kami telah hadir</string>
+    <string name="import_data">Impor Data</string>
+    <string name="import_data_and_merge">Jika Anda mengimpor berkas ini, %1$d penanda dan %2$d label akan ditambahkan ke data saat ini. Impor?</string>
+    <string name="import_data_error">Berkas cadangan tidak valid (atau tidak dapat membaca berkas cadangan).</string>
+    <string name="import_data_permissions_error">Tidak dapat membaca berkas cadangan karena masalah perizinan.</string>
+    <string name="import_successful">Impor Berhasil</string>
+    <string name="juz2_description">Juz %1$s</string>
+    <string name="kitkat_external_message">Karena keterbatasan Android, jika Anda memilih untuk menempatkan data Quran di kartu SD eksternal lalu mencopot pemasangan atau menghapus data Quran Android, semua halaman dan audio Quran Android akan terhapus dan Anda harus mengunduhnya kembali. Apakah Anda yakin ingin menggunakan kartu SD eksternal?</string>
+    <string name="loading">Memuat…</string>
+    <string name="madani">Madani</string>
+    <string name="makki">Makki</string>
+    <string name="manzil_description">Manzil %1$s</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_back_to_page">Tampilan Mushaf</string>
+    <string name="menu_bookmarks">Penanda</string>
+    <string name="menu_bookmarks_page">Penanda Halaman</string>
+    <string name="menu_get_translations">Unduh Terjemahan</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_jump">Lompat</string>
+    <string name="menu_jump_last_page">Halaman Terakhir</string>
+    <string name="menu_other_apps">Aplikasi Lain</string>
+    <string name="menu_search">Cari</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_show_date">Tampilkan Tanggal</string>
+    <string name="menu_sort">Urutkan</string>
+    <string name="menu_sort_date">Tanggal Ditambahkan</string>
+    <string name="menu_sort_group_by_tags">Kelompokkan Berdasarkan Label</string>
+    <string name="menu_sort_location">Lokasi dalam Al-Qur\'an</string>
+    <string name="menu_translation">Tampilan Terjemahan</string>
+    <string name="more_translations">Terjemahan Lainnya</string>
+    <string name="move_down">Pindah ke Bawah</string>
+    <string name="move_up">Pindah ke Atas</string>
+    <string name="need_translation">Anda belum mengunduh terjemahan/tafsir apa pun.</string>
+    <string name="new_tag">Label Baru</string>
+    <string name="next">Selanjutnya</string>
+    <string name="no_arabic_search_available">Anda belum mengunduh paket pencarian bahasa Arab. Harap unduh dan coba lagi pencarian Anda.</string>
+    <string name="no_results">Tidak ditemukan hasil untuk \"%s\"</string>
+    <string name="notification_channel_audio">Bacaan Quran</string>
+    <string name="notification_channel_download">Unduhan Quran</string>
+    <string name="notification_download_canceled">Unduhan dibatalkan</string>
+    <string name="old_page_bookmarks">Penanda Halaman Lama</string>
+    <string name="page_description">Halaman %1$s, Juz %2$s</string>
+    <string name="pause">Jeda</string>
+    <string name="play">Putar</string>
+    <string name="play_apply">Terapkan</string>
+    <string name="play_apply_and_play">Terapkan dan Putar</string>
+    <string name="play_each_verse">Putar setiap ayat:</string>
+    <string name="play_from_here">Putar mulai dari sini</string>
+    <string name="play_restrict_range">Hanya putar ayat-ayat di atas</string>
+    <string name="play_verses_range">Putar rentang ayat:</string>
+    <string name="playback_prompt_title">Mulai putar dari:</string>
+    <string name="playback_speed">Kecepatan Putar:</string>
+    <string name="please_grant_permissions">Harap izinkan akses di pengaturan aplikasi</string>
+    <string name="please_wait">Harap tunggu...</string>
+    <string name="post_notification_permission">Izinkan Quran Android untuk menampilkan notifikasi? Ini hanya digunakan untuk memberikan info status unduhan, atau memberi tahu saat berkas audio diperbarui secara otomatis.</string>
+    <string name="prefs_app_location_summary">Pilih lokasi penyimpanan berkas Quran</string>
+    <string name="prefs_app_location_title">Direktori data Quran</string>
+    <string name="prefs_app_size">Ukuran data saat ini adalah</string>
+    <string name="prefs_audio_manager_summary">Kelola dan unduh audio Al-Qur\'an</string>
+    <string name="prefs_ayah_before_translation_summary">Tampilkan ayat dalam bahasa Arab di atas terjemahan</string>
+    <string name="prefs_ayah_before_translation_title">Ayat sebelum terjemahan</string>
+    <string name="prefs_ayah_text_title">Ukuran teks ayat</string>
+    <string name="prefs_calculating_app_size">Menghitung Ukuran Aplikasi</string>
+    <string name="prefs_category_advanced">Opsi Lanjutan</string>
+    <string name="prefs_category_advanced_summary">Impor/ekspor penanda, atur direktori data Quran, dll.</string>
+    <string name="prefs_category_display_settings">Pengaturan Tampilan</string>
+    <string name="prefs_category_download">Opsi Unduhan</string>
+    <string name="prefs_category_dual_screen">Pengaturan Halaman Ganda</string>
+    <string name="prefs_category_reading">Pengaturan Membaca</string>
+    <string name="prefs_category_translation">Pengaturan Terjemahan</string>
+    <string name="prefs_copying_app_files">Menyalin berkas aplikasi</string>
+    <string name="prefs_display_marker_summary">Tampilkan munculan saat mencapai juz, hizb, dll.</string>
+    <string name="prefs_display_marker_title">Tampilkan penanda munculan (popup)</string>
+    <string name="prefs_download_amount_summary">Jumlah unduhan yang diinginkan untuk audio dengan jeda</string>
+    <string name="prefs_download_amount_title">Jumlah unduhan</string>
+    <string name="prefs_dual_page_mode_disabled">Dalam mode mendatar, hanya satu halaman yang tampil.</string>
+    <string name="prefs_dual_page_mode_enabled">Dalam mode mendatar, dua halaman akan tampil berdampingan.</string>
+    <string name="prefs_dual_page_mode_title">Mode Halaman Ganda</string>
+    <string name="prefs_err_moving_app_files">Gagal memindahkan berkas aplikasi</string>
+    <string name="prefs_export_csv_summary">Ekspor salinan penanda dan label dalam format CSV</string>
+    <string name="prefs_export_csv_title">Ekspor CSV</string>
+    <string name="prefs_export_summary">Ekspor salinan penanda dan label</string>
+    <string name="prefs_export_title">Ekspor</string>
+    <string name="prefs_highlight_bookmarks_summary">Sorot ayat yang diberi penanda saat membaca</string>
+    <string name="prefs_highlight_bookmarks_title">Sorot penanda</string>
+    <string name="prefs_import_summary">Impor penanda dan label</string>
+    <string name="prefs_import_title">Impor</string>
+    <string name="prefs_landscape_orientation_summary_off">Selalu gunakan mode tegak</string>
+    <string name="prefs_landscape_orientation_summary_on">Selalu gunakan mode mendatar</string>
+    <string name="prefs_landscape_orientation_title">Orientasi mendatar</string>
+    <string name="prefs_lock_orientation_summary_off">Sesuaikan dengan orientasi layar saat ini</string>
+    <string name="prefs_lock_orientation_summary_on">Gunakan orientasi layar tetap</string>
+    <string name="prefs_lock_orientation_title">Kunci orientasi layar</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_night_mode_background_brightness_title">Kecerahan latar belakang</string>
+    <string name="prefs_night_mode_text_brightness_title">Kecerahan teks</string>
+    <string name="prefs_no_enough_space_to_move_files">Ruang tidak cukup untuk memindahkan berkas aplikasi</string>
+    <string name="prefs_overlay_page_info_summary">Tampilkan nomor halaman, nama surat, dan nomor juz di halaman mushaf</string>
+    <string name="prefs_overlay_page_info_title">Tampilkan info halaman</string>
+    <string name="prefs_page_type_summary">Pilih jenis halaman membaca</string>
+    <string name="prefs_page_type_title">Jenis Halaman (eksperimental)</string>
+    <string name="prefs_preview">Pratinjau</string>
+    <string name="prefs_sdcard_external">Penyimpanan eksternal %1$d</string>
+    <string name="prefs_sdcard_internal">Penyimpanan internal</string>
+    <string name="prefs_send_logs_summary">Kirim log debug ke pengembang</string>
+    <string name="prefs_send_logs_title">Kirim log</string>
+    <string name="prefs_split_page_and_translation_summary">Dalam mode halaman ganda dengan terjemahan, halaman Al-Qur\'an dan terjemahannya akan ditampilkan berdampingan</string>
+    <string name="prefs_split_page_and_translation_title">Al-Qur\'an dan terjemahan dalam mode ganda</string>
+    <string name="prefs_streaming_summary">Putar audio secara langsung tanpa mengunduh</string>
+    <string name="prefs_streaming_title">Streaming</string>
+    <string name="prefs_sura_translated_name_summary">Tampilkan terjemahan nama surat</string>
+    <string name="prefs_sura_translated_name_title">Terjemahan nama surat</string>
+    <string name="prefs_translation_text_title">Ukuran teks terjemahan</string>
+    <string name="prefs_translations">Terjemahan</string>
+    <string name="prefs_translations_summary">Unduh dan kelola terjemahan</string>
+    <string name="prefs_use_arabic_summary_on">Gunakan bahasa Arab untuk antarmuka aplikasi</string>
+    <string name="prefs_use_arabic_title">Mode bahasa Arab (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Tampilkan terjemahan menggunakan font yang ramah disleksia</string>
+    <string name="prefs_use_dyslexic_font_title">Font ramah disleksia</string>
+    <string name="prefs_volume_key_navigation_summary">Navigasi antar halaman menggunakan tombol volume</string>
+    <string name="prefs_volume_key_navigation_title">Navigasi tombol volume</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="process_progress">Memproses berkas %1$d / %2$d</string>
+    <string name="qarilist_dismiss">Bubar</string>
+    <string name="qarilist_gapless">Berkelanjutan</string>
+    <string name="qarilist_gapped">Tidak Berkesinambungan</string>
+    <string name="qarilist_qaris_with_downloads">Pembaca dengan Unduhan</string>
+    <string name="qarilist_ready_to_play">Siap untuk mendengarkan</string>
+    <string name="qarilist_select_qari">Pilih Qari</string>
+    <string name="qarilist_selected">Terpilih</string>
+    <string name="quranSearchType">Ayat-ayat Al-Qur\'an</string>
+    <string name="quran_ayah">Ayat %1$d</string>
+    <string name="quran_ayah_details">%1$s - Ayat %2$s, Juz %3$s</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Juz</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Halaman</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Surat</string>
+    <string name="quran_sura_title">Surat %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Tutup</string>
+    <string name="reading_bookmark_movable_education_body">Menyimpan penanda baca akan menggantikan yang lama. Untuk menyimpan beberapa ayat, tekan lama sebuah ayat dan tambahkan ke koleksi.</string>
+    <string name="reading_bookmark_movable_education_title">Ini adalah penanda baca yang dapat dipindahkan</string>
+    <string name="reading_bookmark_moved_from">Dipindahkan dari %1$s</string>
+    <string name="reading_bookmark_red">Merah</string>
+    <string name="recent_pages">Halaman Terakhir</string>
+    <string name="recite_from_here">Baca dari sini</string>
+    <string name="remove_button">Buang</string>
+    <string name="remove_dlg_msg">Apakah Anda yakin ingin menghapus %1$s?</string>
+    <string name="remove_dlg_title">Hapus Terjemahan?</string>
+    <string name="scoped_storage_message">Karena perubahan Android untuk meningkatkan privasi pengguna, menyalin berkas ke luar direktori aplikasi mungkin membuat Quran tidak dapat mengakses datanya di versi Android mendatang. Apakah Anda yakin ingin menggunakan jalur ini?</string>
+    <string name="sdcard_error">Kartu SD tidak ditemukan. Harap pasang dan coba lagi.</string>
+    <string name="search_data">Data Pencarian</string>
+    <string name="search_entire_mushaf">Cari di seluruh mushaf</string>
+    <string name="search_full_results">Hasil Lengkap</string>
+    <string name="search_hint">Cari dalam Al-Qur\'an</string>
+    <string name="search_key">Tekan tombol pencarian untuk mencari ayat</string>
+    <string name="see_tafseer_of_verse">Tafsir ayat ini disertakan dalam tafsir ayat %d (Ketuk untuk memperluas).</string>
+    <string name="share_ayah">Bagikan tautan ayat ini</string>
+    <string name="share_ayah_text">Bagikan teks ayat</string>
+    <string name="starting_page_label">Awal Halaman</string>
+    <string name="stop">Berhenti</string>
+    <string name="storage_permission_please_restart">Harap mulai ulang aplikasi agar perubahan ini diterapkan.</string>
+    <string name="storage_permission_rationale">Quran memerlukan izin untuk menyimpan data di penyimpanan eksternal. Quran tetap dapat berjalan tanpa izin ini, tetapi jika Anda menghapus data atau mencopot pemasangan aplikasi, semua halaman, audio, dan data yang diunduh akan terhapus. Izinkan Quran menggunakan penyimpanan?</string>
+    <string name="sura_and_ayah">Surat dan Ayat</string>
+    <string name="sura_ayah_notification_str">Surat %1$s, Ayat %2$d</string>
+    <string name="sura_ayah_sharing_str">Surat %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">Nama label tidak boleh kosong!</string>
+    <string name="tag_bookmark">Tambahkan Label</string>
+    <string name="tag_dlg_title">Label</string>
+    <string name="tag_duplicate_tag_error">Nama label sudah ada!</string>
+    <string name="tag_name">Nama</string>
+    <string name="timing_database">Berkas yang Diperlukan</string>
+    <string name="to">Sampai</string>
+    <string name="translation_ayah">Terjemahan/Tafsir ayat</string>
+    <string name="translation_dialog_later">Nanti</string>
+    <string name="translation_dialog_yes">Ya</string>
+    <string name="translation_updates_available">Pembaruan tersedia untuk beberapa terjemahan Anda. Buka layar terjemahan sekarang?</string>
+    <string name="undo">Batal</string>
+    <string name="update_available">Pembaruan Tersedia</string>
+    <string name="warning">Peringatan</string>
+    <string name="whats_new_continue">Lanjutkan</string>
+    <string-array name="repeatValues">
+        <item>1 kali</item>
+        <item>2 kali</item>
+        <item>3 kali</item>
+        <item>berulang</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fatihah</item>
+        <item>Al-Baqarah</item>
+        <item>Ali \'Imran</item>
+        <item>An-Nisa\'</item>
+        <item>Al-Ma\'idah</item>
+        <item>Al-An\'am</item>
+        <item>Al-A\'raf</item>
+        <item>Al-Anfal</item>
+        <item>At-Taubah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra\'</item>
+        <item>Al-Kahfi</item>
+        <item>Maryam</item>
+        <item>Tha-Ha</item>
+        <item>Al-Anbiya\'</item>
+        <item>Al-Hajj</item>
+        <item>Al-Mu\'minun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Asy-Syu\'ara</item>
+        <item>An-Naml</item>
+        <item>Al-Qashash</item>
+        <item>Al-Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba\'</item>
+        <item>Fathir</item>
+        <item>Ya-Sin</item>
+        <item>Ash-Shaffat</item>
+        <item>Shad</item>
+        <item>Az-Zumar</item>
+        <item>Ghafir</item>
+        <item>Fushilat</item>
+        <item>Asy-Syura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jatsiyah</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Adz-Dzariyat</item>
+        <item>Ath-Thur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqi\'ah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadilah</item>
+        <item>Al-Hasyr</item>
+        <item>Al-Mumtahanah</item>
+        <item>Ash-Shaf</item>
+        <item>Al-Jumu\'ah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Taghabun</item>
+        <item>Ath-Thalaq</item>
+        <item>At-Tahrim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddatstsir</item>
+        <item>Al-Qiyamah</item>
+        <item>Al-Insan</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba\'</item>
+        <item>An-Nazi\'at</item>
+        <item>\'Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infithar</item>
+        <item>Al-Muthaffifin</item>
+        <item>Al-Insyiqaq</item>
+        <item>Al-Buruj</item>
+        <item>Ath-Thariq</item>
+        <item>Al-A\'la</item>
+        <item>Al-Ghasyiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Asy-Syams</item>
+        <item>Al-Lail</item>
+        <item>Adh-Dhuhaa</item>
+        <item>Al-Insyirah</item>
+        <item>At-Tin</item>
+        <item>Al-\'Alaq</item>
+        <item>Al-Qadar</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-\'Adiyat</item>
+        <item>Al-Qari\'ah</item>
+        <item>At-Takatsur</item>
+        <item>Al-\'Ashr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraisy</item>
+        <item>Al-Ma\'un</item>
+        <item>Al-Kautsar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nashr</item>
+        <item>Al-Lahab</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>Pembukaan</item>
+        <item>Sapi</item>
+        <item>Keluarga Imran</item>
+        <item>Wanita</item>
+        <item>Hidangan</item>
+        <item>Binatang Ternak</item>
+        <item>Tempat Tertinggi</item>
+        <item>Rampasan Perang</item>
+        <item>Pengampunan</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Guruh</item>
+        <item>Ibrahim</item>
+        <item>Hijr</item>
+        <item>Lebah</item>
+        <item>Memperjalankan di Malam Hari</item>
+        <item>Gua</item>
+        <item>Maryam</item>
+        <item>TaHa</item>
+        <item>Para Nabi</item>
+        <item>Haji</item>
+        <item>Orang-orang Mukmin</item>
+        <item>Cahaya</item>
+        <item>Pembeda</item>
+        <item>Para Penyair</item>
+        <item>Semut</item>
+        <item>Kisah-kisah</item>
+        <item>Laba-laba</item>
+        <item>Romawi</item>
+        <item>Luqman</item>
+        <item>Sajdah</item>
+        <item>Golongan yang Bersekutu</item>
+        <item>Saba\'</item>
+        <item>Pencipta</item>
+        <item>Ya-Sin</item>
+        <item>Barisan-barisan</item>
+        <item>Shad</item>
+        <item>Rombongan</item>
+        <item>Maha Pengampun</item>
+        <item>Yang Dijelaskan</item>
+        <item>Musyawarah</item>
+        <item>Perhiasan</item>
+        <item>Kabut</item>
+        <item>BerLutut</item>
+        <item>Bukit Pasir</item>
+        <item>Muhammad</item>
+        <item>Kemenangan</item>
+        <item>Kamar-kamar</item>
+        <item>Qaf</item>
+        <item>Angin yang Menerbangkan</item>
+        <item>Bukit</item>
+        <item>Bintang</item>
+        <item>Bulan</item>
+        <item>Yang Maha Pengasih</item>
+        <item>Hari Kiamat yang Pasti Terjadi</item>
+        <item>Besi</item>
+        <item>Gugatan</item>
+        <item>Pengusiran</item>
+        <item>Wanita yang Diuji</item>
+        <item>Barisan</item>
+        <item>Jum\'at</item>
+        <item>Orang-orang Munafik</item>
+        <item>Pengungkapan Kesalahan</item>
+        <item>Talak</item>
+        <item>Pengharaman</item>
+        <item>Kerajaan</item>
+        <item>Pena</item>
+        <item>Hari Kiamat yang Pasti Datang</item>
+        <item>Tempat-tempat Naik</item>
+        <item>Nuh</item>
+        <item>Jin</item>
+        <item>Orang yang Berselimut</item>
+        <item>Orang yang Berkemul</item>
+        <item>Hari Berbangkit</item>
+        <item>Manusia</item>
+        <item>Malaikat yang Diutus</item>
+        <item>Berita Besar</item>
+        <item>Yang Mencabut dengan Keras</item>
+        <item>Bermuka Masam</item>
+        <item>Penggulungan</item>
+        <item>Terbelah</item>
+        <item>Orang-orang Curang</item>
+        <item>Terbelah</item>
+        <item>Gugusan Bintang</item>
+        <item>Yang Datang Pada Malam Hari</item>
+        <item>Yang Maha Tinggi</item>
+        <item>Hari Kiamat yang Menghilangkan Kesadaran</item>
+        <item>Fajar</item>
+        <item>Negeri</item>
+        <item>Matahari</item>
+        <item>Malam</item>
+        <item>Waktu Dhuha</item>
+        <item>Pelapangan</item>
+        <item>Buah Tin</item>
+        <item>Segumpal Darah</item>
+        <item>Kemuliaan</item>
+        <item>Bukti Nyata</item>
+        <item>Guncangan</item>
+        <item>Kuda Perang yang Berlari Kencang</item>
+        <item>Hari Kiamat yang Menggetarkan</item>
+        <item>Bermegah-megahan</item>
+        <item>Masa</item>
+        <item>Pengumpat</item>
+        <item>Gajah</item>
+        <item>Orang Quraisy</item>
+        <item>Barang yang Berguna</item>
+        <item>Nikmat yang Banyak</item>
+        <item>Orang-orang Kafir</item>
+        <item>Pertolongan</item>
+        <item>Gejolak Api (Sabut)</item>
+        <item>Ikhlash</item>
+        <item>Fajar</item>
+        <item>Manusia</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="other">%d koleksi</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Menghapus satu item</item>
+        <item quantity="other">Menghapus %d item</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">Satu hasil untuk \"%1$s\":</item>
+        <item quantity="other">%2$d hasil untuk \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">Satu ayat</item>
+        <item quantity="other">%s ayat</item>
+    </plurals>
+</resources>

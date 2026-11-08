@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">Hozzájárulók</string>
+    <string name="about_contributors_summary">A Quran for Android fejlesztéséhez hozzájáruló személyek listája</string>
+    <string name="about_data_sources">Adatforrások</string>
+    <string name="about_description">A Quran for Android egy ingyenes Korán alkalmazás. Kérjük, ne feledkezzen meg a közreműködőkről az imáiban.</string>
+    <string name="about_furqan_summary">Uthmani szöveg és arab Tafaseer</string>
+    <string name="about_images">Képek</string>
+    <string name="about_madani_images">A Korán-képek a King Fahd Quran Printing Complex betűtípusain alapulnak.</string>
+    <string name="about_naskh_images">A Naskh alkalmazás Korán képei (engedéllyel) az SHL Info Systems-től származnak.</string>
+    <string name="about_noorhidayat_summary">Noorehira betűtípus és Mufti Taqi fordítása</string>
+    <string name="about_open_source">Nyílt forráskódú projektek</string>
+    <string name="about_others">Egyéb</string>
+    <string name="about_qaloon_images">A Qaloon képeit a Nous Memes Editions Et Diffusion (Tunézia) engedélyével használjuk.</string>
+    <string name="about_quran_enc_summary">Fordítások számos nyelvre</string>
+    <string name="about_quran_ksu">Elektronikus Moshaf projekt</string>
+    <string name="about_quran_ksu_summary">A King Saud University Electronic Moshaf Project az alkalmazás arab Tafaseer forrása, valamint a különböző nyelvek fordításai. Dr. Ayman Suwaid szavalatának forrása is ez.</string>
+    <string name="about_quranicaudio_summary">Hézagmentes mp3 Korán recitációk</string>
+    <string name="about_tanzil_summary">Fordítások néhány nyelvre</string>
+    <string name="app_name">Korán</string>
+    <string name="audio_updated_text">Számos Korán hangfájl frissítésre került. A Quran for Android eltávolította a fájlok másolatát, hogy a legközelebbi lejátszáskor a legújabb verziókat tölthesse le.</string>
+    <string name="audio_updated_title">Korán hangfájlok frissítése</string>
+    <string name="available_translations">Elérhető letöltésre</string>
+    <string name="ayah_copied_popup">Ája kimásolva</string>
+    <string name="bookmark_ayah">Ája könyvjelzőzése</string>
+    <string name="bookmarks_empty_subtitle">Koppints a könyvjelző ikonra egy oldal mentéséhez, vagy tartsd lenyomva az áját a könyvjelzőzéshez.</string>
+    <string name="bookmarks_empty_title">Még nincs könyvjelző</string>
+    <string name="bookmarks_list_empty">Nincs könyvjelző</string>
+    <string name="cancel">Mégsem</string>
+    <string name="canceling">Megszakítás…</string>
+    <string name="copy_ayah">Ája másolása</string>
+    <string name="default_collection">Kedvencek</string>
+    <string name="delete">Törlés</string>
+    <string name="delete_tag">Címke törlése</string>
+    <string name="delete_translation">Fordítás eltávolítása</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Egy kicsi, de fontos frissítés érhető el az eszközén található Korán képekhez. Szeretné most letölteni ezt a javítás?</string>
+    <string name="downloadPrompt">A Korán Android megfelelő működéséhez néhány fájlt le kell tölteni. Ha ezt most nem teszi meg, akkor az app lehet, hogy nem fog megbízhatóan működni és Internet kapcsolatra lesz szükség az olvasáshoz. Szeretné most letölteni a szükséges fájlokat?</string>
+    <string name="downloadPrompt_no">Nem</string>
+    <string name="downloadPrompt_ok">Igen</string>
+    <string name="downloadPrompt_title">Letöltse a szükséges fájlokat?</string>
+    <string name="downloadTabletPrompt">A minap szebb képeket adtunk hozzá a tabletekhez. Szeretné most letölteni ezeket a képeket?</string>
+    <string name="download_cancel">Mégsem</string>
+    <string name="download_error_disk">Nincs elegendő hely a letöltéshez</string>
+    <string name="download_error_general">Sikertelen letöltés</string>
+    <string name="download_error_invalid_download">A letöltött fájl sérült volt</string>
+    <string name="download_error_invalid_download_retry">Sérült fájl, kísérlet ismételt letöltésre</string>
+    <string name="download_error_network">Nem lehet letölteni hálózati hiba miatt</string>
+    <string name="download_error_network_retry">Hálózati hiba, kísérlet a folytatásra…</string>
+    <string name="download_error_perms">Nem lehet letölteni engedélyezési hiba miatt</string>
+    <string name="download_extra_data">Le kell tölteni egy-két kis fájlt a megosztás és a fordítás támogatásához. Letölti most?</string>
+    <string name="download_non_wifi_prompt">Nem használ Wi-Fi-t. Mindenképpen letölti az adatokat?</string>
+    <string name="download_processing">Letöltés feldolgozása…</string>
+    <string name="download_retry">Ismét</string>
+    <string name="download_successful">Sikeres letöltés</string>
+    <string name="downloaded_translations">Letöltve</string>
+    <string name="downloading">Letöltés…</string>
+    <string name="downloading_message">Kérem várjon, amíg a fájlok letöltődnek (a folytatás támogatott).</string>
+    <string name="edit_tag">Címke szerkesztése</string>
+    <string name="email_us">Ha a kérdése nem lett fent megválaszolva, támogatásért írhat e-mailt a quranandroid@gmail.com címre. Megértését kérjük, mivel számtalan e-mailt kaptunk, és ezért lehet, hogy nem tudunk mindegyikre válaszolni.</string>
+    <string name="error_getting_translation_list">Nem lehet letölteni a fordítások listáját. Kérem, próbálja újra később.</string>
+    <string name="export_data_error">Hiba az adatok exportálásában</string>
+    <string name="exported_data">A %1$s címre exportált adatok</string>
+    <string name="extracting_title">Feldolgozás…</string>
+    <string name="found_in_sura">Találat itt: szúra (%1$d) %2$s: %3$d (Oldal %4$d)</string>
+    <string name="from">Innentől</string>
+    <string name="get_arabic_search_db">Arab keresési adatbázis letöltése</string>
+    <string name="get_translations">Fordítások letöltése</string>
+    <string name="gotoPage">Ugrás erre az oldalra:</string>
+    <string name="help">&lt;b&gt;Hogyan játszhatom le a hangot?&lt;/b&gt; &lt;br/&gt;Nyisson meg egy Korán oldalt. Érintse meg egyszer a képernyőt. Alul meg fog jelenni egy lejátszás gomb és néhány szöveg a qari nevével. Érintse meg a qari nevét másik quari kiválasztásához. Érintse meg a lejátszás gombot a jelenlegi oldal vagy szúra letöltéshez és lejátszásához. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hogyan tekinthetem meg a fordítást?&lt;/b&gt; &lt;br/&gt;Nyisson meg egy Korán oldalt. Érintse meg egyszer a képernyőt. Felül meg fog jelenni egy földgömb ikon (vagy ha nem látja, érintse meg a három pontot ábrázoló ikont) - érintse meg és válassza ki a megtekintendő fordítást. &lt;br/&gt; Ha még nem töltött le egyetlen fordítást sem, meg fog jelenni egy képernyő, ahol letölthet fordításokat. Válasszon ki és töltsön le egy fordítást, majd térjen vissza és érintse meg ismét a földgömb ikont a fordítás megtekintéséhez. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hogyan könyvjelzőzhetek egy oldalt?&lt;/b&gt; &lt;br/&gt;Nyisson meg egy Korán oldalt. Érintse meg egyszer a képernyőt. Felül meg fog jelenni egy könyvjelző ikon. Érintse meg a könyvjelző ikont az oldal könyvjelzőzéséhez (a színe teljesen fehérré válik). Érintse meg ismét a könyvjelző ikont a könyvjelző eltávolításához. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hogyan növelhetem meg a szöveg méretét?&lt;/b&gt; &lt;br/&gt;Az arab oldalak esetén tartsa a telefont álló módban. Ez megnöveli a szöveg méretét. A fordítások esetén lépjen a beállítások menübe és állítsa be a fordítás szövegének méretét. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hogyan oszthatok meg egy áját?&lt;/b&gt; &lt;br/&gt;Bármelyik arab oldalon érintsen meg hosszan egy áját a menü megnyitásához, ahol kiválaszthatja a könyvjelzőzést, az ája megosztását vagy vágólapra másolását, a fordítás megtekintését, vagy a recitálás meghallhatását.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;A malayalm/tamil/bangla/urdu betűtípusok nem működnek!&lt;/b&gt; &lt;br/&gt;Sajnos az Android 4.0 előtti verziók nem támogatják ezeket a betűtípusokat, és csak keveset tehetünk, hogy segítsünk ezen.</string>
+    <string name="help_title">Gyakran Ismételt Kérdések</string>
+    <string name="highlight_color_blue">Kék</string>
+    <string name="highlight_color_green">Zöld</string>
+    <string name="highlight_color_purple">Lila</string>
+    <string name="highlight_color_yellow">Sárga</string>
+    <string name="highlighting_database">Szükséges fájlok</string>
+    <string name="icon_reveal_body">A Quran alkalmazás mostantól az Allah szava köré épülő eszközcsalád közös jelképét viseli. A könyvjelzőid, az előrehaladásod és a beállításaid pontosan ott vannak, ahol hagytad őket.</string>
+    <string name="icon_reveal_title">Megérkezett az új ikonunk</string>
+    <string name="import_data">Adatok importálása</string>
+    <string name="import_data_and_merge">Ha importálja ezt a fájlt, %1$d könyvjelző és %2$d címke hozzáadódik a jelenlegi adataihoz. Importálja?</string>
+    <string name="import_data_error">Érvénytelen mentési fájl (vagy a mentési fájl nem olvasható).</string>
+    <string name="import_data_permissions_error">Jogosultsági hiba miatt nem lehetett beolvasni a mentési fájlt.</string>
+    <string name="import_successful">Sikeres importálás</string>
+    <string name="juz2_description">%1$s. dzsuz</string>
+    <string name="kitkat_external_message">Az Android korlátai miatt, ha azt választja, hogy a Korán adatait külső SD-kártyára helyezi és később eltávolítja a Korán Androidot vagy letörli az adatait, minden Korán Android oldal és hang le lesz törölve, és ismét le kell töltenie azokat. Biztos, hogy a külső SD-kártyát szeretné használni?</string>
+    <string name="loading">Betöltés…</string>
+    <string name="madani">Medinai</string>
+    <string name="makki">Mekkai</string>
+    <string name="menu_about">Névjegy</string>
+    <string name="menu_back_to_page">Korán megjelenítése</string>
+    <string name="menu_bookmarks">Könyvjelzők</string>
+    <string name="menu_bookmarks_page">Oldal könyvjelzők</string>
+    <string name="menu_get_translations">Fordítások letöltése</string>
+    <string name="menu_help">Súgó</string>
+    <string name="menu_jump">Ugrás</string>
+    <string name="menu_jump_last_page">Legutóbbi lap</string>
+    <string name="menu_other_apps">Egyéb alkalmazások</string>
+    <string name="menu_search">Keresés</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="menu_show_date">Megjelenítés dátuma</string>
+    <string name="menu_sort">Rendezés</string>
+    <string name="menu_sort_date">Hozzáadása ideje szerint</string>
+    <string name="menu_sort_group_by_tags">Csoportosítás címkék szerint</string>
+    <string name="menu_sort_location">Koránban való hely szerint</string>
+    <string name="menu_translation">Fordítás megjelenítése</string>
+    <string name="more_translations">További fordítások</string>
+    <string name="move_down">Mozgás lefelé</string>
+    <string name="move_up">Mozogj feljebb</string>
+    <string name="need_translation">Még nincs letöltve fordítás/tafszír.</string>
+    <string name="new_tag">Új címke</string>
+    <string name="next">Következő</string>
+    <string name="no_arabic_search_available">Nincs letöltve az arab keresési csomag. Kérem, töltse le és próbálja újra a keresést.</string>
+    <string name="no_results">Nincs találat erre: \"%s\"</string>
+    <string name="notification_channel_audio">Korán szavalás</string>
+    <string name="notification_channel_download">Korán letöltések</string>
+    <string name="notification_download_canceled">Letöltés megszakítva</string>
+    <string name="old_page_bookmarks">Régi oldal-könyvjelzők</string>
+    <string name="page_description">%1$s. oldal, %2$s. dzsuz</string>
+    <string name="pause">Szünet</string>
+    <string name="play">Lejátszás</string>
+    <string name="play_apply">Alkalmaz</string>
+    <string name="play_apply_and_play">Alkalmaz és lejátszás</string>
+    <string name="play_each_verse">Hallgassa meg az egyes ájákat:</string>
+    <string name="play_from_here">Lejátszás innen</string>
+    <string name="play_restrict_range">Csak a fenti versek lejátszása</string>
+    <string name="play_verses_range">Hallgassa meg az ájatokat:</string>
+    <string name="playback_prompt_title">Indítsa el a lejátszást:</string>
+    <string name="playback_speed">Lejátszási sebesség:</string>
+    <string name="please_grant_permissions">Kérjük, adjon engedélyt az alkalmazás beállításaiban</string>
+    <string name="please_wait">Kérem várjon...</string>
+    <string name="prefs_app_location_summary">Válassza ki, hogy hol legyenek eltárolva a Korán fájlok.</string>
+    <string name="prefs_app_location_title">Korán adatkönyvtár</string>
+    <string name="prefs_app_size">A jelenlegi adatméret</string>
+    <string name="prefs_audio_manager_summary">Korán hangok kezelése és letöltése.</string>
+    <string name="prefs_ayah_before_translation_summary">Ája megjelenítése arabul a fordítás felett</string>
+    <string name="prefs_ayah_before_translation_title">Ája a fordítás előtt</string>
+    <string name="prefs_calculating_app_size">App méret kiszámítása</string>
+    <string name="prefs_category_advanced">Speciális beállítások</string>
+    <string name="prefs_category_advanced_summary">Könyvjelzők importálása/exportálása, Korán-adatkönyvtár beállítása stb.</string>
+    <string name="prefs_category_display_settings">Megjelenítési beállítások</string>
+    <string name="prefs_category_download">Letöltési beállítások</string>
+    <string name="prefs_category_dual_screen">Kettős oldal beállításai</string>
+    <string name="prefs_category_reading">Olvasási beállítások</string>
+    <string name="prefs_category_translation">Fordítási beállítások</string>
+    <string name="prefs_copying_app_files">App fájlok másolása</string>
+    <string name="prefs_display_marker_summary">Felugró megjelenítése dzsuz, hiz, stb. elérésekor</string>
+    <string name="prefs_display_marker_title">Felugró jelzés megjelenítése</string>
+    <string name="prefs_download_amount_summary">Előnyben részesített letöltési mennyiség nem szünetmentes hangnál.</string>
+    <string name="prefs_download_amount_title">Letöltése mennyiség</string>
+    <string name="prefs_dual_page_mode_disabled">Tájképben csak egy oldal jelenik meg.</string>
+    <string name="prefs_dual_page_mode_enabled">Tükörképben két oldal jelenik meg egymás mellett.</string>
+    <string name="prefs_dual_page_mode_title">Kettős oldal üzemmód</string>
+    <string name="prefs_err_moving_app_files">Az app fájlok áthelyezése sikertelen</string>
+    <string name="prefs_export_summary">A könyvjelzők és címkék másolatának exportálása</string>
+    <string name="prefs_export_title">Exportálás</string>
+    <string name="prefs_highlight_bookmarks_summary">A könyvjelzőzött áják kiemelése olvasás közben</string>
+    <string name="prefs_highlight_bookmarks_title">Könyvjelzők kiemelése</string>
+    <string name="prefs_import_summary">Könyvjelzők és címkék importálása</string>
+    <string name="prefs_import_title">Import</string>
+    <string name="prefs_landscape_orientation_summary_off">Álló tájolás lesz használva</string>
+    <string name="prefs_landscape_orientation_summary_on">Fekvő tájolás lesz használva</string>
+    <string name="prefs_landscape_orientation_title">Fekvő tájolás</string>
+    <string name="prefs_lock_orientation_summary_off">Alkalmazkodás a jelenlegi tájolási módhoz</string>
+    <string name="prefs_lock_orientation_summary_on">A Korán oldal rögzített tájolási módban lesz</string>
+    <string name="prefs_lock_orientation_title">Képernyőtájolás zárolása</string>
+    <string name="prefs_night_mode_background_brightness_title">Háttér fényerő</string>
+    <string name="prefs_night_mode_text_brightness_title">Szöveg fényerőssége</string>
+    <string name="prefs_no_enough_space_to_move_files">Nincs elegendő hely az app fájlok áthelyezéséhez</string>
+    <string name="prefs_overlay_page_info_summary">Oldalszám, szúranév és dzsuzszám megjelenítése olvasás közben</string>
+    <string name="prefs_overlay_page_info_title">Oldalinfó megjelenítése</string>
+    <string name="prefs_page_type_summary">Válassza ki az olvasási oldalak típusát</string>
+    <string name="prefs_page_type_title">Oldaltípus (kísérleti)</string>
+    <string name="prefs_preview">Előnézet</string>
+    <string name="prefs_sdcard_external">%1$d. külső SD-kártya</string>
+    <string name="prefs_sdcard_internal">Belső tárhely</string>
+    <string name="prefs_send_logs_summary">Hibakeresési naplók küldése a fejlesztőnek</string>
+    <string name="prefs_send_logs_title">Naplók küldése</string>
+    <string name="prefs_split_page_and_translation_summary">Kettős oldalas módban a fordításokkal, a Korán oldal és a fordítás jelenik meg.</string>
+    <string name="prefs_split_page_and_translation_title">Korán és fordítás kettős üzemmódban</string>
+    <string name="prefs_streaming_summary">Hang streamelése, ha lehetséges (csak nem szünetmentes hangnál).</string>
+    <string name="prefs_streaming_title">Streamelés</string>
+    <string name="prefs_sura_translated_name_summary">Mutasd a szúra nevének fordítását</string>
+    <string name="prefs_sura_translated_name_title">Szúra lefordított neve</string>
+    <string name="prefs_translation_text_title">Fordítás szövegének mérete</string>
+    <string name="prefs_translations">Fordítások</string>
+    <string name="prefs_translations_summary">Fordítások letöltése és kezelése</string>
+    <string name="prefs_use_arabic_summary_on">Az alkalmazás arab nyelvű lesz</string>
+    <string name="prefs_use_arabic_title">Arab mód (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Display translations in dyslexia friendly font</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexia friendly font</string>
+    <string name="prefs_volume_key_navigation_summary">Navigálás az oldalak között a hangerő gombok használatával</string>
+    <string name="prefs_volume_key_navigation_title">Navigálás a hangerő gombbal</string>
+    <string name="previous">Előző</string>
+    <string name="process_progress">Fájl feldolgozása %1$d / %2$d</string>
+    <string name="qari_abdulaziz_zahrani_gapless">Abdulaziz Az-Zahrani</string>
+    <string name="qari_abdulbaset">Abd Al-Basit (hézagos)</string>
+    <string name="qari_abdulbaset_gapless">Abd Al-Basit</string>
+    <string name="qari_abdulbaset_mujawwad">Abd Al-Basit Mujawwad (hézagos)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">Abd Al-Basit Mujawwad</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
+    <string name="qari_abdullah_matroud_gapless">Abdullah Matroud</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">Abdul Mohsen Al-Qasim</string>
+    <string name="qari_abdulrahman_alshahat_gapless">Abdulrahman Al-Shahat</string>
+    <string name="qari_abdurrashid_sufi_gapless">Abdur-Rashid Sufi</string>
+    <string name="qari_afasy">Mishary Al-Afasy (hézagos)</string>
+    <string name="qari_afasy_cali_gapless">Mishari Al-Afasy (Kalifornia)</string>
+    <string name="qari_afasy_gapless">Mishary Al-Afasy</string>
+    <string name="qari_ahmad_nauina_gapless">Ahmad Nauina</string>
+    <string name="qari_ahmed_al_nufais_gapless">Ahmed Al-Nufais</string>
+    <string name="qari_ajamy_gapless">Ahmed ibn Ali al-Ajamy</string>
+    <string name="qari_akram_al_alaqmi">Akram Al-Alaqmi</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">Ali Hajjaj Alsouasi</string>
+    <string name="qari_ali_jaber_gapless">Ali Jaber</string>
+    <string name="qari_alijon_qari_gapless">Alijon Qari</string>
+    <string name="qari_aloosi_gapless">Abdul Rahman Aloosi</string>
+    <string name="qari_alzain_ahmad_gapless">Alzain Muhammad Ahmad</string>
+    <string name="qari_ayman_suwaid_gapless">Ayman Suwaid</string>
+    <string name="qari_ayman_suwaid_gapped">Ayman Suwaid (hézagos)</string>
+    <string name="qari_ayyoub">Muhammad Ayyoub (hézagos)</string>
+    <string name="qari_ayyoub_gapless">Muhammad Ayyoub</string>
+    <string name="qari_aziz_alili_gapless">Aziz Alili</string>
+    <string name="qari_badr_al_turki_gapless">Badr Al-Turki</string>
+    <string name="qari_bandar_baleela_gapless">Bandar Baleela</string>
+    <string name="qari_basfar">Abdullah Basfar (hézagos)</string>
+    <string name="qari_basfar_gapless">Abdullah Basfar</string>
+    <string name="qari_dussary">Yasser Ad-Dussary (hézagos)</string>
+    <string name="qari_fares_abbad_gapless">Fares Abbad</string>
+    <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+    <string name="qari_hady_toure_gapless">Hady Toure</string>
+    <string name="qari_hani_rifai">Hani Ar-Rifai (hézagos)</string>
+    <string name="qari_hani_rifai_gapless">Hani Ar-Rifai</string>
+    <string name="qari_hudhayfi">Ali Al-Hudhaify (hézagos)</string>
+    <string name="qari_hudhayfi_gapless">Ali Al-Hudhaify</string>
+    <string name="qari_husary_gapless">Husary</string>
+    <string name="qari_husary_iza3a_gapless">Husary Broadcast</string>
+    <string name="qari_husary_muallim_gapless">Husary (Muallim)</string>
+    <string name="qari_husary_mujawwad">Husary Mujawwad (hézagos)</string>
+    <string name="qari_husary_mujawwad_gapless">Husary (Mujawwad)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">Ibrahim Al-Akhdar</string>
+    <string name="qari_idrees_abkar_gapless">Idrees Abkar</string>
+    <string name="qari_jibreel">Muhammad Jibreel (hézagos)</string>
+    <string name="qari_jibreel_gapless">Muhammad Jibreel</string>
+    <string name="qari_juhany_gapless">Abdullah Al-Juhany</string>
+    <string name="qari_khaled_muhanna_gapless">Khaled Al-Muhanna</string>
+    <string name="qari_khalid_jalil_gapless">Khalid Al-Jalil</string>
+    <string name="qari_khalid_qahtani_gapless">Khalid Al Qahtani</string>
+    <string name="qari_khalifa_taniji_gapless">Khalifa Taniji</string>
+    <string name="qari_luhaidan_gapless">Muhammad Al-Luhaidan</string>
+    <string name="qari_mahmoud_ali_albana_gapless">Mahmoud Ali al Bana</string>
+    <string name="qari_minshawi_mujawwad">Minshawy Mujawwad (hézagos)</string>
+    <string name="qari_minshawi_mujawwad_gapless">Minshawy Mujawwad</string>
+    <string name="qari_minshawi_murattal_gapless">Minshawi Murattal</string>
+    <string name="qari_mishari_walk_gapless">Mishari &amp; Ibrahim Walk (angol)</string>
+    <string name="qari_mohammad_altablawi_gapless">Mohammad al Tablawy</string>
+    <string name="qari_mokhtasar_asmari_gapless">Abdullah Al-Asmari (Arab kommentár)</string>
+    <string name="qari_mostafa_ismaeel_gapless">Mostafa Ismaeel</string>
+    <string name="qari_muaiqly">Maher Al Muaiqly (hézagos)</string>
+    <string name="qari_muaiqly_gapless">Maher Al Muaiqly</string>
+    <string name="qari_muaiqly_haramain_gapless">Maher Al Muaiqly (Haramain)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">Muhammad Rashad Al-Shereef</string>
+    <string name="qari_nabil_rifa3i_gapless">Nabil Ar-Rifai</string>
+    <string name="qari_noreen_siddiq_gapless">Noreen Siddiq</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
+    <string name="qari_qatami_gapless">Nasser Al Qatami</string>
+    <string name="qari_raad_al_kurdi_gapless">Raad Al-Kurdi</string>
+    <string name="qari_saad_al_ghamdi">Saad Al-Ghamdi (hézagos)</string>
+    <string name="qari_saad_al_ghamidi_gapless">Saad Al-Ghamdi</string>
+    <string name="qari_sahl_yaseen_gapless">Sahl Yaseen</string>
+    <string name="qari_salah_budair_gapless">Salah Budair</string>
+    <string name="qari_salah_bukhatir_gapless">Salah Bukhatir</string>
+    <string name="qari_shatri">Abu Bakr Ash-Shatri (hézagos)</string>
+    <string name="qari_shatri_gapless">Abu Bakr Ash-Shatri</string>
+    <string name="qari_shuraym">Saood Ash-Shuraym (hézagos)</string>
+    <string name="qari_shuraym_gapless">Saood Ash-Shuraym</string>
+    <string name="qari_suadis">Abdurrahmaan As-Sudais (hézagos)</string>
+    <string name="qari_sudais_gapless">Abdurrahman As-Sudais</string>
+    <string name="qari_tablawy">Mohammad al Tablaway (hézagos)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">Tawfeeq as-Sawaigh</string>
+    <string name="qari_wadee3_alyamani_gapless">Wadee\' Al-Yamani</string>
+    <string name="qari_walk">Ibrahim Walk (angol ford.)</string>
+    <string name="qari_walk_gapless">Ibrahim Walk (angol)</string>
+    <string name="qari_yasser_dussary_gapless">Yasser Ad-Dussary</string>
+    <string name="qari_yasser_salama_hadr_gapless">Yasser Salama (hadr)</string>
+    <string name="qarilist_dismiss">Elbocsát</string>
+    <string name="qarilist_gapless">Folyamatos</string>
+    <string name="qarilist_gapped">Nem folyamatos</string>
+    <string name="qarilist_qaris_with_downloads">Reciterek letöltésekkel</string>
+    <string name="qarilist_ready_to_play">Készen áll a meghallgatásra</string>
+    <string name="qarilist_select_qari">Válasszon egy Qari-t</string>
+    <string name="qarilist_selected">Kiválasztott</string>
+    <string name="quranSearchType">A Korán versei</string>
+    <string name="quran_ayah">Ája %1$d</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Dzsuz</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Oldal</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Szúrák</string>
+    <string name="quran_sura_title">%1$s szúra</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Elvetés</string>
+    <string name="reading_bookmark_movable_education_body">Az olvasási könyvjelző mentése felülírja a régit. Több ája mentéséhez tartsd lenyomva az áját, és add hozzá egy gyűjteményhez.</string>
+    <string name="reading_bookmark_movable_education_title">Ez egy mozgatható olvasási könyvjelző</string>
+    <string name="reading_bookmark_moved_from">Áthelyezve innen: %1$s</string>
+    <string name="reading_bookmark_red">Piros</string>
+    <string name="recent_pages">Legutóbbi oldalak</string>
+    <string name="recite_from_here">Szavalni innen</string>
+    <string name="remove_button">Eltávolítás</string>
+    <string name="remove_dlg_msg">Biztos, hogy eltávolítja ezt: %1$s?</string>
+    <string name="remove_dlg_title">Eltávolítja a fordítást?</string>
+    <string name="scoped_storage_message">A felhasználói adatvédelem növelését célzó Android-változások miatt az alkalmazáskönyvtárakon kívüli fájlok másolása megakadályozhatja, hogy a Quran for Android hozzáférjen az adatokhoz az Android jövőbeli verzióiban. Biztos, hogy ezt az elérési utat szeretné használni?</string>
+    <string name="sdcard_error">Nem található SD-kártya. Kérem, csatlakoztassa és próbálja újra.</string>
+    <string name="search_data">Adat keresése</string>
+    <string name="search_entire_mushaf">Keresés a teljes mushafban</string>
+    <string name="search_full_results">Teljes eredmény</string>
+    <string name="search_hint">Keresés a Koránban</string>
+    <string name="search_key">Nyomja meg a keresés gombot egy vers kereséséhez</string>
+    <string name="see_tafseer_of_verse">Ennek az ájáhnak a tafszírja a %d ájáh tafszírjához tartozik (Kattintson a bővítéshez).</string>
+    <string name="share_ayah">Ája hivatkozás megosztása</string>
+    <string name="share_ayah_text">Ája szöveg megosztása</string>
+    <string name="starting_page_label">Az oldal eleje</string>
+    <string name="stop">Leállítás</string>
+    <string name="storage_permission_please_restart">Kérjük, indítsa újra az alkalmazást, hogy ez érvénybe lépjen.</string>
+    <string name="storage_permission_rationale">A Quran for Android engedélyt kér az adatok külső tárhelyen való tárolására. A Quran for Android ezen engedély nélkül is működik, de ha törli az adatokat vagy eltávolítja az alkalmazást, az összes letöltött oldal, hang és adat eltávolításra kerül. Engedélyt ad a Quran for Androidnak?</string>
+    <string name="sura_ayah_notification_str">%1$s szúra, %2$d. ája</string>
+    <string name="sura_ayah_sharing_str">%1$s szúra: %2$d</string>
+    <string name="tag_blank_tag_error">A címkék neve nem lehet üres!</string>
+    <string name="tag_bookmark">Könyvelző címkézése</string>
+    <string name="tag_dlg_title">Címke</string>
+    <string name="tag_duplicate_tag_error">A címke neve már létezik!</string>
+    <string name="tag_name">Név</string>
+    <string name="timing_database">Szükséges fájlok</string>
+    <string name="to">Idáig</string>
+    <string name="translation_ayah">Ája fordítás/tafszír</string>
+    <string name="translation_dialog_later">Később</string>
+    <string name="translation_dialog_yes">Igen</string>
+    <string name="translation_updates_available">Néhány fordításhoz frissítés érhető el. Meglátogatja most a fordítások képernyőt?</string>
+    <string name="undo">Undo</string>
+    <string name="update_available">Frissítés érhető el</string>
+    <string name="warning">Figyelmeztetés</string>
+    <string name="whats_new_continue">Tovább</string>
+    <string-array name="repeatValues">
+        <item>egyszer</item>
+        <item>kétszer</item>
+        <item>háromszor</item>
+        <item>végtelenszer</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fatiha</item>
+        <item>Al-Baqarah</item>
+        <item>Al-Imrán</item>
+        <item>An-Nisza</item>
+        <item>Al-Maidah</item>
+        <item>Al-Anam</item>
+        <item>Al-Araf</item>
+        <item>Al-Anfal</item>
+        <item>At-Taubah</item>
+        <item>Júnusz</item>
+        <item>Húd</item>
+        <item>Juszuf</item>
+        <item>Ar-Rad</item>
+        <item>Ibrahim</item>
+        <item>Al-Hidzsr</item>
+        <item>An-Nahl</item>
+        <item>Al-Iszra</item>
+        <item>Al-Kahf</item>
+        <item>Marjam</item>
+        <item>Ta Ha</item>
+        <item>Al-Anbija</item>
+        <item>Al-Hadzs</item>
+        <item>Al-Mu\'minún</item>
+        <item>An-Núr</item>
+        <item>Al-Furqan</item>
+        <item>As-Suara</item>
+        <item>An-Naml</item>
+        <item>Al-Qaszasz</item>
+        <item>Al-Ankabút</item>
+        <item>Ar-Rúm</item>
+        <item>Luqman</item>
+        <item>Asz-Sadzsda</item>
+        <item>Al-Ahzab</item>
+        <item>Szaba</item>
+        <item>Al-Malaika</item>
+        <item>Já Szín</item>
+        <item>Asz-Szaffat</item>
+        <item>Szad</item>
+        <item>Az-Zumar</item>
+        <item>Al-Mu\'min</item>
+        <item>Fusszilat</item>
+        <item>As-Súra</item>
+        <item>Az-Zukhrúf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Dzsáthije</item>
+        <item>Al-Ahqaf</item>
+        <item>Mohammed</item>
+        <item>Al-Fath</item>
+        <item>Al-Hudzsurat</item>
+        <item>Qaf</item>
+        <item>Adh-Dharijat</item>
+        <item>At-Túr</item>
+        <item>An-Nadzsm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Wákiah</item>
+        <item>Al-Hadíd</item>
+        <item>Al-Mudzsádilah</item>
+        <item>Al-Hasr</item>
+        <item>Al-Mumtahina</item>
+        <item>Asz-Szaff</item>
+        <item>Al-Dzsumah</item>
+        <item>Al-Munáfikún</item>
+        <item>At-Taghabun</item>
+        <item>At-Talaq</item>
+        <item>At-Tharim</item>
+        <item>Al-Mulk</item>
+        <item>Al-Kalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Maaridzs</item>
+        <item>Núh</item>
+        <item>Al-Dzsinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddathir</item>
+        <item>Al-Qijamah</item>
+        <item>Al-Inszan</item>
+        <item>Al-Murszalat</item>
+        <item>An-Naba</item>
+        <item>An-Naziat</item>
+        <item>Abasza</item>
+        <item>At-Takwír</item>
+        <item>Al-Infitar</item>
+        <item>Al-Mutaffifín</item>
+        <item>Al-Insiqaq</item>
+        <item>Al-Burúdzs</item>
+        <item>At-Tariq</item>
+        <item>Al-Ala</item>
+        <item>Al-Ghasija</item>
+        <item>Al-Fadzsr</item>
+        <item>Al-Balad</item>
+        <item>As-Samsz</item>
+        <item>Al-Lajl</item>
+        <item>Ad-Duha</item>
+        <item>Al-Insirah</item>
+        <item>At-Tín</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bajjinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adijat</item>
+        <item>Al-Qarijah</item>
+        <item>At-Takáthur</item>
+        <item>Al-Aszr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fíl</item>
+        <item>Qurajs</item>
+        <item>Al-Maun</item>
+        <item>Al-Kauthar</item>
+        <item>Al-Káfirún</item>
+        <item>An-Naszr</item>
+        <item>Abu Lahab</item>
+        <item>Al-Ikhlasz</item>
+        <item>Al-Falaq</item>
+        <item>An-Nasz</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>A megnyitó</item>
+        <item>A tehén</item>
+        <item>Imrán családja</item>
+        <item>A nők</item>
+        <item>Az asztal</item>
+        <item>A jószágok</item>
+        <item>A magaslatok</item>
+        <item>A hadizsákmány</item>
+        <item>A bűnbánat</item>
+        <item>Jónás</item>
+        <item>Húd</item>
+        <item>Józseg</item>
+        <item>A mennydörgés</item>
+        <item>Ábrahám</item>
+        <item>Hidzsr</item>
+        <item>A méh</item>
+        <item>Az éjszakai utazás</item>
+        <item>A barlan</item>
+        <item>Mária</item>
+        <item>Ta Ha</item>
+        <item>A próféták</item>
+        <item>A zarándoklat</item>
+        <item>A hívők</item>
+        <item>A fény</item>
+        <item>A megkülönböztető</item>
+        <item>A költők</item>
+        <item>A hangyák</item>
+        <item>A történet</item>
+        <item>A pók</item>
+        <item>A rómaiak</item>
+        <item>Luqman</item>
+        <item>A leborulás</item>
+        <item>A szövetségesek</item>
+        <item>Szaba</item>
+        <item>Az angyalaok</item>
+        <item>Já Szín</item>
+        <item>A felsorakozottak</item>
+        <item>Szad</item>
+        <item>A csapatok</item>
+        <item>A hívő</item>
+        <item>A részletesen megmagyarázott</item>
+        <item>A tanácskozás</item>
+        <item>Az ékszerek</item>
+        <item>A füst</item>
+        <item>A térdelő</item>
+        <item>A homokdűnék</item>
+        <item>Mohammed</item>
+        <item>A győzelem</item>
+        <item>A szobák</item>
+        <item>Qaf</item>
+        <item>A szeleket támasztók</item>
+        <item>A hegy</item>
+        <item>A csillag</item>
+        <item>A Hold</item>
+        <item>A Kegyelmes</item>
+        <item>A Bekövetkező</item>
+        <item>A vas</item>
+        <item>A vitatkozó nő</item>
+        <item>Az összegyűjtés</item>
+        <item>A próbára tett nő</item>
+        <item>A sorok</item>
+        <item>A péntek</item>
+        <item>A képmutatók</item>
+        <item>A kölcsönös</item>
+        <item>A válás</item>
+        <item>A tiltás</item>
+        <item>Az uralom</item>
+        <item>A toll</item>
+        <item>Az elkerülhetetlen valóság</item>
+        <item>A felfelé vezető utak</item>
+        <item>Noé</item>
+        <item>A dzsinn</item>
+        <item>A beburkolódzó</item>
+        <item>A betakaródzó</item>
+        <item>A feltámadás</item>
+        <item>Az ember</item>
+        <item>Az elküldöttek</item>
+        <item>A hír</item>
+        <item>A kiszakítók</item>
+        <item>Összevonta a szemöldökét</item>
+        <item>A felgöngyölítés</item>
+        <item>A meghasadás</item>
+        <item>A hamisan mérők</item>
+        <item>A kettéhasadás</item>
+        <item>A csillagképek</item>
+        <item>Az éjszaka eljövő</item>
+        <item>A Legmagasztosabb</item>
+        <item>Az Elborító</item>
+        <item>A hajnal</item>
+        <item>A város</item>
+        <item>A Nap</item>
+        <item>Az éjszaka</item>
+        <item>A délelőtt</item>
+        <item>A kitárás</item>
+        <item>A füge</item>
+        <item>A megtapadt rög</item>
+        <item>Az Elrendelés</item>
+        <item>A nyilvánvaló</item>
+        <item>A földrengés</item>
+        <item>A vágtatók</item>
+        <item>A lesújtó katasztrófa</item>
+        <item>A kölcsönös versengés</item>
+        <item>A délután</item>
+        <item>A rágalmazó</item>
+        <item>Az elefánt</item>
+        <item>Kurajs</item>
+        <item>A szívességek</item>
+        <item>A Kauthar</item>
+        <item>A hitetlenek</item>
+        <item>A segítség</item>
+        <item>Abu Lahab</item>
+        <item>Az őszinte hit</item>
+        <item>A hajnalhasadás</item>
+        <item>Az emberek</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d gyűjtemény</item>
+        <item quantity="other">%d gyűjtemény</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">Egy találat erre: \"%1$s\":</item>
+        <item quantity="other">%2$d találat erre: \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">Egy vers</item>
+        <item quantity="other">%s vers</item>
+    </plurals>
+</resources>

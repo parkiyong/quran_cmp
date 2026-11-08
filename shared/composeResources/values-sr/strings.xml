@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">Doprinosioci</string>
+    <string name="about_contributors_summary">Lista ljudi koji su doprinijeli razvoju aplikacije Kur\'an za android</string>
+    <string name="about_data_sources">Izvori podataka</string>
+    <string name="about_description">Kur\'an za Android je besplatna aplikacija za Kur\'an. Molimo vas da nas ne zaboravite u vašim dovama.</string>
+    <string name="about_furqan_summary">Osmanski tekst i Arapski tefsir</string>
+    <string name="about_images">Slike</string>
+    <string name="about_madani_images">Slike stranica Kur\'ana su bazirana na fontovima kompleksa kralja Fahda za štampanje Kur\'ana</string>
+    <string name="about_naskh_images">Slike Kur\'ana za Naskh aplikaciju su preuzete (sa dozvolom) od strane SHL info sistema.</string>
+    <string name="about_noorhidayat_summary">Noorehira font i Mufti Taqi prevod</string>
+    <string name="about_open_source">Open Source projekti</string>
+    <string name="about_others">Ostalo</string>
+    <string name="about_qaloon_images">Kaloon slike se koriste sa permisijom od strane Nous Memes Editions Et Diffusion (Tunisia)</string>
+    <string name="about_quran_enc_summary">Prevodi za mnoge jezike</string>
+    <string name="about_quran_ksu">Elektronski Mushaf projekat</string>
+    <string name="about_quran_ksu_summary">Projekt Univerziteta kralja Sauda elektronski Mushaf je izvor za Arapski tefsir i prevode mnogih jezika korištenih u aplikaciji. Također je izvor za učenje dr. Ejmena Suvejda.</string>
+    <string name="about_quranicaudio_summary">Mp3 učenje Kur\'ana bez prekida</string>
+    <string name="about_tanzil_summary">Prevodi za mnoge jezike</string>
+    <string name="app_name">Kur\'an</string>
+    <string name="audio_updated_text">Nekoliko Quran audio datoteka je ažurirano. Quran za Android je uklonio vaš primerak ovih fajlova tako da se najnovije verzije mogu preuzeti kada ih sledeći put ponovo reprodukujete.</string>
+    <string name="audio_updated_title">Ažuriranje Quran audio datoteka</string>
+    <string name="available_translations">Dostupno za preuzimanje</string>
+    <string name="ayah_copied_popup">Ajet kopiran</string>
+    <string name="bookmark_ayah">Zabeleži ovaj ajet</string>
+    <string name="bookmarks_empty_subtitle">Dodirnite ikonicu oznake da sačuvate stranicu, ili dugo pritisnite ajet da ga označite.</string>
+    <string name="bookmarks_empty_title">Još nema oznaka</string>
+    <string name="bookmarks_list_empty">Bez zabeleških</string>
+    <string name="cancel">Poništi</string>
+    <string name="canceling">Prekidam…</string>
+    <string name="copy_ayah">Kopiraj ajet</string>
+    <string name="default_collection">Omiljeno</string>
+    <string name="delete">Izbriši</string>
+    <string name="delete_tag">Izbriši oznaku</string>
+    <string name="delete_translation">Ukloni prevod</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Moguće je malo, ali važno ažuriranje za Kur\'anske slike koje su moguće na vašem uređaju. Da li biste željeli da preuzmete ovo poboljšanje sada?</string>
+    <string name="downloadPrompt">Da bi Kur\'an za Android radio ispravno, potrebno je preuzeti neke datoteke. Ako ne preuzmete sada, aplikacija možda neće raditi pouzdano i zahtevati će internet konekciju za čitanje. Da li biste preuzeli neophodne datoteke sada?</string>
+    <string name="downloadPrompt_no">Ne</string>
+    <string name="downloadPrompt_ok">Da</string>
+    <string name="downloadPrompt_title">Preuzmite neophodne datoteke?</string>
+    <string name="downloadTabletPrompt">Nedavno smo dodali poboljšane slike za tablete. Da li biste preuzeli ove slike sada?</string>
+    <string name="download_cancel">Otkaži</string>
+    <string name="download_error_disk">Nedovoljno prostora na uređaju za preuzimanje</string>
+    <string name="download_error_general">Skidanje nije uspelo</string>
+    <string name="download_error_invalid_download">Postoji greška sa preuzetom dodatekom</string>
+    <string name="download_error_invalid_download_retry">Greška kod datoteke, pokušavam da je ponovo preuzmem</string>
+    <string name="download_error_network">Trenutno nije moguće preuzeti zbog problema sa mrežom</string>
+    <string name="download_error_network_retry">Problemi sa mrežom, pokušavam da nastavim…</string>
+    <string name="download_error_perms">Trenutno nije moguće preuzeti zbog problema sa dopuštenjima</string>
+    <string name="download_extra_data">Moramo da preuzmemo jednu ili dve datoteke da bismo omogućili dijeljenje i prevod. Preuzmite ih sada?</string>
+    <string name="download_non_wifi_prompt">Wi-Fi vam nije uključen. Ipak preuzeti datoteke?</string>
+    <string name="download_processing">Procesiranje preuzetog…</string>
+    <string name="download_retry">Ponovi</string>
+    <string name="download_successful">Uspešno preuzimanje</string>
+    <string name="downloaded_translations">Preuzeto</string>
+    <string name="downloading">Preuzimanje…</string>
+    <string name="downloading_message">Molimo sačekajte da se datoteke preuzmu (nastavak podržan).</string>
+    <string name="edit_tag">Uredi oznaku</string>
+    <string name="email_us">Ako vaše pitanje nije odgovoreno iznad onda nam možete poslati email na quranandroid@gmail.com za podršku. Molimo vas da imate na umu da primamo mnogo emailova, pa možda nećemo biti u mogućnosti da odgovorimo na svaki od njih.</string>
+    <string name="error_getting_translation_list">Nije moguće preuzeti (ovu) listu prevoda. Molimo vas pokušajte kasnije.</string>
+    <string name="export_data_error">Problem izvoza podataka.</string>
+    <string name="exported_data">Podaci izvezeni na %1$s.</string>
+    <string name="extracting_title">Obrada…</string>
+    <string name="found_in_sura">Pronađeno u suri (%1$d) %2$s: %3$d (Stranica %4$d)</string>
+    <string name="from">Od</string>
+    <string name="get_arabic_search_db">Preuzmite arapsku bazu za pretraživanje</string>
+    <string name="get_translations">Preuzmite prevode</string>
+    <string name="gotoPage">Idi na stranicu</string>
+    <string name="help">&lt;b&gt;Kako puštam učenja (zvuk)?&lt;/b&gt; &lt;br/&gt;Otvorite bilo koju stranicu Kur\'ana. Pritisnite na ekran jednom. Na dnu će te primetiti dugme za pokretanje i tekst imena učača. Pritisnite na ime učača da biste izabrali drugog učača. Pritisnite dugme za pokretanje da biste skinuli i pokrenuli trenutnu stranicu ili suru. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Kako da vidim prevod?&lt;/b&gt; &lt;br/&gt;Otvorite bilo koju stranicu Kur\'ana. Pritisnite na ekran jednom. Na vrhu će te primetiti ikonu globusa (ili ako ga ne vidite onda kliknite ikonu sa tri kvadratne tačke) - kliknite to i izaberite prevod da biste ga videli. &lt;br/&gt; Ako nemate ni jedan prevod skinut, onda će vas odvesti na ekran gde će te moći skinuti prevode. Izaberite, a zatim skinite prevod, zatim se vratite unazad i kliknite ikonu globusa ponovo da biste videli prevod. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Kako da zabeležim stranicu?&lt;/b&gt; &lt;br/&gt;Otvorite bilo koju stranicu Kur\'ana. Pritisnite na ekran jednom. U gornjem desnom uglu će te videti ikonu za zabeleške. Pritisnite ikonu zabeleški da biste zabeležili stranicu (ikona će se popuniti belom bojom). Kliknite ponovo ikonu za zabeleške da biste ukloniti zabelešku. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Kako da povećam tekst?&lt;/b&gt; &lt;br/&gt;Za stranice na arapskom okrenite telefon u horizontalni (pejzažni) položaj. Ovo će učiniti tekst većim. Za prevode otiđite na postavke i postavite veličinu teksta za prevod. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Kako da podelim ajet?&lt;/b&gt; &lt;br/&gt;Ako ste na stranici sa arapskim tekstom onda držite bilo koji ajet da biste dobili meni gde možete da zabeležite, podelite ili da kopirate taj ajet u međuspremnik, da vidite prevod, ili da poslušate njegovo učenje.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;Malayalam/Tamil/Bengali/Urdu fontovi ne rade!&lt;/b&gt; &lt;br/&gt;Nažalost, verzije androida pre verzije 4.0 ne podržavaju ove fontove, i to je sve kako vam možemo pomoći u vezi s tim (ne možemo ništa uraditi).</string>
+    <string name="help_title">Često postavljanja pitanja</string>
+    <string name="highlight_color_blue">Plava</string>
+    <string name="highlight_color_green">Zelena</string>
+    <string name="highlight_color_purple">Ljubičasta</string>
+    <string name="highlight_color_yellow">Žuta</string>
+    <string name="highlighting_database">Neophodne datoteke</string>
+    <string name="icon_reveal_body">Aplikacija Quran sada nosi zajednički znak porodice alata izgrađenih oko Allahove reči. Vaši obeleživači, napredak i podešavanja su tačno tamo gde ste ih ostavili.</string>
+    <string name="icon_reveal_title">Naša nova ikonica je stigla</string>
+    <string name="import_data">Uvezi podatke</string>
+    <string name="import_data_and_merge">Ako uvezete ovu datoteku, dodaće %1$d beleški i %2$d oznaka vašim postojećim podacima. Uvesti?</string>
+    <string name="import_data_error">Nevalidna backup datoteka (ili nije moguće da se pročita backup datoteka).</string>
+    <string name="import_data_permissions_error">Nije moguće pročitati backup datoteke zbog grešaka sa dozvolama.</string>
+    <string name="import_successful">Uvoz uspešno završen</string>
+    <string name="juz2_description">Džuz %1$s</string>
+    <string name="kitkat_external_message">Zbog ograničenja sa androidom ako odlučite da vaše podatke aplikacije stavite na SD karticu i kasnije izbrišete ili očiste podatke za Kur\'an Android aplikaciju, sve stranice i zvuk za Kur\'an android će biti izbrisane i morati će te ih preuzeti ponovo. Da li ste sigurni da želite koristiti vanjsku SD karticu?</string>
+    <string name="loading">Učitavam…</string>
+    <string name="madani">Medinska</string>
+    <string name="makki">Mekkanska</string>
+    <string name="menu_about">O nama</string>
+    <string name="menu_back_to_page">Prikaži stranicu Kur\'ana</string>
+    <string name="menu_bookmarks">Beleške</string>
+    <string name="menu_bookmarks_page">Zabeležene stranice</string>
+    <string name="menu_get_translations">Preuzmanje prevoda</string>
+    <string name="menu_help">Pomoć</string>
+    <string name="menu_jump">Idi na</string>
+    <string name="menu_jump_last_page">Poslednja stranica</string>
+    <string name="menu_other_apps">Druge aplikacije</string>
+    <string name="menu_search">Pretraživanje</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="menu_show_date">Prikaži datum</string>
+    <string name="menu_sort">Sortiraj</string>
+    <string name="menu_sort_date">Datum dodavanja</string>
+    <string name="menu_sort_group_by_tags">Grupiraj po oznakama</string>
+    <string name="menu_sort_location">Lokacija u Kur\'anu</string>
+    <string name="menu_translation">Prikaži prevod stranice</string>
+    <string name="more_translations">Više prevoda</string>
+    <string name="move_down">Premesti nadole</string>
+    <string name="move_up">Premesti na gore</string>
+    <string name="need_translation">Nemate preuzetih prevoda/tefsira do sada.</string>
+    <string name="new_tag">Nova oznaka</string>
+    <string name="next">Sledeći</string>
+    <string name="no_arabic_search_available">Niste preuzeli Arapski paket za pretragu. Molimo preuzmite paket i pokušajte ponovo.</string>
+    <string name="no_results">Nema rezultata za \"%s\"</string>
+    <string name="notification_channel_audio">Skidanje učenja Kur\'ana</string>
+    <string name="notification_channel_download">Skidanje Kur\'ana</string>
+    <string name="notification_download_canceled">Preuzimanje otkazano</string>
+    <string name="old_page_bookmarks">Stare beleške stranica</string>
+    <string name="page_description">Stranica %1$s, Džuz %2$s</string>
+    <string name="pause">Pauziraj</string>
+    <string name="play">Pokreni</string>
+    <string name="play_apply">Apliciraj</string>
+    <string name="play_apply_and_play">Apliciraj i pokreni</string>
+    <string name="play_each_verse">Pokreni svaki ajet:</string>
+    <string name="play_from_here">Pusti odavde</string>
+    <string name="play_restrict_range">Pokreni jedino ajete ajete iznad</string>
+    <string name="play_verses_range">Pokrenite skupinu ajeta:</string>
+    <string name="playback_prompt_title">Pokrenite reprodukciju od:</string>
+    <string name="playback_speed">Брзина репродукције:</string>
+    <string name="please_grant_permissions">Molimo dodelite dozvole u postavkama aplikacije.</string>
+    <string name="please_wait">Molim te sačekaj...</string>
+    <string name="prefs_app_location_summary">Izaberite gde želite spremiti datoteke za Kur\'an</string>
+    <string name="prefs_app_location_title">Direktoriji za podatke Kur\'ana</string>
+    <string name="prefs_app_size">Trenutna količina podataka je</string>
+    <string name="prefs_audio_manager_summary">Upravljaj i preuzmi zvuk učenja Kur\'ana</string>
+    <string name="prefs_ayah_before_translation_summary">Prikažite ajet na arapskom iznad prevoda</string>
+    <string name="prefs_ayah_before_translation_title">Ajet pre prevoda</string>
+    <string name="prefs_calculating_app_size">Izračunavam veličinu aplikacije</string>
+    <string name="prefs_category_advanced">Napredne opcije</string>
+    <string name="prefs_category_advanced_summary">Import/eksport beleški, postavke direktoriji za datoteke aplikacije, itd.</string>
+    <string name="prefs_category_display_settings">Prikažite postavke</string>
+    <string name="prefs_category_download">Opcije za preuzimanja</string>
+    <string name="prefs_category_dual_screen">Željene postavke dvojne stranice</string>
+    <string name="prefs_category_reading">Preferencije vezane za stranice</string>
+    <string name="prefs_category_translation">Preferencije vezane za prevod</string>
+    <string name="prefs_copying_app_files">Kopiram datoteke aplikacije</string>
+    <string name="prefs_display_marker_summary">Prikažite notifikaciju za dostizanje džuza, hizba, itd.</string>
+    <string name="prefs_display_marker_title">Prikažite marker notifikaciju</string>
+    <string name="prefs_download_amount_summary">Preferirana količina za preuzimanje zvuka svakog ajeta posebno</string>
+    <string name="prefs_download_amount_title">Količina preuzimanja</string>
+    <string name="prefs_dual_page_mode_disabled">Horizontalno će se prikazivati samo jedna stranica.</string>
+    <string name="prefs_dual_page_mode_enabled">U horizontalnom položaju će biti prikazane dve stranice jedna do druge.</string>
+    <string name="prefs_dual_page_mode_title">Prikaz dve stranica na zaslonu</string>
+    <string name="prefs_err_moving_app_files">Premeštanje datoteka aplikacije nije uspelo</string>
+    <string name="prefs_export_summary">Izvezi kopije zabeleških i oznaka</string>
+    <string name="prefs_export_title">Izvoz</string>
+    <string name="prefs_highlight_bookmarks_summary">Istaknite zabeležene ajete dok čitate</string>
+    <string name="prefs_highlight_bookmarks_title">Istaknite beleške</string>
+    <string name="prefs_import_summary">Uvezi zabeleške i oznake</string>
+    <string name="prefs_import_title">Uvoz</string>
+    <string name="prefs_landscape_orientation_summary_off">Uvek koristi vertikalni način orentacije</string>
+    <string name="prefs_landscape_orientation_summary_on">Uvek koristi horizontalni način orentacije</string>
+    <string name="prefs_landscape_orientation_title">Horizontalna orentacija</string>
+    <string name="prefs_lock_orientation_summary_off">Prilagodite trenutnom načinu orentacije</string>
+    <string name="prefs_lock_orientation_summary_on">Koristite fiksni način orentacije</string>
+    <string name="prefs_lock_orientation_title">Zabranite rotaciju zaslona u aplikaciji</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_night_mode_background_brightness_title">Svetlina pozadine</string>
+    <string name="prefs_night_mode_text_brightness_title">Osvetljenost teksta</string>
+    <string name="prefs_no_enough_space_to_move_files">Nedovoljno prostora za pomeranje datoteka aplikacije</string>
+    <string name="prefs_overlay_page_info_summary">Dodajte broj stranice, ime sure i broj džuza dok čitate</string>
+    <string name="prefs_overlay_page_info_title">Prikaži informacije o stranici</string>
+    <string name="prefs_page_type_summary">Izaberite način prikaza stranica za čitanje</string>
+    <string name="prefs_page_type_title">Vrsta stranica (eksperimentalno)</string>
+    <string name="prefs_preview">Pregled</string>
+    <string name="prefs_sdcard_external">Eksterna SD kartica %1$d</string>
+    <string name="prefs_sdcard_internal">Interna memorija</string>
+    <string name="prefs_send_logs_summary">Šaljite logove za otklanjanje neispravnosti programerima</string>
+    <string name="prefs_send_logs_title">Šaljite logove</string>
+    <string name="prefs_split_page_and_translation_summary">U režimu dvojne stranice sa prevodima, prikazana je Stranica Kurana i prevod</string>
+    <string name="prefs_split_page_and_translation_title">Kuran i prevod u dual modu</string>
+    <string name="prefs_streaming_summary">Tok (stream) zvuka umesto preuzimanja</string>
+    <string name="prefs_streaming_title">Stalni tok podataka</string>
+    <string name="prefs_sura_translated_name_summary">Prikaži prevod sura imena</string>
+    <string name="prefs_sura_translated_name_title">Prevedeno ime Sura</string>
+    <string name="prefs_translation_text_title">Veličina teksta prevoda</string>
+    <string name="prefs_translations">Prevodi</string>
+    <string name="prefs_translations_summary">Skinite i upravljajte sa prevodima</string>
+    <string name="prefs_use_arabic_summary_on">Koristite aplikaciju na arapskom</string>
+    <string name="prefs_use_arabic_title">Arapski (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Display translations in dyslexia friendly font</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexia friendly font</string>
+    <string name="prefs_volume_key_navigation_summary">Navigacija između stranica koristeći dugmadi za zvuk</string>
+    <string name="prefs_volume_key_navigation_title">Navigacija pomoću dugmadi za zvuk</string>
+    <string name="previous">Prethodni</string>
+    <string name="process_progress">Procesiranje datoteke %1$d / %2$d</string>
+    <string name="qarilist_dismiss">Otpusti</string>
+    <string name="qarilist_gapless">Neprekidno</string>
+    <string name="qarilist_gapped">Zapušeno</string>
+    <string name="qarilist_qaris_with_downloads">Reciteri sa preuzimanjima</string>
+    <string name="qarilist_ready_to_play">Spreman za slušanje</string>
+    <string name="qarilist_select_qari">Izaberite Qari</string>
+    <string name="qarilist_selected">Izabrali</string>
+    <string name="quranSearchType">Ajeti Kur\'ana</string>
+    <string name="quran_ayah">%1$d. ajet</string>
+    <string name="quran_ayah_details">%1$s - ajet %2$s, džuz %3$s</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Džuz</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Stranica</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Sure</string>
+    <string name="quran_sura_title">Sura %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Odbaci</string>
+    <string name="reading_bookmark_movable_education_body">Čuvanje čitalačke oznake zamenjuje staru. Da sačuvate više ajeta, dugo pritisnite ajet i dodajte ga u kolekciju.</string>
+    <string name="reading_bookmark_movable_education_title">Ovo je pomerljiva čitalačka oznaka</string>
+    <string name="reading_bookmark_moved_from">Pomereno sa %1$s</string>
+    <string name="reading_bookmark_red">Crvena</string>
+    <string name="recent_pages">Nedavno otvarane stranice</string>
+    <string name="recite_from_here">Recitirajte odavde</string>
+    <string name="remove_button">Ukloni</string>
+    <string name="remove_dlg_msg">Da li ste sigurni da želite da uklonite %1$s?</string>
+    <string name="remove_dlg_title">Uklonite prevod?</string>
+    <string name="scoped_storage_message">Zbog Android promena u cilju povećanja privatnosti korisnika, kopiranje fajlova izvan direktorijuma aplikacija moglo bi da zaustavi Quran za Android da pristupi svojim podacima u budućim verzijama Androida. Jeste li sigurni da želite da koristite ovu putanju?</string>
+    <string name="sdcard_error">SD karticu nije moguće pronaći. Stavite je i pokušajte ponovo.</string>
+    <string name="search_data">Pretražite podatke</string>
+    <string name="search_entire_mushaf">Pretražite ceo mushaf</string>
+    <string name="search_full_results">Potpuni rezultati</string>
+    <string name="search_hint">Pretražite Kur\'an</string>
+    <string name="search_key">Pritisnite tipku za pretragu da potražite ajet</string>
+    <string name="see_tafseer_of_verse">Pogledajte tefsir %d. ajeta</string>
+    <string name="share_ayah">Podeli link ajeta</string>
+    <string name="share_ayah_text">Podeli tekst ajeta</string>
+    <string name="starting_page_label">Početak stranice</string>
+    <string name="stop">Stani</string>
+    <string name="storage_permission_please_restart">Molimo restartujte aplikaciju da bi ovo imalo učinka.</string>
+    <string name="storage_permission_rationale">Kur\'an Android želi vaše dopuštenje da pohrani podatke na eksternom skladištu. Aplikacija će raditi i bez ovih dozvola, ali ako očistite podatke aplikacije ili izbrišete aplikaciju, sve skinute stranice, učenja i podaci će biti obrisani. Dajte potrebne dozvole aplikaciji?</string>
+    <string name="sura_ayah_notification_str">Sura %1$s, %2$d. ajet</string>
+    <string name="sura_ayah_sharing_str">Sura %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">Imena za oznake ne mogu biti prazna!</string>
+    <string name="tag_bookmark">Označi zabelešku</string>
+    <string name="tag_dlg_title">Oznaka</string>
+    <string name="tag_duplicate_tag_error">Ime za oznaku već postoji!</string>
+    <string name="tag_name">Ime</string>
+    <string name="timing_database">Neophodne datoteke</string>
+    <string name="to">Do</string>
+    <string name="translation_ayah">Prevod/tefsir ajeta</string>
+    <string name="translation_dialog_later">Posle</string>
+    <string name="translation_dialog_yes">Da</string>
+    <string name="translation_updates_available">Moguća su ažuriranja za neka od vaših prevoda. Idite na stranicu sa prevodima sada?</string>
+    <string name="undo">Poništi</string>
+    <string name="update_available">Moguća su ažuriranja</string>
+    <string name="warning">Upozorenje</string>
+    <string name="whats_new_continue">Nastavi</string>
+    <string-array name="repeatValues">
+        <item>Jednom</item>
+        <item>2 puta</item>
+        <item>3 puta</item>
+        <item>petlja</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>El-Fātiḥa</item>
+        <item>El-Bekare</item>
+        <item>Āli-ʿImrān</item>
+        <item>En-Nisāʾ</item>
+        <item>El-Māide</item>
+        <item>El-Enʿām</item>
+        <item>El-Aʿrāf</item>
+        <item>El-Enfāl</item>
+        <item>Et-Tevbe</item>
+        <item>Jūnus</item>
+        <item>Hūd</item>
+        <item>Jūsuf</item>
+        <item>Er-Raʿd</item>
+        <item>Ibrāhīm</item>
+        <item>El-Ḥidžr</item>
+        <item>En-Naḥl</item>
+        <item>El-Isrāʾ</item>
+        <item>El-Kehf</item>
+        <item>Merjem</item>
+        <item>Ṭāhā</item>
+        <item>El-Enbijāʾ</item>
+        <item>El-Ḥadždž</item>
+        <item>El-Muʾminūn</item>
+        <item>En-Nūr</item>
+        <item>El-Furkān</item>
+        <item>Eš-Šuʿarāʾ</item>
+        <item>En-Neml</item>
+        <item>El-Kaṣaṣ</item>
+        <item>El-ʿAnkebūt</item>
+        <item>Er-Rūm</item>
+        <item>Lukmān</item>
+        <item>Es-Sedžde</item>
+        <item>El-Aḥzāb</item>
+        <item>Sebeʾ</item>
+        <item>Fāṭir</item>
+        <item>Jā-sīn</item>
+        <item>Eṣ-Ṣāffāt</item>
+        <item>Ṣād</item>
+        <item>Ez-Zumer</item>
+        <item>El-Muʾmin</item>
+        <item>Fuṣṣilet</item>
+        <item>Eš-Šūrā</item>
+        <item>Ez-Zuḫruf</item>
+        <item>Ed-Duḫān</item>
+        <item>El-Džāsije</item>
+        <item>El-Aḥkāf</item>
+        <item>Muḥammed</item>
+        <item>El-Fetḥ</item>
+        <item>El-Ḥudžurāt</item>
+        <item>Kāf</item>
+        <item>Ez-Zārijāt</item>
+        <item>Eṭ-Ṭūr</item>
+        <item>En-Nedžm</item>
+        <item>El-Kamer</item>
+        <item>Er-Raḥmān</item>
+        <item>El-Vākiʿa</item>
+        <item>El-Ḥadīd</item>
+        <item>El-Mudžādele</item>
+        <item>El-Ḥašr</item>
+        <item>El-Mumteḥine</item>
+        <item>Eṣ-Ṣaff</item>
+        <item>El-Džumuʿa</item>
+        <item>El-Munāfikūn</item>
+        <item>Et-Tegābun</item>
+        <item>Eṭ-Ṭalāk</item>
+        <item>Et-Taḥrīm</item>
+        <item>El-Mulk</item>
+        <item>El-Kalem</item>
+        <item>El-Ḥākka</item>
+        <item>El-Meʿāridž</item>
+        <item>Nūḥ</item>
+        <item>El-Džinn</item>
+        <item>El-Muzzemmil</item>
+        <item>El-Muddessir</item>
+        <item>El-Kijāme</item>
+        <item>El-Insān</item>
+        <item>El-Murselāt</item>
+        <item>En-Nebeʾ</item>
+        <item>En-Nāziʿāt</item>
+        <item>ʿAbese</item>
+        <item>Et-Tekvīr</item>
+        <item>El-Infiṭār</item>
+        <item>El-Muṭaffifīn</item>
+        <item>El-Inšikāk</item>
+        <item>El-Burūdž</item>
+        <item>Eṭ-Ṭārik</item>
+        <item>El-Eʿlā</item>
+        <item>El-Gāšije</item>
+        <item>El-Fedžr</item>
+        <item>El-Beled</item>
+        <item>Eš-Šems</item>
+        <item>El-Lejl</item>
+        <item>Eḍ-Ḍuḥā</item>
+        <item>El-Inširāḥ</item>
+        <item>Et-Tīn</item>
+        <item>El-ʿAlek</item>
+        <item>El-Kadr</item>
+        <item>El-Bejjine</item>
+        <item>Ez-Zelzele</item>
+        <item>El-ʿĀdijāt</item>
+        <item>El-Kāriʿa</item>
+        <item>Et-Tekāsur</item>
+        <item>El-ʿAṣr</item>
+        <item>El-Humeze</item>
+        <item>El-Fīl</item>
+        <item>Kurejš</item>
+        <item>El-Māʿūn</item>
+        <item>El-Kevser</item>
+        <item>El-Kāfirūn</item>
+        <item>En-Naṣr</item>
+        <item>El-Leheb</item>
+        <item>El-Iḫlāṣ</item>
+        <item>El-Felek</item>
+        <item>En-Nās</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>Uvodnica</item>
+        <item>Krava</item>
+        <item>Imranova porodica</item>
+        <item>Žene</item>
+        <item>Trpeza</item>
+        <item>Stoka</item>
+        <item>Vrhovi zida</item>
+        <item>Ratni plen</item>
+        <item>Pokajanje</item>
+        <item>Jūnus</item>
+        <item>Hūd</item>
+        <item>Jūsuf</item>
+        <item>Grmljavina</item>
+        <item>Ibrāhīm</item>
+        <item>Hidžr</item>
+        <item>Pčele</item>
+        <item>Noćno putovanje</item>
+        <item>Pećina</item>
+        <item>Merjema</item>
+        <item>Taha</item>
+        <item>Verovjesnici</item>
+        <item>Hadždž</item>
+        <item>Vernici</item>
+        <item>Svetlost</item>
+        <item>Furkān</item>
+        <item>Pesnici</item>
+        <item>Mravi</item>
+        <item>Kazivanja</item>
+        <item>Pauk</item>
+        <item>Bizantinci</item>
+        <item>Lukmān</item>
+        <item>Sedžda</item>
+        <item>Saveznici</item>
+        <item>Saba</item>
+        <item>Onaj Koji stvara bez prethodnog primera</item>
+        <item>Jasin</item>
+        <item>Poredani u redove</item>
+        <item>Ṣād</item>
+        <item>Skupine</item>
+        <item>Vernik</item>
+        <item>Detaljno objašnjenje</item>
+        <item>Dogovaranje</item>
+        <item>Ukras</item>
+        <item>Dim</item>
+        <item>Oni koji kleče</item>
+        <item>Ahkāf</item>
+        <item>Muḥammed</item>
+        <item>Pobeda</item>
+        <item>Sobe</item>
+        <item>Kāf</item>
+        <item>Oni koji uzdižu prašinu</item>
+        <item>Gora</item>
+        <item>Zvezda</item>
+        <item>Mesec</item>
+        <item>Svemilosni</item>
+        <item>Neizbežni događaj</item>
+        <item>Gvožđe</item>
+        <item>Rasprava</item>
+        <item>Progonstvo</item>
+        <item>Proverena</item>
+        <item>Bojni red</item>
+        <item>Petak</item>
+        <item>Licemeri</item>
+        <item>Međusobna obmana</item>
+        <item>Razvod braka</item>
+        <item>Zabrana</item>
+        <item>Vlast</item>
+        <item>Pero</item>
+        <item>Čas obistinjenja</item>
+        <item>Usponišta i deredže</item>
+        <item>Nūḥ</item>
+        <item>Džinni</item>
+        <item>Umotani</item>
+        <item>Pokriveni</item>
+        <item>Kijametski dan</item>
+        <item>Čovek</item>
+        <item>Oni koji se jedan za drugim šalju</item>
+        <item>Vest</item>
+        <item>Oni koji čupaju grubo</item>
+        <item>Namrštio se</item>
+        <item>Skupljanje krajeva</item>
+        <item>Rascepljenje</item>
+        <item>Oni koji pri merenju zakidaju</item>
+        <item>Cepanje</item>
+        <item>Velike zvezde</item>
+        <item>Noćni posetilac</item>
+        <item>Svevišnji</item>
+        <item>Opća nevolja</item>
+        <item>Zora</item>
+        <item>Grad</item>
+        <item>Sunce</item>
+        <item>Noć</item>
+        <item>Jutro</item>
+        <item>Širokogrudnost</item>
+        <item>Smokva</item>
+        <item>Zakvačak</item>
+        <item>Odredba</item>
+        <item>Dokaz jasni</item>
+        <item>Zemljotres</item>
+        <item>Oni koji dahćući jure</item>
+        <item>Udar zastrašujući</item>
+        <item>Zgrtanje imovine</item>
+        <item>Vreme</item>
+        <item>Klevetnik</item>
+        <item>Slon</item>
+        <item>Kurejšije</item>
+        <item>Potrepštine koje se daju na posudbu</item>
+        <item>Kevser</item>
+        <item>Nevernici</item>
+        <item>Pomoć</item>
+        <item>Plamen</item>
+        <item>Čisto verovanje</item>
+        <item>Svitanje</item>
+        <item>Ljudi</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d kolekcija</item>
+        <item quantity="few">%d kolekcije</item>
+        <item quantity="other">%d kolekcija</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Izbrisana %d stavka</item>
+        <item quantity="few">Izbrisano %d stavke</item>
+        <item quantity="other">Izbrisano %d stavki</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">%2$d rezultat za \"%1$s\":</item>
+        <item quantity="few">%2$d rezultata za \"%1$s\":</item>
+        <item quantity="other">%2$d rezultata za \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">%s ajet</item>
+        <item quantity="few">%s ajeta</item>
+        <item quantity="other">%s ajeta</item>
+    </plurals>
+</resources>

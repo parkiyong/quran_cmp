@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="highlight_color_blue">نيلي</string>
+    <string name="highlight_color_green">شین</string>
+    <string name="highlight_color_purple">بنفشي</string>
+    <string name="highlight_color_yellow">ژېړ</string>
+    <string name="qarilist_dismiss">ګوښه کول</string>
+    <string name="qarilist_gapless">پرله پسې</string>
+    <string name="qarilist_gapped">غیر پرله پسې</string>
+    <string name="qarilist_qaris_with_downloads">قاریان د ډاونلوډ سره</string>
+    <string name="qarilist_ready_to_play">اورېدلو ته چمتو</string>
+    <string name="qarilist_select_qari">قاری انتخاب کړئ</string>
+    <string name="qarilist_selected">ټاکل شوی</string>
+    <string name="reading_bookmark_red">سور</string>
+</resources>

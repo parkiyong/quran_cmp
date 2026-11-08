@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">Những người đóng góp</string>
+    <string name="about_contributors_summary">Danh sách những người đã đóng góp vào sự phát triển của Kinh Quran cho Android</string>
+    <string name="about_data_sources">Nguồn Dữ liệu</string>
+    <string name="about_description">Kinh Quran cho Android là một ứng dụng Kinh Quran miễn phí. Xin đừng quên những người đóng góp trong lời cầu nguyện của bạn.</string>
+    <string name="about_furqan_summary">Văn bản Uthmani and Tafaseer Ả Rập</string>
+    <string name="about_images">Ảnh</string>
+    <string name="about_madani_images">Các hình ảnh Kinh Quran dựa trên các phông chữ từ King Fahd Quran Printing Complex</string>
+    <string name="about_naskh_images">Hình ảnh Kinh Quran cho ứng dụng Naskh được lấy (với sự cho phép) từ SHL Info Systems</string>
+    <string name="about_noorhidayat_summary">Phông chữ Noorehira và Bản dịch Mufti Taqi</string>
+    <string name="about_open_source">Dự án Mã nguồn Mở</string>
+    <string name="about_others">Khác</string>
+    <string name="about_qaloon_images">Hình ảnh Qaloon được sử dụng với sự cho phép của Nous Memes Editions Et Diffusion (Tunisia)</string>
+    <string name="about_quran_enc_summary">Bản dịch cho nhiều ngôn ngữ</string>
+    <string name="about_quran_ksu">Electronic Moshaf Project</string>
+    <string name="about_quran_ksu_summary">King Saud University Electronic Moshaf Project là nguồn Tafaseer Ả Rập cho app và các bản dịch cho nhiều ngôn ngữ khác nhau. Nó cũng là nguồn cho bản đọc của Tiến sĩ Ayman Suwaid.</string>
+    <string name="about_quranicaudio_summary">Các bản xướng đọc gapless mp3 Quran</string>
+    <string name="about_tanzil_summary">Bản dịch cho một vài ngôn ngữ</string>
+    <string name="app_name">Kinh Quran</string>
+    <string name="audio_updated_text">Một số tệp âm thanh Kinh Quran đã được cập nhật. Kinh Quran đã loại bỏ bản sao của các tệp này để có thể tải xuống các phiên bản mới nhất khi bạn phát lần sau.</string>
+    <string name="audio_updated_title">Cập nhật tệp âm thanh Kinh Quran</string>
+    <string name="available_translations">Có sẵn để tải xuống</string>
+    <string name="ayah_copied_popup">Đã sao chép Ayah</string>
+    <string name="bookmark_ayah">Đánh dấu Ayah này</string>
+    <string name="bookmarks_empty_subtitle">Nhấn vào biểu tượng dấu trang để lưu một trang, hoặc nhấn giữ một Ayah để đánh dấu.</string>
+    <string name="bookmarks_empty_title">Chưa có dấu trang nào</string>
+    <string name="bookmarks_list_empty">Không có Đánh dấu</string>
+    <string name="cancel">Hủy</string>
+    <string name="canceling">Đang hủy…</string>
+    <string name="copy_ayah">Sao chép Ayah</string>
+    <string name="default_collection">Yêu thích</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_tag">Xóa Thẻ</string>
+    <string name="delete_translation">Xóa Bản dịch</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Có một cập nhật nhỏ nhưng quan trọng cho những hình ảnh Kinh Quran bạn có trên thiết bị của mình. Bạn có muốn tải bản vá này bây giờ không?</string>
+    <string name="downloadPrompt">Để Kinh Quran Android hoạt động bình thường, chúng tôi cần tải xuống một số tệp. Nếu bạn không làm điều này bây giờ, ứng dụng có thể không hoạt động đáng tin cậy và sẽ yêu cầu kết nối Internet để đọc. Bạn có muốn tải xuống các tệp cần thiết ngay bây giờ không?</string>
+    <string name="downloadPrompt_no">Không</string>
+    <string name="downloadPrompt_ok">Có</string>
+    <string name="downloadPrompt_title">Tải xuống tệp cần thiết?</string>
+    <string name="downloadTabletPrompt">Gần đây chúng tôi đã thêm hình ảnh cải tiến cho máy tính bảng. Bạn có muốn tải xuống những hình ảnh này ngay bây giờ không?</string>
+    <string name="download_cancel">Hủy</string>
+    <string name="download_error_disk">Không đủ dung lượng đĩa để tải xuống</string>
+    <string name="download_error_general">Không tải xuống được</string>
+    <string name="download_error_invalid_download">Tệp đã tải bị hỏng</string>
+    <string name="download_error_invalid_download_retry">Tệp bị hỏng, đang cố tải lại</string>
+    <string name="download_error_network">Không tải được do lỗi mạng</string>
+    <string name="download_error_network_retry">Lỗi mạng, đang cố gắng tải tiếp…</string>
+    <string name="download_error_perms">Không thể tải xuống do lỗi quyền</string>
+    <string name="download_extra_data">Chúng tôi cần tải xuống một hoặc hai tệp nhỏ để hỗ trợ chia sẻ và dịch thuật. Tải ngay?</string>
+    <string name="download_non_wifi_prompt">Bạn đang không dùng Wi-Fi. Vẫn tải xuống dữ liệu?</string>
+    <string name="download_processing">Xử lý tải xuống…</string>
+    <string name="download_retry">Thử lại</string>
+    <string name="download_successful">Tải xuống thành công</string>
+    <string name="downloaded_translations">Đã tải</string>
+    <string name="downloading">Đang tải xuống…</string>
+    <string name="downloading_message">Vui lòng đợi tệp tải xuống (hỗ trợ tạm dừng).</string>
+    <string name="edit_tag">Sửa Thẻ</string>
+    <string name="email_us">Nếu câu hỏi của bạn không được trả lời ở trên, bạn có thể gửi email quranandroid@gmail.com để được hỗ trợ. Xin lưu ý rằng chúng tôi nhận được rất nhiều email, vì vậy chúng tôi không thể trả lời tất cả chúng.</string>
+    <string name="error_getting_translation_list">Không thể tải xuống danh sách các bản dịch. Vui lòng thử lại sau.</string>
+    <string name="export_data_error">Lỗi xuất dữ liệu</string>
+    <string name="exported_data">Dữ liệu được xuất sang %1$s</string>
+    <string name="extracting_title">Đang xử lý…</string>
+    <string name="found_in_sura">Tìm thấy ở Surah (%1$d) %2$s: %3$d (page %4$d)</string>
+    <string name="from">Từ</string>
+    <string name="get_arabic_search_db">Tải Gói dữ liệu Tìm kiếm tiếng Ả Rập</string>
+    <string name="get_translations">Tải Bản dịch</string>
+    <string name="gotoPage">Đến trang</string>
+    <string name="help">&lt;b&gt;Làm cách nào để nghe Quran?&lt;/b&gt; &lt;br/&gt;Mở bất kỳ trang Kinh Quran nào. Chạm vào màn hình một lần. Ở phía dưới, bạn sẽ nhận thấy một nút phát và một danh sách tên các qari. Nhấp vào tên của qari để chọn một qari khác. Nhấp vào phát để tải xuống và phát trang hoặc sura hiện tại. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Làm cách nào để xem bản dịch?&lt;/b&gt; &lt;br/&gt;Mở bất kỳ trang Kinh Quran nào. Chạm vào màn hình một lần. Ở trên cùng, bạn sẽ thấy một biểu tượng quả địa cầu (hoặc, nếu bạn không nhìn thấy nó, hãy nhấp vào biểu tượng có ba chấm tròn) - nhấn nó và chọn bản dịch để xem bản dịch. &lt;br/&gt; Nếu bạn không có bất kỳ bản dịch nào được tải xuống, nó sẽ đưa bạn đến một màn hình nơi bạn có thể tải xuống các bản dịch. Chọn và tải xuống bản dịch, sau đó quay lại và nhấn lại vào biểu tượng quả địa cầu để xem bản dịch. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Làm cách nào để đánh dấu trang?&lt;/b&gt; &lt;br/&gt;Mở bất kỳ trang Kinh Quran nào. Chạm vào màn hình một lần. Ở trên cùng bên phải, bạn sẽ thấy một biểu tượng dấu trang. Nhấn vào biểu tượng dấu trang để đánh dấu trang (màu sẽ chuyển sang màu trắng đặc). Nhấn vào biểu tượng dấu trang một lần nữa để xóa dấu trang. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Làm cách nào để làm cho văn bản lớn hơn?&lt;/b&gt; &lt;br/&gt;Đối với các trang tiếng Ả Rập, hãy giữ điện thoại của bạn ở chế độ nằm ngang. Điều này làm cho văn bản lớn hơn. Đối với bản dịch, hãy đi tới cài đặt và tăng cỡ chữ văn bản dịch. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Làm cách nào để chia sẻ ayah?&lt;/b&gt; &lt;br/&gt;Khi đang ở bất kỳ trang tiếng Ả Rập nào, hãy nhấn và giữ bất kỳ ayah nào để có menu nơi bạn có thể chọn đánh dấu, chia sẻ hoặc sao chép ayah đó vào khay nhớ tạm, xem bản dịch, hoặc nghe bản đọc của nó.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;Phông Malayalam/Tamil/Bengali/Urdu không dùng được!&lt;/b&gt; &lt;br/&gt;Rất tiếc, các phiên bản Android trước 4.0 không hỗ trợ các phông chữ này và chúng tôi không giúp được gì nhiều.</string>
+    <string name="help_title">(FAQ) Câu hỏi thường gặp</string>
+    <string name="highlight_color_blue">Xanh dương</string>
+    <string name="highlight_color_green">Xanh lá</string>
+    <string name="highlight_color_purple">Tím</string>
+    <string name="highlight_color_yellow">Vàng</string>
+    <string name="highlighting_database">Tệp cần thiết</string>
+    <string name="icon_reveal_body">Ứng dụng Quran giờ đây mang dấu hiệu chung của một nhóm công cụ được xây dựng xoay quanh lời của Allah. Dấu trang, tiến độ và cài đặt của bạn vẫn ở nguyên chỗ cũ.</string>
+    <string name="icon_reveal_title">Biểu tượng mới của chúng tôi đã có</string>
+    <string name="import_data">Nhập Data</string>
+    <string name="import_data_and_merge">Nếu bạn nhập tệp này, %1$d đánh dấu và %2$d thẻ sẽ được thêm vào dữ liệu hiện tại của bạn. Nhập?</string>
+    <string name="import_data_error">Tệp sao lưu không hợp lệ (hoặc không thể đọc tệp sao lưu).</string>
+    <string name="import_data_permissions_error">Không thể đọc tệp sao lưu do lỗi quyền.</string>
+    <string name="import_successful">Nhập thành công</string>
+    <string name="juz2_description">Juz\' %1$s</string>
+    <string name="kitkat_external_message">Do những hạn chế của Android, nếu bạn chọn đặt dữ liệu Kinh Quran trên thẻ nhớ SD ngoài và sau đó gỡ cài đặt hoặc xóa dữ liệu của Kinh Quran Android, tất cả các trang và âm thanh của Kinh Quran Android sẽ bị xóa và bạn sẽ phải tải xuống lại. Bạn có chắc chắn muốn sử dụng thẻ nhớ SD ngoài?</string>
+    <string name="loading">Đang tải…</string>
+    <string name="madani">Madani</string>
+    <string name="madani_description">Bản kinh Madani cổ điển.</string>
+    <string name="madani_title">Madani Mushaf cổ điển</string>
+    <string name="makki">Makki</string>
+    <string name="menu_about">Về Chúng tôi</string>
+    <string name="menu_back_to_page">Hiện Quran</string>
+    <string name="menu_bookmarks">Đánh dấu</string>
+    <string name="menu_bookmarks_page">Dấu Trang</string>
+    <string name="menu_get_translations">Tải Bản dịch</string>
+    <string name="menu_help">Trợ giúp</string>
+    <string name="menu_jump">Đến trang</string>
+    <string name="menu_jump_last_page">Trang cuối</string>
+    <string name="menu_other_apps">Ứng dụng khác</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_show_date">Hiện Ngày</string>
+    <string name="menu_sort">Sắp xếp</string>
+    <string name="menu_sort_date">Ngày Thêm</string>
+    <string name="menu_sort_group_by_tags">Nhóm theo Thẻ</string>
+    <string name="menu_sort_location">Vị trí ở Quran</string>
+    <string name="menu_translation">Hiện Bản dịch</string>
+    <string name="more_translations">Bản dịch khác</string>
+    <string name="move_down">Di Xuống</string>
+    <string name="move_up">Di Lên</string>
+    <string name="need_translation">Bạn chưa tải xuống bản dịch/tafaseer nào.</string>
+    <string name="new_tag">Thẻ Mới</string>
+    <string name="next">Tiếp</string>
+    <string name="no_arabic_search_available">Bạn chưa tải xuống gói tìm kiếm tiếng Ả Rập. Vui lòng tải xuống và thử tìm kiếm lại.</string>
+    <string name="no_results">Không kết quả cho \"%s\"</string>
+    <string name="notification_channel_audio">Quran Xướng đọc</string>
+    <string name="notification_channel_download">Quran Tải xuống</string>
+    <string name="notification_download_canceled">Đã hủy tải xuống</string>
+    <string name="old_page_bookmarks">Đánh dấu trang cũ</string>
+    <string name="page_description">Trang %1$s, Juz\' %2$s</string>
+    <string name="pause">Nghỉ</string>
+    <string name="play">Phát</string>
+    <string name="play_apply">Áp dụng</string>
+    <string name="play_apply_and_play">Áp dụng và Phát</string>
+    <string name="play_each_verse">Lần phát từng câu:</string>
+    <string name="play_from_here">Phát từ Đây</string>
+    <string name="play_restrict_range">Chỉ phát những câu trên</string>
+    <string name="play_verses_range">Lần phát cả bộ câu:</string>
+    <string name="playback_prompt_title">Bắt đầu phát từ:</string>
+    <string name="playback_speed">Tốc độ phát lại:</string>
+    <string name="please_grant_permissions">Vui lòng cấp quyền trong cài đặt ứng dụng</string>
+    <string name="please_wait">Xin đợi…</string>
+    <string name="prefs_app_location_summary">Chọn nơi lưu trữ các tệp Kinh Quran</string>
+    <string name="prefs_app_location_title">Nơi Kinh Quran lưu dữ liệu</string>
+    <string name="prefs_app_size">Kích cỡ dữ liệu hiện tại là</string>
+    <string name="prefs_audio_manager_summary">Quản lý và tải xuống bản đọc Kinh Quran</string>
+    <string name="prefs_ayah_before_translation_summary">Hiển thị ayah tiếng Ả Rập phía trên bản dịch</string>
+    <string name="prefs_ayah_before_translation_title">Ayah trước bản dịch</string>
+    <string name="prefs_calculating_app_size">Tính Kích thước App</string>
+    <string name="prefs_category_advanced">Tùy chọn Nâng cao</string>
+    <string name="prefs_category_advanced_summary">Nhập/xuất đánh dấu, đặt thư mục dữ liệu Kinh Quran, v.v.</string>
+    <string name="prefs_category_display_settings">Cài đặt Hiển thị</string>
+    <string name="prefs_category_download">Tùy chọn Tải xuống</string>
+    <string name="prefs_category_dual_screen">Tùy chọn Trang Kép</string>
+    <string name="prefs_category_reading">Tùy chọn Đọc</string>
+    <string name="prefs_category_translation">Tùy chọn Bản dịch</string>
+    <string name="prefs_copying_app_files">Sao chép tệp App</string>
+    <string name="prefs_display_marker_summary">Hiển thị hộp thoại khi tới juz\', hizb, v.v kế tiếp</string>
+    <string name="prefs_display_marker_title">Hiện hộp thoại</string>
+    <string name="prefs_download_amount_summary">Số lượng tải xuống ưu tiên cho âm thanh non-gapless</string>
+    <string name="prefs_download_amount_title">Số lượng tải xuống</string>
+    <string name="prefs_dual_page_mode_disabled">Ở chế độ ngang, chỉ một trang sẽ xuất hiện</string>
+    <string name="prefs_dual_page_mode_enabled">Ở chế độ ngang, hai trang sẽ xuất hiện cạnh nhau</string>
+    <string name="prefs_dual_page_mode_title">Chế độ Trang Kép</string>
+    <string name="prefs_err_moving_app_files">Lỗi di chuyển tệp của app</string>
+    <string name="prefs_export_csv_summary">Xuất bản sao của đánh dấu và thẻ dạng CSV</string>
+    <string name="prefs_export_csv_title">Xuất CSV</string>
+    <string name="prefs_export_summary">Xuất bản sao của đánh dấu và thẻ</string>
+    <string name="prefs_export_title">Xuất</string>
+    <string name="prefs_highlight_bookmarks_summary">Tô sáng ayahs đã được đánh dấu trong khi đọc</string>
+    <string name="prefs_highlight_bookmarks_title">Tô sáng các đánh dấu</string>
+    <string name="prefs_import_summary">Nhập đánh dấu và thẻ</string>
+    <string name="prefs_import_title">Nhập</string>
+    <string name="prefs_landscape_orientation_summary_off">Luôn dùng chế độ nằm dọc</string>
+    <string name="prefs_landscape_orientation_summary_on">Luôn dùng chế độ nằm ngang</string>
+    <string name="prefs_landscape_orientation_title">Hướng ngang</string>
+    <string name="prefs_lock_orientation_summary_off">Tự chuyển hướng cùng thiết bị</string>
+    <string name="prefs_lock_orientation_summary_on">Khóa một hướng cố định</string>
+    <string name="prefs_lock_orientation_title">Khóa hướng màn hình</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_night_mode_background_brightness_title">Độ sáng nền</string>
+    <string name="prefs_night_mode_text_brightness_title">Độ sáng của chữ</string>
+    <string name="prefs_no_enough_space_to_move_files">Không đủ dung lượng để di chuyển tệp app</string>
+    <string name="prefs_overlay_page_info_summary">Hiện số trang, tên surah và số juz\' trong khi đọc</string>
+    <string name="prefs_overlay_page_info_title">Hiển thị thông tin trang</string>
+    <string name="prefs_page_type_summary">Chọn loại trang đọc</string>
+    <string name="prefs_page_type_title">Loại Trang (thử nghiệm)</string>
+    <string name="prefs_preview">Xem trước</string>
+    <string name="prefs_sdcard_external">Bộ nhớ ngoài %1$d</string>
+    <string name="prefs_sdcard_internal">Bộ nhớ trong</string>
+    <string name="prefs_send_logs_summary">Gửi debug logs cho lập trình viên</string>
+    <string name="prefs_send_logs_title">Gửi logs</string>
+    <string name="prefs_split_page_and_translation_summary">Ở chế độ trang kép có bản dịch, cả trang Kinh Quran và bản dịch được hiển thị</string>
+    <string name="prefs_split_page_and_translation_title">Kinh Quran và bản dịch ở chế độ kép</string>
+    <string name="prefs_streaming_summary">Phát âm thanh trực tuyến thay vì tải xuống</string>
+    <string name="prefs_streaming_title">Phát trực tuyến</string>
+    <string name="prefs_sura_translated_name_summary">Hiển thị bản dịch tên của các surah</string>
+    <string name="prefs_sura_translated_name_title">Dịch tên Surah</string>
+    <string name="prefs_translation_text_title">Cỡ chữ bản dịch</string>
+    <string name="prefs_translations">Bản dịch</string>
+    <string name="prefs_translations_summary">Tải xuống và quản lý bản dịch</string>
+    <string name="prefs_use_arabic_summary_on">Dùng tiếng Ả Rập cho giao diện ứng dụng</string>
+    <string name="prefs_use_arabic_title">Chế độ Ả Rập (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Hiển thị bản dịch bằng phông chữ thân thiện với người mắc chứng khó đọc</string>
+    <string name="prefs_use_dyslexic_font_title">Phông chữ cho chứng khó đọc</string>
+    <string name="prefs_volume_key_navigation_summary">Điều hướng giữa các trang bằng phím âm lượng</string>
+    <string name="prefs_volume_key_navigation_title">Điều hướng phím âm lượng</string>
+    <string name="previous">Trước</string>
+    <string name="process_progress">Đang xử lý tập tin %1$d / %2$d</string>
+    <string name="qari_abdulaziz_zahrani_gapless">Abdulaziz Az-Zahrani</string>
+    <string name="qari_abdulbaset">Abd Al-Basit (gapped)</string>
+    <string name="qari_abdulbaset_gapless">Abd Al-Basit</string>
+    <string name="qari_abdulbaset_mujawwad">Abd Al-Basit Mujawwad (gapped)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">Abd Al-Basit Mujawwad</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
+    <string name="qari_abdullah_matroud_gapless">Abdullah Matroud</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">AbdulMuhsin al Qasim</string>
+    <string name="qari_abdulrahman_alshahat_gapless">Abdulrahman Al-Shahat</string>
+    <string name="qari_abdurrashid_sufi_gapless">Abdur-Rashid Sufi</string>
+    <string name="qari_afasy">Mishary Al-Afasy (gapped)</string>
+    <string name="qari_afasy_cali_gapless">Mishari Al-Afasy (California)</string>
+    <string name="qari_afasy_gapless">Mishary Al-Afasy</string>
+    <string name="qari_ahmad_nauina_gapless">Ahmad Nauina</string>
+    <string name="qari_ahmed_al_nufais_gapless">Ahmed Al-Nufais</string>
+    <string name="qari_ajamy_gapless">Ahmed ibn Ali al-Ajamy</string>
+    <string name="qari_akram_al_alaqmi">Akram Al-Alaqmi</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">Ali Hajjaj Alsouasi</string>
+    <string name="qari_ali_jaber_gapless">Ali Jaber</string>
+    <string name="qari_alijon_qari_gapless">Alijon Qari</string>
+    <string name="qari_aloosi_gapless">Abdulrahman Aloosi</string>
+    <string name="qari_alzain_ahmad_gapless">Alzain Mohammad Ahmad</string>
+    <string name="qari_ayman_suwaid_gapless">Dr. Ayman Suwaid</string>
+    <string name="qari_ayman_suwaid_gapped">Dr. Ayman Suwaid (gapped)</string>
+    <string name="qari_ayyoub">Muhammad Ayyoub (gapped)</string>
+    <string name="qari_ayyoub_gapless">Muhammad Ayyoub</string>
+    <string name="qari_aziz_alili_gapless">Aziz Alili</string>
+    <string name="qari_badr_al_turki_gapless">Badr Al-Turki</string>
+    <string name="qari_bandar_baleela_gapless">Bandar Baleela</string>
+    <string name="qari_basfar">Abdullah Basfar (gapped)</string>
+    <string name="qari_basfar_gapless">Abdullah Basfar</string>
+    <string name="qari_dussary">Yasser Ad-Dussary (gapped)</string>
+    <string name="qari_fares_abbad_gapless">Fares Abbad</string>
+    <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+    <string name="qari_hady_toure_gapless">Hady Toure</string>
+    <string name="qari_hani_rifai">Hani Ar-Rifai (gapped)</string>
+    <string name="qari_hani_rifai_gapless">Hani Ar-Rifai</string>
+    <string name="qari_hudhayfi">Ali Al-Hudhaify (gapped)</string>
+    <string name="qari_hudhayfi_gapless">Ali Al-Hudhaify</string>
+    <string name="qari_husary_gapless">Husary</string>
+    <string name="qari_husary_iza3a_gapless">Husary Broadcast</string>
+    <string name="qari_husary_muallim_gapless">Husary (Muallim)</string>
+    <string name="qari_husary_mujawwad">Husary Mujawwad (gapped)</string>
+    <string name="qari_husary_mujawwad_gapless">Husary (Mujawwad)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">Ibrahim Al-Akhdar</string>
+    <string name="qari_idrees_abkar_gapless">Idrees Abkar</string>
+    <string name="qari_jibreel">Muhammad Jibreel (gapped)</string>
+    <string name="qari_jibreel_gapless">Muhammad Jibreel</string>
+    <string name="qari_juhany_gapless">Abdullah al Juhany</string>
+    <string name="qari_khaled_muhanna_gapless">Khaled Al-Muhanna (gapped)</string>
+    <string name="qari_khalid_jalil_gapless">Khalid Al-Jalil</string>
+    <string name="qari_khalid_qahtani_gapless">Khalid Al-Qahtani</string>
+    <string name="qari_khalifa_taniji_gapless">Khalifa Taniji</string>
+    <string name="qari_luhaidan_gapless">Muhammad Al-Luhaidan</string>
+    <string name="qari_mahmoud_ali_albana_gapless">Mahmoud Ali al Bana</string>
+    <string name="qari_minshawi_mujawwad">Minshawy Mujawwad (gapped)</string>
+    <string name="qari_minshawi_mujawwad_gapless">Minshawy Mujawwad</string>
+    <string name="qari_minshawi_murattal_gapless">Minshawi Murattal</string>
+    <string name="qari_mishari_walk_gapless">Mishari và Ibrahim Walk (tiếng Anh)</string>
+    <string name="qari_mohammad_altablawi_gapless">Mohammad al Tablawy</string>
+    <string name="qari_mokhtasar_asmari_gapless">Abdullah Al-Asmari (Bình luận t. Ả Rập)</string>
+    <string name="qari_mostafa_ismaeel_gapless">Mostafa Ismaeel</string>
+    <string name="qari_muaiqly">Maher Al Muaiqly (gapped)</string>
+    <string name="qari_muaiqly_gapless">Maher Al Muaiqly</string>
+    <string name="qari_muaiqly_haramain_gapless">Maher Al Muaiqly (Haramain)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">Muhammad Rashad Al-Shereef</string>
+    <string name="qari_nabil_rifa3i_gapless">Nabil Ar-Rifai</string>
+    <string name="qari_noreen_siddiq_gapless">Noreen Siddiq</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
+    <string name="qari_qatami_gapless">Nasser Al Qatami</string>
+    <string name="qari_raad_al_kurdi_gapless">Raad Al-Kurdi</string>
+    <string name="qari_saad_al_ghamdi">Saad Al-Ghamdi (gapped)</string>
+    <string name="qari_saad_al_ghamidi_gapless">Saad Al-Ghamdi</string>
+    <string name="qari_sahl_yaseen_gapless">Sahl Yaseen</string>
+    <string name="qari_salah_budair_gapless">Salah Budair</string>
+    <string name="qari_salah_bukhatir_gapless">Salah Bukhatir</string>
+    <string name="qari_shatri">Abu Bakr Ash-Shatri (gapped)</string>
+    <string name="qari_shatri_gapless">Abu Bakr Ash-Shatri</string>
+    <string name="qari_shuraym">Saood Ash-Shuraym (gapped)</string>
+    <string name="qari_shuraym_gapless">Saood Ash-Shuraym</string>
+    <string name="qari_suadis">Abdurrahmaan As-Sudais (gapped)</string>
+    <string name="qari_sudais_gapless">Abdurrahman As-Sudais</string>
+    <string name="qari_tablawy">Mohammad al Tablaway (gapped)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">Tawfeeq as-Sawaigh</string>
+    <string name="qari_wadee3_alyamani_gapless">Wadee\' Al-Yamani</string>
+    <string name="qari_walk">Ibrahim Walk (tiếng Anh)</string>
+    <string name="qari_walk_gapless">Ibrahim Walk (tiếng Anh)</string>
+    <string name="qari_yasser_dussary_gapless">Yasser Ad-Dussary</string>
+    <string name="qari_yasser_salama_hadr_gapless">Yasser Salama (hadr)</string>
+    <string name="qarilist_dismiss">Bỏ qua</string>
+    <string name="qarilist_gapless">Gapless (Liền mạch)</string>
+    <string name="qarilist_gapped">Gapped (Ngắt quãng)</string>
+    <string name="qarilist_qaris_with_downloads">Qaris với Tải xuống</string>
+    <string name="qarilist_ready_to_play">Có sẵn để Phát</string>
+    <string name="qarilist_select_qari">Chọn một Qari</string>
+    <string name="qarilist_selected">Đã chọn</string>
+    <string name="quranSearchType">Những câu Kinh Quran</string>
+    <string name="quran_ayah">Ayah %1$d</string>
+    <string name="quran_ayah_details">%1$s - Ayah %2$s, Juz\' %3$s</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Juz\'</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Trang</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Surahs</string>
+    <string name="quran_sura_title">Surah %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Bỏ qua</string>
+    <string name="reading_bookmark_movable_education_body">Lưu dấu trang đọc sẽ thay thế dấu cũ. Để lưu nhiều Ayah, nhấn giữ một Ayah và thêm vào bộ sưu tập.</string>
+    <string name="reading_bookmark_movable_education_title">Đây là dấu trang đọc có thể di chuyển</string>
+    <string name="reading_bookmark_moved_from">Đã di chuyển từ %1$s</string>
+    <string name="reading_bookmark_red">Đỏ</string>
+    <string name="recent_pages">Vừa Đọc</string>
+    <string name="recite_from_here">Đọc từ đây</string>
+    <string name="remove_button">Xóa</string>
+    <string name="remove_dlg_msg">Bạn có chắc chắn muốn xóa %1$s?</string>
+    <string name="remove_dlg_title">Xóa Bản dịch?</string>
+    <string name="scoped_storage_message">Do những thay đổi của Android để tăng quyền riêng tư của người dùng, việc sao chép các tệp bên ngoài thư mục của ứng dụng có thể sẽ ngăn Kinh Quran truy cập dữ liệu của nó trong các phiên bản sau của Android. Bạn có chắc chắn muốn sử dụng đường dẫn này không?</string>
+    <string name="sdcard_error">Không tìm thấy thẻ SD. Vui lòng gắn nó và thử lại.</string>
+    <string name="search_data">Dữ liệu Tìm kiếm</string>
+    <string name="search_entire_mushaf">Tìm kiếm cả mushaf</string>
+    <string name="search_full_results">Kết quả đầy đủ</string>
+    <string name="search_hint">Tìm trong Quran</string>
+    <string name="search_key">Ấn nút tìm để tìm một câu kinh</string>
+    <string name="see_tafseer_of_verse">Tafseer của ayah này đã có trong tafseer của ayah %d (Nhấp để mở rộng).</string>
+    <string name="share_ayah">Chia sẻ Link Ayah</string>
+    <string name="share_ayah_text">Chia sẻ văn bản Ayah</string>
+    <string name="starting_page_label">Đầu Trang</string>
+    <string name="stop">Dừng</string>
+    <string name="storage_permission_please_restart">Vui lòng khởi động lại ứng dụng để điều này có hiệu lực.</string>
+    <string name="storage_permission_rationale">Kinh Quran muốn bạn cho phép lưu trữ dữ liệu của nó trên lưu trữ ngoài. Kinh Quran sẽ vẫn hoạt động mà không cần quyền này, nhưng nếu bạn xóa dữ liệu hoặc gỡ cài đặt ứng dụng, tất cả các trang, âm thanh và dữ liệu đã tải xuống sẽ bị xóa. Cấp quyền cho kinh Quran?</string>
+    <string name="sura_ayah_notification_str">Surah %1$s, Ayah %2$d</string>
+    <string name="sura_ayah_sharing_str">Surah %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">Tên thẻ không được để trống!</string>
+    <string name="tag_bookmark">Đánh dấu Thẻ</string>
+    <string name="tag_dlg_title">Thẻ</string>
+    <string name="tag_duplicate_tag_error">Tên thẻ đã tồn tại!</string>
+    <string name="tag_name">Tên</string>
+    <string name="timing_database">Tệp cần thiết</string>
+    <string name="to">Đến</string>
+    <string name="translation_ayah">Bản dịch/Tafseer của Ayah</string>
+    <string name="translation_dialog_later">Để sau</string>
+    <string name="translation_dialog_yes">Có</string>
+    <string name="translation_updates_available">Một bản cập nhật có sẵn cho một số bản dịch của bạn. Truy cập trang bản dịch ngay bây giờ?</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="update_available">Có cập nhật mới</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="whats_new_continue">Tiếp tục</string>
+    <string-array name="repeatValues">
+        <item>1 lần</item>
+        <item>2 lần</item>
+        <item>3 lần</item>
+        <item>lặp</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fātihah</item>
+        <item>Al-Baqarah</item>
+        <item>Āli-ʿImrān</item>
+        <item>An-Nisāʾ</item>
+        <item>Al-Māʾidah</item>
+        <item>Al-Anʿām</item>
+        <item>Al-Aʿrāf</item>
+        <item>Al-Anfāl</item>
+        <item>At-Tawbah</item>
+        <item>Yūnus</item>
+        <item>Hūd</item>
+        <item>Yūsuf</item>
+        <item>Ar-Raʿd</item>
+        <item>Ibrāhīm</item>
+        <item>Al-Ḥijr</item>
+        <item>An-Naḥl</item>
+        <item>Al-Isrāʾ</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ṭā-Hā</item>
+        <item>Al-Anbiyāʾ</item>
+        <item>Al-Ḥajj</item>
+        <item>Al-Muʾminūn</item>
+        <item>An-Nūr</item>
+        <item>Al-Furqān</item>
+        <item>Ash-Shuʿarāʾ</item>
+        <item>An-Naml</item>
+        <item>Al-Qaṣaṣ</item>
+        <item>Al-ʿAnkabūt</item>
+        <item>Ar-Rūm</item>
+        <item>Luqmān</item>
+        <item>As-Sajdah</item>
+        <item>Al-Aḥzāb</item>
+        <item>Sabaʾ</item>
+        <item>Fāṭir</item>
+        <item>Yā-Sīn</item>
+        <item>Aṣ-Ṣāffāt</item>
+        <item>Ṣād</item>
+        <item>Az-Zumar</item>
+        <item>Ghāfir</item>
+        <item>Fuṣṣilat</item>
+        <item>Ash-Shūrā</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhān</item>
+        <item>Al-Jāthiyah</item>
+        <item>Al-Aḥqāf</item>
+        <item>Muḥammad</item>
+        <item>Al-Fatḥ</item>
+        <item>Al-Ḥujurāt</item>
+        <item>Qāf</item>
+        <item>Adh-Dhāriyāt</item>
+        <item>Aṭ-Ṭūr</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Raḥmān</item>
+        <item>Al-Wāqiʿah</item>
+        <item>Al-Ḥadīd</item>
+        <item>Al-Mujādilah</item>
+        <item>Al-Ḥashr</item>
+        <item>Al-Mumtaḥanah</item>
+        <item>Aṣ-Ṣaff</item>
+        <item>Al-Jumuʿah</item>
+        <item>Al-Munāfiqūn</item>
+        <item>At-Taghābun</item>
+        <item>Aṭ-Ṭalāq</item>
+        <item>At-Taḥrīm</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Ḥāqqah</item>
+        <item>Al-Maʿārij</item>
+        <item>Nūḥ</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyāmah</item>
+        <item>Al-Insān</item>
+        <item>Al-Mursalāt</item>
+        <item>An-Nabaʾ</item>
+        <item>An-Nāziʿāt</item>
+        <item>ʿAbasa</item>
+        <item>At-Takwīr</item>
+        <item>Al-Infiṭār</item>
+        <item>Al-Muṭaffifīn</item>
+        <item>Al-Inshiqāq</item>
+        <item>Al-Burūj</item>
+        <item>Aṭ-Ṭāriq</item>
+        <item>Al-Aʿlā</item>
+        <item>Al-Ghāshiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Aḍ-Ḍuḥā</item>
+        <item>Ash-Sharḥ</item>
+        <item>At-Tīn</item>
+        <item>Al-ʿAlaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-ʿĀdiyāt</item>
+        <item>Al-Qāriʿah</item>
+        <item>At-Takāthur</item>
+        <item>Al-ʿAṣr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fīl</item>
+        <item>Quraysh</item>
+        <item>Al-Māʿūn</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kāfirūn</item>
+        <item>An-Naṣr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlāṣ</item>
+        <item>Al-Falaq</item>
+        <item>An-Nās</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>Khai Đề</item>
+        <item>Con Bò Cái</item>
+        <item>Gia Đình Imran</item>
+        <item>Người Phụ Nữ</item>
+        <item>Bàn Thức Ăn</item>
+        <item>Súc Vật</item>
+        <item>Các Gò Cao</item>
+        <item>Chiến Lợi Phẩm</item>
+        <item>Sám Hối</item>
+        <item>Nabi Jonah (Giô-na)</item>
+        <item>Nabi Hūd</item>
+        <item>Nabi Joseph (Giô-sép)</item>
+        <item>Sấm Sét</item>
+        <item>Nabi Abraham (Áp-ra-ham)</item>
+        <item>Vùng Núi Hijr</item>
+        <item>Con Ong</item>
+        <item>Đi Trong Đêm</item>
+        <item>Cái Hang</item>
+        <item>Maryam (Maria)</item>
+        <item>Ta-Ha</item>
+        <item>Các Vị Nabi</item>
+        <item>Hành Hương Hajj</item>
+        <item>Người Có Đức Tin</item>
+        <item>Ánh Sáng</item>
+        <item>Tiêu Chuẩn Phân Biệt</item>
+        <item>Các Thi Sĩ</item>
+        <item>Con Kiến</item>
+        <item>Những Câu Chuyện</item>
+        <item>Con Nhện</item>
+        <item>La Mã</item>
+        <item>Hiền Nhân Luqmān</item>
+        <item>Phủ Phục</item>
+        <item>Liên Quân</item>
+        <item>Vương Quốc Sheba</item>
+        <item>Đấng Tạo Hoá</item>
+        <item>Ya Sin</item>
+        <item>Những Thiên Thần Đứng Thẳng Hàng</item>
+        <item>Chữ \"Sad\"</item>
+        <item>Những Nhóm Người</item>
+        <item>Đấng Tha Thứ</item>
+        <item>Được Giải Thích Chi Tiết</item>
+        <item>Tham Khảo</item>
+        <item>Đồ Trang Trí Bằng Vàng</item>
+        <item>Khói Mờ</item>
+        <item>Quì Gối</item>
+        <item>Cồn Cát</item>
+        <item>Thiên Sứ Muhammad</item>
+        <item>Thắng Lợi</item>
+        <item>Nội Phòng</item>
+        <item>Chữ \"Qaf\"</item>
+        <item>Những Cơn Gió Thổi Bụi</item>
+        <item>Núi Tur</item>
+        <item>Tinh Tú</item>
+        <item>Mặt Trăng</item>
+        <item>Đấng Độ Lượng</item>
+        <item>Biến Cố Giờ Tận Thế</item>
+        <item>Sắt</item>
+        <item>Người Phụ Nữ Khiếu Nại</item>
+        <item>Cuộc Tập Họp</item>
+        <item>Cô Ấy Cần Được Kiểm Tra</item>
+        <item>Hàng Ngũ</item>
+        <item>Thứ Sáu</item>
+        <item>Kẻ Đạo Đức Giả</item>
+        <item>Người Thắng Kẻ Thua</item>
+        <item>Ly Dị</item>
+        <item>Cấm Đoán</item>
+        <item>Quyền Thống Trị</item>
+        <item>Cây Viết</item>
+        <item>Sự Thật</item>
+        <item>Đường Lên Trời</item>
+        <item>Nabi Noah (Nô-ê)</item>
+        <item>Loài Jinn</item>
+        <item>Người Cuộn Mình Trong Chiếc Áo</item>
+        <item>Người Phủ Áo Choàng Lên Mình</item>
+        <item>Ngày Phục Sinh</item>
+        <item>Loài Người</item>
+        <item>Các Luồng Gió Liên Tục</item>
+        <item>Các Nguồn Tin</item>
+        <item>Giật Mạnh</item>
+        <item>Y Cau Mày</item>
+        <item>Sự Cuốn Xếp</item>
+        <item>Phân Tách</item>
+        <item>Những Kẻ Giân Lận</item>
+        <item>Vỡ Nứt</item>
+        <item>Chòm Sao “Burūj”</item>
+        <item>Sao Mai</item>
+        <item>Đấng Tối Cao</item>
+        <item>Biến Cố Trần Ngập</item>
+        <item>Rạng Đông</item>
+        <item>Vùng Đất Al-Haram</item>
+        <item>Mặt Trời</item>
+        <item>Ban Đêm</item>
+        <item>Giờ Dhuha</item>
+        <item>Mở Rộng</item>
+        <item>Cây Sung</item>
+        <item>Cục Máu</item>
+        <item>Đêm Định Mệnh</item>
+        <item>Bằng Chứng Rõ Ràng</item>
+        <item>Động Đất</item>
+        <item>Những Con Chiến Mã</item>
+        <item>Giờ Kinh Hoàng</item>
+        <item>Tranh Tiền Của Và Con Cái</item>
+        <item>Thời Gian</item>
+        <item>Kẻ Vu Khống</item>
+        <item>Con Voi</item>
+        <item>Bộ Tộc Quraish</item>
+        <item>Vật Dụng Cần Thiết</item>
+        <item>Sông Kawthar</item>
+        <item>Kẻ Vô Đức Tin</item>
+        <item>Phù Trợ</item>
+        <item>Sợi Dây Được Xe Từ Xơ</item>
+        <item>Thành Tâm</item>
+        <item>Bình Minh</item>
+        <item>Nhân Loại</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="other">%d bộ sưu tập</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Đã xóa một mục</item>
+        <item quantity="other">Đã xóa %d mục</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">Một kết quả cho \"%1$s\":</item>
+        <item quantity="other">%2$d kết quả cho \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">Một câu</item>
+        <item quantity="other">%s câu</item>
+    </plurals>
+</resources>

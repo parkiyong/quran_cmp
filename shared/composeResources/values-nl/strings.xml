@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_androidx">AndroidX</string>
+    <string name="about_androidx_url">https://developer.android.com/jetpack/androidx</string>
+    <string name="about_contributors">Bijdragers</string>
+    <string name="about_contributors_summary">Een lijst met mensen die hebben bijgedragen aan de ontwikkeling van Koran voor Android</string>
+    <string name="about_dagger2">Dagger 2</string>
+    <string name="about_dagger2_url">https://google.github.io/dagger</string>
+    <string name="about_data_sources">Data bronnen</string>
+    <string name="about_description">Koran voor Android is een gratis Koran-applicatie. Vergeet de bijdragers niet in uw gebeden.</string>
+    <string name="about_dnsjava">dnsjava</string>
+    <string name="about_dnsjava_url">http://dnsjava.org</string>
+    <string name="about_furqan">Al-Bāḥith al-Qur’ānī (tafsir.app)</string>
+    <string name="about_furqan_summary">Uthmani-tekst en Arabische Tafseer</string>
+    <string name="about_furqan_url">https://tafsir.app</string>
+    <string name="about_images">Afbeeldingen</string>
+    <string name="about_kotlin">Kotlin</string>
+    <string name="about_kotlin_url">https://kotlinlang.org</string>
+    <string name="about_madani_images">De koranafbeeldingen zijn gebaseerd op de lettertypen van het King Fahd Quran Printing Complex</string>
+    <string name="about_madani_images_url">https://github.com/quran/quran.com-images</string>
+    <string name="about_material_components">Material Components for Android</string>
+    <string name="about_material_components_url">https://github.com/material-components/material-components-android</string>
+    <string name="about_moshi">Moshi</string>
+    <string name="about_moshi_url">https://github.com/square/moshi</string>
+    <string name="about_naskh_images">De koranafbeeldingen voor de Naskh-app zijn (met toestemming) afkomstig van SHL Info Systems</string>
+    <string name="about_naskh_images_url">http://www.shlinfosystems.com</string>
+    <string name="about_noorhidayat">Noorhidayat</string>
+    <string name="about_noorhidayat_summary">Noorehira-lettertype en Mufti Taqi-vertaling</string>
+    <string name="about_noorhidayat_url">http://www.noorehidayat.org</string>
+    <string name="about_numberPicker">Number Picker</string>
+    <string name="about_numberPicker_url">https://github.com/ShawnLin013/NumberPicker</string>
+    <string name="about_okhttp">OkHttp</string>
+    <string name="about_okhttp_url">https://github.com/square/okhttp</string>
+    <string name="about_open_source">Open Source Projects</string>
+    <string name="about_others">Andere</string>
+    <string name="about_qaloon_images">Qaloon-afbeeldingen worden gebruikt met toestemming van Nous Memes Editions Et Diffusion (Tunesië)</string>
+    <string name="about_quran_enc">Noble Quran Encyclopedia (QuranEnc)</string>
+    <string name="about_quran_enc_summary">Vertalingen voor vele talen</string>
+    <string name="about_quran_enc_url">https://quranenc.com</string>
+    <string name="about_quran_ksu">Electronic Moshaf Project</string>
+    <string name="about_quran_ksu_summary">Het King Saud University Electronic Moshaf Project is de app\'s bron van Arabische Tafaseer en vertalingen voor verschillende talen. Het is ook de bron voor de recitatie van Dr. Ayman Suwaid.</string>
+    <string name="about_quran_ksu_url">https://quran.ksu.edu.sa</string>
+    <string name="about_quranicaudio">QuranicAudio</string>
+    <string name="about_quranicaudio_summary">Gapless mp3 koranrecitaties</string>
+    <string name="about_quranicaudio_url">https://quranicaudio.com</string>
+    <string name="about_rxandroid">RxAndroid</string>
+    <string name="about_rxandroid_url">https://github.com/ReactiveX/RxAndroid</string>
+    <string name="about_rxjava">RxJava</string>
+    <string name="about_rxjava_url">https://github.com/ReactiveX/RxJava</string>
+    <string name="about_sliding_panel">AndroidSlidingUpPanel</string>
+    <string name="about_sliding_panel_url">https://github.com/umano/AndroidSlidingUpPanel</string>
+    <string name="about_tanzil">Tanzil</string>
+    <string name="about_tanzil_summary">Vertalingen voor enkele talen</string>
+    <string name="about_tanzil_url">http://tanzil.net</string>
+    <string name="about_timber">Timber</string>
+    <string name="about_timber_url">https://github.com/JakeWharton/timber</string>
+    <string name="app_name">Koran</string>
+    <string name="audio_updated_text">Verschillende koran-audiobestanden zijn bijgewerkt. Koran heeft uw exemplaar van deze bestanden verwijderd, zodat de nieuwste versies kunnen worden gedownload de volgende keer dat u ze afspeelt.</string>
+    <string name="audio_updated_title">Koran Audiobestanden Update</string>
+    <string name="available_translations">Beschikbaar om te downloaden</string>
+    <string name="ayah_copied_popup">Ayah Gekopieerd</string>
+    <string name="bookmark_ayah">Bladwijzer deze Ayah</string>
+    <string name="bookmarks_empty_subtitle">Tik op het bladwijzerpictogram om een pagina op te slaan, of houd een ayah ingedrukt om deze als bladwijzer te markeren.</string>
+    <string name="bookmarks_empty_title">Nog geen bladwijzers</string>
+    <string name="bookmarks_list_empty">Geen bladwijzers</string>
+    <string name="cancel">Annuleer</string>
+    <string name="canceling">Annuleren…</string>
+    <string name="copy_ayah">Kopieer Ayah</string>
+    <string name="default_collection">Favorieten</string>
+    <string name="delete">Verwijderen</string>
+    <string name="delete_tag">Verwijder Tag</string>
+    <string name="delete_translation">Vertaling verwijderen</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Er is een kleine maar belangrijke update voor de koranafbeeldingen die je op je apparaat hebt staan. Wilt u deze patch nu downloaden?</string>
+    <string name="downloadPrompt">Om Koran Android goed te laten werken, moeten we enkele bestanden downloaden. Doe je dit nu niet, dan is de app werkt mogelijk niet betrouwbaar en vereist een internetverbinding om te lezen. Wilt u de benodigde bestanden nu downloaden?</string>
+    <string name="downloadPrompt_no">Nee</string>
+    <string name="downloadPrompt_ok">Ja</string>
+    <string name="downloadPrompt_title">Benodigde bestanden downloaden?</string>
+    <string name="downloadTabletPrompt">We hebben onlangs verbeterde afbeeldingen voor tablets toegevoegd. Wilt u deze afbeeldingen nu downloaden?</string>
+    <string name="download_cancel">Annuleren</string>
+    <string name="download_error_disk">Niet genoeg schijfruimte om te downloaden</string>
+    <string name="download_error_general">Downloaden mislukt</string>
+    <string name="download_error_invalid_download">Gedownloade bestand was beschadigd</string>
+    <string name="download_error_invalid_download_retry">Beschadigd bestand, opnieuw downloaden wordt geprobeerd</string>
+    <string name="download_error_network">Downloaden mislukt vanwege netwerkfout</string>
+    <string name="download_error_network_retry">Netwerkfout, proberen te hervatten…</string>
+    <string name="download_error_perms">Downloaden mislukt vanwege machtigingsfout</string>
+    <string name="download_extra_data">We moeten een of twee kleine bestanden downloaden om delen en vertalen te ondersteunen. Download nu?</string>
+    <string name="download_non_wifi_prompt">U bent niet verbonden met Wi-Fi. Data toch downloaden?</string>
+    <string name="download_processing">Download verwerken…</string>
+    <string name="download_retry">Opnieuw Proberen</string>
+    <string name="download_successful">Download succesvol</string>
+    <string name="downloaded_translations">Gedownload</string>
+    <string name="downloading">Downloaden…</string>
+    <string name="downloading_message">Wacht tot de bestanden zijn gedownload (hervatting wordt ondersteund).</string>
+    <string name="edit_tag">Bewerk Tag</string>
+    <string name="email_us">Als uw vraag hierboven niet wordt beantwoord, kunt u een e-mail sturen naar quranandroid@gmail.com voor ondersteuning. Houd er rekening mee dat we veel e-mails ontvangen, dus we kunnen ze mogelijk niet allemaal beantwoorden.</string>
+    <string name="error_getting_translation_list">Kan de lijst met vertalingen niet downloaden. Probeer het later opnieuw.</string>
+    <string name="export_data_error">Fout bij exporteren van gegevens</string>
+    <string name="exported_data">Gegevens geëxporteerd naar %1$s</string>
+    <string name="extracting_title">Verwerken…</string>
+    <string name="found_in_sura">Gevonden in Soera (%1$d) %2$s: %3$d (pagina %4$d)</string>
+    <string name="from">Van</string>
+    <string name="get_arabic_search_db">Arabische zoekdatabase verkrijgen</string>
+    <string name="get_translations">Vertalingen Ophalen</string>
+    <string name="gotoPage">Ga naar pagina</string>
+    <string name="help">&lt;b&gt;Hoe speel ik audio af?&lt;/b&gt; &lt;br/&gt;Open een willekeurige pagina van de Koran. Tik eenmaal op het scherm. Onderaan zie je een afspeelknop en wat tekst met de naam van een qari. Klik op de naam van de qari om een andere qari te kiezen. Klik op afspelen om de huidige pagina of sura te downloaden en af te spelen. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hoe bekijk ik de vertaling?&lt;/b&gt; &lt;br/&gt;Open een willekeurige pagina van de Koran. Tik eenmaal op het scherm. Bovenaan zie je een wereldbolpictogram (of, als je het niet ziet, klik op een pictogram met drie vierkante stippen) - klik hierop en kies vertaling om de vertaling te bekijken. &lt;br/&gt; Als je geen vertalingen hebt gedownload, brengt het je naar een scherm waar je vertalingen kunt downloaden. Kies en download een vertaling, keer dan terug en tik opnieuw op het wereldbolpictogram om de vertaling te bekijken. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hoe maak ik een bladwijzer van een pagina?&lt;/b&gt; &lt;br/&gt;Open een willekeurige pagina van de Koran. Tik eenmaal op het scherm. Rechtsboven zie je een bladwijzerpictogram. Tik op het bladwijzerpictogram om de pagina als bladwijzer toe te voegen (de kleur wordt wit). Tik opnieuw op het bladwijzerpictogram om de bladwijzer te verwijderen. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hoe maak ik de tekst groter?&lt;/b&gt; &lt;br/&gt;Houd je telefoon in landschapsmodus voor de Arabische pagina\'s. Dit maakt de tekst groter. Voor vertalingen ga je naar de instellingen en stel je de grootte van de vertalingstekst in. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Hoe deel ik een ayah?&lt;/b&gt; &lt;br/&gt;Terwijl je op een willekeurige Arabische pagina bent, druk en houd je op een ayah om een menu te krijgen waar je kunt kiezen om de ayah als bladwijzer te markeren, delen of kopiëren naar het klembord, de vertaling te bekijken, of naar de recitatie te luisteren. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Malayalam/Tamil/Bengali/Urdu-lettertypen werken niet!&lt;/b&gt; &lt;br/&gt;Helaas ondersteunen Android-versies vóór 4.0 deze lettertypen niet en er is weinig dat we hieraan kunnen doen.</string>
+    <string name="help_title">Veel Gestelde Vragen</string>
+    <string name="highlight_color_blue">Blauw</string>
+    <string name="highlight_color_green">Groen</string>
+    <string name="highlight_color_purple">Paars</string>
+    <string name="highlight_color_yellow">Geel</string>
+    <string name="highlighting_database">Vereiste Bestanden</string>
+    <string name="icon_reveal_body">De Quran-app draagt nu het gedeelde merkteken van een familie van hulpmiddelen rond het woord van Allah. Je bladwijzers, voortgang en instellingen staan precies waar je ze hebt gelaten.</string>
+    <string name="icon_reveal_title">Ons nieuwe icoon is er</string>
+    <string name="import_data">Gegevens importeren</string>
+    <string name="import_data_and_merge">Als je dit bestand importeert, worden %1$d bladwijzers en %2$d tags aan je huidige gegevens toegevoegd. Importeren?</string>
+    <string name="import_data_error">Ongeldig back-upbestand (of kan back-upbestand niet lezen).</string>
+    <string name="import_data_permissions_error">Kan back-upbestand niet lezen vanwege toestemmingsfout.</string>
+    <string name="import_successful">Importeren voltooid</string>
+    <string name="juz2_description">Juz\' %1$s</string>
+    <string name="kitkat_external_message">Vanwege beperkingen in Android, als u ervoor kiest om Koran-gegevens op uw externe SD-kaart te plaatsen en later Koran Android verwijdert of gegevens wist, worden alle pagina\'s en audio van Koran Android verwijderd en moet u deze opnieuw downloaden. Weet u zeker dat u de externe SD-kaart wilt gebruiken?</string>
+    <string name="loading">Laden…</string>
+    <string name="logs_email">quranandroid+logs@gmail.com</string>
+    <string name="madani">Madani</string>
+    <string name="makki">Makki</string>
+    <string name="menu_about">Over Ons</string>
+    <string name="menu_back_to_page">Toon Koran</string>
+    <string name="menu_bookmarks">Bladwijzers</string>
+    <string name="menu_bookmarks_page">Pagina Bladwijzers</string>
+    <string name="menu_get_translations">Ontvang vertalingen</string>
+    <string name="menu_help">Hulp</string>
+    <string name="menu_jump">Ga naar pagina</string>
+    <string name="menu_jump_last_page">Laatste Pagina</string>
+    <string name="menu_other_apps">Andere apps</string>
+    <string name="menu_search">Zoeken</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="menu_show_date">Datum tonen</string>
+    <string name="menu_show_recents">Recente pagina\'s</string>
+    <string name="menu_sort">Sorteer</string>
+    <string name="menu_sort_date">Datum Toegevoegd</string>
+    <string name="menu_sort_group_by_tags">Groeperen op tags</string>
+    <string name="menu_sort_location">Locatie in de Koran</string>
+    <string name="menu_translation">Toon vertaling</string>
+    <string name="more_arabic">المزيد…</string>
+    <string name="more_translations">Meer vertalingen</string>
+    <string name="move_down">Omlaag verplaatsen</string>
+    <string name="move_up">Omhoog verplaatsen</string>
+    <string name="need_translation">U heeft nog geen vertalingen/tafaseer gedownload.</string>
+    <string name="new_tag">Nieuwe Tag</string>
+    <string name="next">Volgende</string>
+    <string name="no_arabic_search_available">U heeft het Arabische zoekpakket niet gedownload. Download het alstublieft en probeer uw zoekopdracht opnieuw.</string>
+    <string name="no_results">Geen resultaten gevonden voor \"%s\"</string>
+    <string name="notification_channel_audio">Koran Recitaties</string>
+    <string name="notification_channel_download">Koran Downloads</string>
+    <string name="notification_download_canceled">Download geannuleerd</string>
+    <string name="old_page_bookmarks">Oude paginabladwijzers</string>
+    <string name="page_description">Pagina %1$s, Juz\' %2$s</string>
+    <string name="pause">Pauzeren</string>
+    <string name="play">Afspelen</string>
+    <string name="play_apply">Toepassen</string>
+    <string name="play_apply_and_play">Toepassen en Afspelen</string>
+    <string name="play_each_verse">Speel elke vers af:</string>
+    <string name="play_from">Van</string>
+    <string name="play_from_here">Afspelen van hier</string>
+    <string name="play_restrict_range">Speel alleen bovenstaande verzen</string>
+    <string name="play_to">Naar</string>
+    <string name="play_verses_range">Speel een set van verzen af:</string>
+    <string name="playback_prompt_title">Begin met afspelen vanaf:</string>
+    <string name="playback_speed">Afspeelsnelheid:</string>
+    <string name="please_grant_permissions">Verleen toestemming in de applicatie-instellingen</string>
+    <string name="please_wait">Even geduld aub…</string>
+    <string name="prefs_app_location_summary">Kies waar Koran-bestanden moeten worden opgeslagen</string>
+    <string name="prefs_app_location_title">Koran gegevensmap</string>
+    <string name="prefs_app_size">Huidige gegevensgrootte is</string>
+    <string name="prefs_audio_manager">audio_manager</string>
+    <string name="prefs_audio_manager_summary">Koran audio beheren en downloaden</string>
+    <string name="prefs_ayah_before_translation_summary">Toon ayah in het Arabisch boven de vertaling</string>
+    <string name="prefs_ayah_before_translation_title">Ayah vóór vertaling</string>
+    <string name="prefs_calculating_app_size">App-grootte berekenen</string>
+    <string name="prefs_category_advanced">Geavanceerde opties</string>
+    <string name="prefs_category_advanced_summary">Bladwijzers importeren/exporteren, Koran-gegevensdirectory instellen, enzovoort.</string>
+    <string name="prefs_category_display_settings">Weergave-instellingen</string>
+    <string name="prefs_category_download">Downloadopties</string>
+    <string name="prefs_category_dual_screen">Voorkeuren voor dubbele pagina\'s</string>
+    <string name="prefs_category_reading">Leesvoorkeuren</string>
+    <string name="prefs_category_translation">Vertaalvoorkeuren</string>
+    <string name="prefs_copying_app_files">App-bestanden kopiëren</string>
+    <string name="prefs_display_marker_summary">Popup tonen bij het bereiken van juz\', hizb, enz.</string>
+    <string name="prefs_display_marker_title">Popup-markeringen tonen</string>
+    <string name="prefs_download_amount_summary">Voorkeurshoeveelheid voor het downloaden van niet-gapless audio</string>
+    <string name="prefs_download_amount_title">Downloadhoeveelheid</string>
+    <string name="prefs_dual_page_mode_disabled">In landschapmodus wordt slechts één pagina weergegeven.</string>
+    <string name="prefs_dual_page_mode_enabled">In landschapmodus worden twee pagina\'s naast elkaar weergegeven.</string>
+    <string name="prefs_dual_page_mode_title">Dubbele Paginamodus</string>
+    <string name="prefs_err_moving_app_files">Fout bij het verplaatsen van app-bestanden</string>
+    <string name="prefs_export_csv_summary">Exporteer een kopie van bladwijzers en tags naar CSV</string>
+    <string name="prefs_export_csv_title">Exporteren naar CSV</string>
+    <string name="prefs_export_summary">Exporteer een kopie van bladwijzers en tags</string>
+    <string name="prefs_export_title">Exporteren</string>
+    <string name="prefs_highlight_bookmarks_summary">Gemarkeerde ayah\'s markeren tijdens het lezen</string>
+    <string name="prefs_highlight_bookmarks_title">Bladwijzers markeren</string>
+    <string name="prefs_import_summary">Importeer bladwijzers en tags</string>
+    <string name="prefs_import_title">Importeren</string>
+    <string name="prefs_landscape_orientation_summary_off">Gebruik altijd de staande modus</string>
+    <string name="prefs_landscape_orientation_summary_on">Gebruik altijd de liggende modus</string>
+    <string name="prefs_landscape_orientation_title">Liggende modus</string>
+    <string name="prefs_lock_orientation_summary_off">Aanpasbare oriëntatiemodus</string>
+    <string name="prefs_lock_orientation_summary_on">Gebruik de modus voor vaste oriëntatie</string>
+    <string name="prefs_lock_orientation_title">Schermoriëntatie vergrendelen</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_megabytes_str">download_amount_in_megabytes</string>
+    <string name="prefs_night_mode_background_brightness_title">Achtergrondhelderheid</string>
+    <string name="prefs_night_mode_text_brightness_title">Teksthelderheid</string>
+    <string name="prefs_no_enough_space_to_move_files">Onvoldoende ruimte om app-bestanden te verplaatsen</string>
+    <string name="prefs_overlay_page_info_summary">Overlay van paginanummer, soera naam en juz\' nummer tijdens het lezen</string>
+    <string name="prefs_overlay_page_info_title">Paginagegevens tonen</string>
+    <string name="prefs_page_type_summary">Selecteer het type leespagina\'s</string>
+    <string name="prefs_page_type_title">Paginatype (experimenteel)</string>
+    <string name="prefs_preview">Voorbeeld</string>
+    <string name="prefs_sdcard_external">Externe opslag %1$d</string>
+    <string name="prefs_sdcard_internal">Intern geheugen</string>
+    <string name="prefs_send_logs_summary">Debug logs naar de ontwikkelaar verzenden</string>
+    <string name="prefs_send_logs_title">Logs verzenden</string>
+    <string name="prefs_split_page_and_translation_summary">In dubbele paginamodus met vertalingen, koranpagina en vertaling wordt weergegeven</string>
+    <string name="prefs_split_page_and_translation_title">Koran en vertaling in dubbele modus</string>
+    <string name="prefs_streaming_summary">Audio streamen in plaats van downloaden</string>
+    <string name="prefs_streaming_title">Streamen</string>
+    <string name="prefs_sura_translated_name_summary">Toon de vertaling van de naam van de soera</string>
+    <string name="prefs_sura_translated_name_title">Vertaalde naam van soera</string>
+    <string name="prefs_translation_text_title">Tekstgrootte van vertalingen</string>
+    <string name="prefs_translations">Vertalingen</string>
+    <string name="prefs_translations_summary">Vertalingen downloaden en beheren</string>
+    <string name="prefs_use_arabic_summary_on">Gebruik Arabisch voor de toepassingsinterface</string>
+    <string name="prefs_use_arabic_title">Arabische modus (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Vertalingen weergeven in een dyslexie-vriendelijk lettertype</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexie-vriendelijk lettertype</string>
+    <string name="prefs_volume_key_navigation_summary">Blader tussen pagina\'s met de volumetoetsen</string>
+    <string name="prefs_volume_key_navigation_title">Volume-toets navigatie</string>
+    <string name="previous">Vorige</string>
+    <string name="process_progress">Bestand verwerken %1$d / %2$d</string>
+    <string name="qari_abdulaziz_zahrani_gapless">Abdulaziz Az-Zahrani</string>
+    <string name="qari_abdulbaset">Abd Al-Basit (pauzes)</string>
+    <string name="qari_abdulbaset_gapless">Abd Al-Basit</string>
+    <string name="qari_abdulbaset_mujawwad">Abd Al-Basit Mujawwad (pauzes)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">Abd Al-Basit Mujawwad</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
+    <string name="qari_abdullah_matroud_gapless">Abdullah Matroud</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">Abdul Mohsen Al-Qasim</string>
+    <string name="qari_abdulrahman_alshahat_gapless">Abdulrahman Al-Shahat</string>
+    <string name="qari_abdurrashid_sufi_gapless">Abdur-Rashid Sufi</string>
+    <string name="qari_afasy">Mishary Al-Afasy (pauzes)</string>
+    <string name="qari_afasy_cali_gapless">Mishari Al-Afasy (Californië)</string>
+    <string name="qari_afasy_gapless">Mishary Al-Afasy</string>
+    <string name="qari_ahmad_nauina_gapless">Ahmad Nauina</string>
+    <string name="qari_ahmed_al_nufais_gapless">Ahmed Al-Nufais</string>
+    <string name="qari_ajamy_gapless">Ahmed ibn Ali al-Ajamy</string>
+    <string name="qari_akram_al_alaqmi">Akram Al-Alaqmi</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">Ali Hajjaj Alsouasi</string>
+    <string name="qari_ali_jaber_gapless">Ali Jaber</string>
+    <string name="qari_alijon_qari_gapless">Alijon Qari</string>
+    <string name="qari_aloosi_gapless">Abdul Rahman Aloosi</string>
+    <string name="qari_alzain_ahmad_gapless">Alzain Muhammad Ahmad</string>
+    <string name="qari_ayman_suwaid_gapless">Ayman Suwaid</string>
+    <string name="qari_ayman_suwaid_gapped">Ayman Suwaid (pauzes)</string>
+    <string name="qari_ayyoub">Muhammad Ayyoub (pauzes)</string>
+    <string name="qari_ayyoub_gapless">Muhammad Ayyoub</string>
+    <string name="qari_aziz_alili_gapless">Aziz Alili</string>
+    <string name="qari_badr_al_turki_gapless">Badr Al-Turki</string>
+    <string name="qari_bandar_baleela_gapless">Bandar Baleela</string>
+    <string name="qari_basfar">Abdullah Basfar (pauzes)</string>
+    <string name="qari_basfar_gapless">Abdullah Basfar</string>
+    <string name="qari_dussary">Yasser Ad-Dussary (pauzes)</string>
+    <string name="qari_fares_abbad_gapless">Fares Abbad</string>
+    <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+    <string name="qari_hady_toure_gapless">Hady Toure</string>
+    <string name="qari_hani_rifai">Hani Ar-Rifai (pauzes)</string>
+    <string name="qari_hani_rifai_gapless">Hani Ar-Rifai</string>
+    <string name="qari_hudhayfi">Ali Al-Hudhaify (pauzes)</string>
+    <string name="qari_hudhayfi_gapless">Ali Al-Hudhaify</string>
+    <string name="qari_husary_gapless">Husary</string>
+    <string name="qari_husary_iza3a_gapless">Husary Broadcast</string>
+    <string name="qari_husary_muallim_gapless">Husar (Muallim)</string>
+    <string name="qari_husary_mujawwad">Husary Mujawwad (pauzes)</string>
+    <string name="qari_husary_mujawwad_gapless">Husary (Mujawwad)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">Ibrahim Al-Akhdar</string>
+    <string name="qari_idrees_abkar_gapless">Idrees Abkar</string>
+    <string name="qari_jibreel">Muhammad Jibreel (pauzes)</string>
+    <string name="qari_jibreel_gapless">Muhammad Jibreel</string>
+    <string name="qari_juhany_gapless">Abdullah Al-Juhany</string>
+    <string name="qari_khaled_muhanna_gapless">Khaled Al-Muhanna</string>
+    <string name="qari_khalid_jalil_gapless">Khalid Al-Jalil</string>
+    <string name="qari_khalid_qahtani_gapless">Khalid Al Qahtani</string>
+    <string name="qari_khalifa_taniji_gapless">Khalifa Taniji</string>
+    <string name="qari_luhaidan_gapless">Muhammad Al-Luhaidan</string>
+    <string name="qari_mahmoud_ali_albana_gapless">Mahmoud Ali al Bana</string>
+    <string name="qari_minshawi_mujawwad">Minshawy Mujawwad (pauzes)</string>
+    <string name="qari_minshawi_mujawwad_gapless">Minshawy Mujawwad</string>
+    <string name="qari_minshawi_murattal_gapless">Minshawi Murattal</string>
+    <string name="qari_mishari_walk_gapless">Mishari &amp; Ibrahim Walk (Engels)</string>
+    <string name="qari_mohammad_altablawi_gapless">Mohammad al Tablawy</string>
+    <string name="qari_mokhtasar_asmari_gapless">Abdullah Al-Asmari (Arabisch commentaar)</string>
+    <string name="qari_mostafa_ismaeel_gapless">Mostafa Ismaeel</string>
+    <string name="qari_muaiqly">Maher Al Muaiqly (pauzes)</string>
+    <string name="qari_muaiqly_gapless">Maher Al Muaiqly</string>
+    <string name="qari_muaiqly_haramain_gapless">Maher Al Muaiqly (Haramain)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">Muhammad Rashad Al-Scherif</string>
+    <string name="qari_nabil_rifa3i_gapless">Nabil Ar-Rifai</string>
+    <string name="qari_noreen_siddiq_gapless">Noreen Siddiq</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
+    <string name="qari_qatami_gapless">Nasser Al Qatami</string>
+    <string name="qari_raad_al_kurdi_gapless">Raad Al-Kurdi</string>
+    <string name="qari_saad_al_ghamdi">Saad Al-Ghamdi (pauzes)</string>
+    <string name="qari_saad_al_ghamidi_gapless">Saad Al-Ghamdi</string>
+    <string name="qari_sahl_yaseen_gapless">Sahl Yaseen</string>
+    <string name="qari_salah_budair_gapless">Salah Budair</string>
+    <string name="qari_salah_bukhatir_gapless">Salah Bukhatir</string>
+    <string name="qari_shatri">Abu Bakr Ash-Shatri (pauzes)</string>
+    <string name="qari_shatri_gapless">Abu Bakr Ash-Shatri</string>
+    <string name="qari_shuraym">Saood Ash-Shuraym (pauzes)</string>
+    <string name="qari_shuraym_gapless">Saood Ash-Shuraym</string>
+    <string name="qari_suadis">Abdurrahmaan As-Sudais (pauzes)</string>
+    <string name="qari_sudais_gapless">Abdurrahman As-Sudais</string>
+    <string name="qari_tablawy">Mohammad al Tablaway (pauzes)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">Tawfeeq as-Sawaigh</string>
+    <string name="qari_wadee3_alyamani_gapless">Wadee\' Al-Yamani</string>
+    <string name="qari_walk">Ibrahim Walk (Engelse vertaling)</string>
+    <string name="qari_walk_gapless">Ibrahim Walk (Engelse vertaling)</string>
+    <string name="qari_yasser_dussary_gapless">Yasser Ad-Dussary</string>
+    <string name="qari_yasser_salama_hadr_gapless">Yasser Salama (hadr)</string>
+    <string name="qarilist_dismiss">Ontsla</string>
+    <string name="qarilist_gapless">continu</string>
+    <string name="qarilist_gapped">niet-continu</string>
+    <string name="qarilist_qaris_with_downloads">Recitanten met Downloads</string>
+    <string name="qarilist_ready_to_play">Klaar om te luisteren</string>
+    <string name="qarilist_select_qari">Kies een Qari</string>
+    <string name="qarilist_selected">Geselecteerd</string>
+    <string name="quranSearchType">Verzen van de Koran</string>
+    <string name="quran_ayah">Ayah %1$d</string>
+    <string name="quran_ayah_details">%1$s - Ayah %2$s, Juz\' %3$s</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Juz\'</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Pagina</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Soera</string>
+    <string name="quran_sura_title">Soera %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Sluiten</string>
+    <string name="reading_bookmark_movable_education_body">Het opslaan van een leesbladwijzer vervangt de oude. Houd een Ayah ingedrukt en voeg deze toe aan een collectie om meerdere Ayahs op te slaan.</string>
+    <string name="reading_bookmark_movable_education_title">Dit is een verplaatsbare leesbladwijzer</string>
+    <string name="reading_bookmark_moved_from">Verplaatst van %1$s</string>
+    <string name="reading_bookmark_red">Rood</string>
+    <string name="recent_pages">Recente pagina\'s</string>
+    <string name="recite_from_here">Reciteer vanaf hier</string>
+    <string name="remove_button">Verwijder</string>
+    <string name="remove_dlg_msg">Weet u zeker dat u de %1$s wilt verwijderen?</string>
+    <string name="remove_dlg_title">Vertaling Verwijderen?</string>
+    <string name="scoped_storage_message">Vanwege wijzigingen in Android om de privacy van gebruikers te vergroten, kan het kopiëren van bestanden buiten de app-mappen voorkomen dat Koran in toekomstige versies van Android toegang heeft tot zijn gegevens. Weet u zeker dat u deze locatie wilt gebruiken?</string>
+    <string name="sdcard_error">SD-kaart niet gevonden. Monteer de kaart en probeer opnieuw.</string>
+    <string name="search_data">Data Zoeken</string>
+    <string name="search_entire_mushaf">Doorzoek de hele mushaf</string>
+    <string name="search_full_results">Volledige resultaten</string>
+    <string name="search_hint">Zoek in de Koran</string>
+    <string name="search_key">Druk op de zoek-toets om een vers te zoeken.</string>
+    <string name="see_tafseer_of_verse">De tafseer van deze ayah is inbegrepen bij de tafseer van ayah %d (Klik om uit te vouwen).</string>
+    <string name="share_ayah">Deel Ayah Link</string>
+    <string name="share_ayah_text">Deel Ayah Tekst</string>
+    <string name="starting_page_label">Begin van Pagina</string>
+    <string name="stop">Onderbreken</string>
+    <string name="storage_permission_please_restart">Start de app opnieuw op zodat de wijzigingen van kracht worden.</string>
+    <string name="storage_permission_rationale">Koran wil toestemming om zijn gegevens op externe opslag op te slaan. Koran werkt zonder deze toestemming, maar als u gegevens wist of de app verwijdert, worden alle gedownloade pagina\'s, audio en gegevens verwijderd. Wilt u Koran toestemming geven?</string>
+    <string name="sura_ayah">%1$d:%2$d</string>
+    <string name="sura_ayah_notification_str">Soera %1$s, Ayah %2$d</string>
+    <string name="sura_ayah_sharing_str">Soera %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">Tagnaam mag niet leeg zijn!</string>
+    <string name="tag_bookmark">Tag Bladwijzer</string>
+    <string name="tag_dlg_title">Tags</string>
+    <string name="tag_duplicate_tag_error">Tagnaam bestaat al!</string>
+    <string name="tag_name">Naam</string>
+    <string name="timing_database">Vereiste Bestanden</string>
+    <string name="to">Naar</string>
+    <string name="translation_ayah">Ayah Vertaling/Tafseer</string>
+    <string name="translation_dialog_later">Later</string>
+    <string name="translation_dialog_yes">Ja</string>
+    <string name="translation_updates_available">Er is een update beschikbaar voor sommige van uw vertalingen. Wilt u nu naar het vertalingenscherm gaan?</string>
+    <string name="translations">Vertalingen</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="update_available">Update beschikbaar</string>
+    <string name="warning">Waarschuwing</string>
+    <string name="whats_new_continue">Doorgaan</string>
+    <string-array name="repeatValues">
+        <item>1 keer</item>
+        <item>2 keer</item>
+        <item>3 keer</item>
+        <item>lus</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fātihah</item>
+        <item>Al-Baqarah</item>
+        <item>Āli-ʿImrān</item>
+        <item>An-Nisāʾ</item>
+        <item>Al-Māʾidah</item>
+        <item>Al-Anʿām</item>
+        <item>Al-Aʿrāf</item>
+        <item>Al-Anfāl</item>
+        <item>At-Tawbah</item>
+        <item>Yūnus</item>
+        <item>Hūd</item>
+        <item>Yūsuf</item>
+        <item>Ar-Raʿd</item>
+        <item>Ibrāhīm</item>
+        <item>Al-Ḥijr</item>
+        <item>An-Naḥl</item>
+        <item>Al-Isrāʾ</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ṭā-Hā</item>
+        <item>Al-Anbiyāʾ</item>
+        <item>Al-Ḥajj</item>
+        <item>Al-Muʾminūn</item>
+        <item>An-Nūr</item>
+        <item>Al-Furqān</item>
+        <item>Ash-Shuʿarāʾ</item>
+        <item>An-Naml</item>
+        <item>Al-Qaṣaṣ</item>
+        <item>Al-ʿAnkabūt</item>
+        <item>Ar-Rūm</item>
+        <item>Luqmān</item>
+        <item>As-Sajdah</item>
+        <item>Al-Aḥzāb</item>
+        <item>Sabaʾ</item>
+        <item>Fāṭir</item>
+        <item>Yā-Sīn</item>
+        <item>Aṣ-Ṣāffāt</item>
+        <item>Ṣād</item>
+        <item>Az-Zumar</item>
+        <item>Ghāfir</item>
+        <item>Fuṣṣilat</item>
+        <item>Ash-Shūrā</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhān</item>
+        <item>Al-Jāthiyah</item>
+        <item>Al-Aḥqāf</item>
+        <item>Muḥammad</item>
+        <item>Al-Fatḥ</item>
+        <item>Al-Ḥujurāt</item>
+        <item>Qāf</item>
+        <item>Adh-Dhāriyāt</item>
+        <item>Aṭ-Ṭūr</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Raḥmān</item>
+        <item>Al-Wāqiʿah</item>
+        <item>Al-Ḥadīd</item>
+        <item>Al-Mujādilah</item>
+        <item>Al-Ḥashr</item>
+        <item>Al-Mumtaḥanah</item>
+        <item>Aṣ-Ṣaff</item>
+        <item>Al-Jumuʿah</item>
+        <item>Al-Munāfiqūn</item>
+        <item>At-Taghābun</item>
+        <item>Aṭ-Ṭalāq</item>
+        <item>At-Taḥrīm</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Ḥāqqah</item>
+        <item>Al-Maʿārij</item>
+        <item>Nūḥ</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyāmah</item>
+        <item>Al-Insān</item>
+        <item>Al-Mursalāt</item>
+        <item>An-Nabaʾ</item>
+        <item>An-Nāziʿāt</item>
+        <item>ʿAbasa</item>
+        <item>At-Takwīr</item>
+        <item>Al-Infiṭār</item>
+        <item>Al-Muṭaffifīn</item>
+        <item>Al-Inshiqāq</item>
+        <item>Al-Burūj</item>
+        <item>Aṭ-Ṭāriq</item>
+        <item>Al-Aʿlā</item>
+        <item>Al-Ghāshiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Aḍ-Ḍuḥā</item>
+        <item>Ash-Sharḥ</item>
+        <item>At-Tīn</item>
+        <item>Al-ʿAlaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-ʿĀdiyāt</item>
+        <item>Al-Qāriʿah</item>
+        <item>At-Takāthur</item>
+        <item>Al-ʿAṣr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fīl</item>
+        <item>Quraysh</item>
+        <item>Al-Māʿūn</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kāfirūn</item>
+        <item>An-Naṣr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlāṣ</item>
+        <item>Al-Falaq</item>
+        <item>An-Nās</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>De Opening</item>
+        <item>De Koe</item>
+        <item>De Familie van Imran</item>
+        <item>De Vrouwen</item>
+        <item>De Tafel</item>
+        <item>Het Vee</item>
+        <item>De Kantelen</item>
+        <item>De Buit</item>
+        <item>Het Berouw</item>
+        <item>De Profeet Jonas</item>
+        <item>De Profeet Hūd</item>
+        <item>De Profeet Jozef</item>
+        <item>De Donder</item>
+        <item>Abraham</item>
+        <item>Al-Hidjr</item>
+        <item>De Bijen</item>
+        <item>De Nachtreis</item>
+        <item>De Grot</item>
+        <item>Maryam</item>
+        <item>Ta-Ha</item>
+        <item>De Profeten</item>
+        <item>De Bedevaart</item>
+        <item>De Gelovigen</item>
+        <item>Het Licht</item>
+        <item>Het Reddend Onderscheidingsmiddel</item>
+        <item>De Dichters</item>
+        <item>De Mieren</item>
+        <item>Het Verhaal</item>
+        <item>De Spin</item>
+        <item>De Romeinen</item>
+        <item>Luqmān</item>
+        <item>De Eerbiedige Neerbuiging</item>
+        <item>De Partijen</item>
+        <item>Saba</item>
+        <item>De Engelen</item>
+        <item>Ya Sin</item>
+        <item>De Zich Opstellenden</item>
+        <item>De Arabische Letter \"Saad\"</item>
+        <item>De Drommen</item>
+        <item>Hij Die Vergeeft</item>
+        <item>Zij Zijn Uiteengezet</item>
+        <item>Het Beraad</item>
+        <item>Pracht en Praal</item>
+        <item>De Rook</item>
+        <item>De Neergeknielden</item>
+        <item>De Zandduinen</item>
+        <item>Mohammed صَلَّى ٱللَّهُ عَلَيۡهِ وَسَلَّمَ</item>
+        <item>Het Succes</item>
+        <item>De Binnenste Vertrekken</item>
+        <item>De Arabische Letter \"Qaf\"</item>
+        <item>De Schiftende Winden</item>
+        <item>De Berg</item>
+        <item>De Sterren</item>
+        <item>De Maan</item>
+        <item>De Weldadige, de Weldoener</item>
+        <item>Het Onvermijdelijke</item>
+        <item>IJzer</item>
+        <item>De Vrouw die pleitte</item>
+        <item>Exodus, Ballingschap</item>
+        <item>De Vrouw die ondervraagd werd</item>
+        <item>De Gelederen</item>
+        <item>Vrijdag</item>
+        <item>De Hypocrieten</item>
+        <item>Wederzijdse Winst en Verlies</item>
+        <item>De Scheiding</item>
+        <item>Verbod</item>
+        <item>Heerschappij</item>
+        <item>De Pen</item>
+        <item>De Realiteit</item>
+        <item>De Stijgende Trap(pen)</item>
+        <item>(de profeet) Nuh</item>
+        <item>De Djinns</item>
+        <item>Degene Gekleed in een Mantel</item>
+        <item>Degene Omwikkeld met Gewaden</item>
+        <item>De Wederopstanding</item>
+        <item>De Mensheid</item>
+        <item>De Afgezanten</item>
+        <item>De Aankondiging</item>
+        <item>Zij die (de ziel) wegrukken (Engelen)</item>
+        <item>Hij Fronste</item>
+        <item>Het Rollen (of Opvouwen, Omverwerpen)</item>
+        <item>De Splijting</item>
+        <item>De Oplichters</item>
+        <item>De Scheuring</item>
+        <item>De Sterrenstelsels</item>
+        <item>De Heldere Ster (\"Nachtkomer\")</item>
+        <item>De Hoogste</item>
+        <item>De Overweldiging</item>
+        <item>De Dageraad</item>
+        <item>De Stad</item>
+        <item>De Zon</item>
+        <item>De Nacht</item>
+        <item>De Voormiddag</item>
+        <item>Soelaas</item>
+        <item>De Vijg</item>
+        <item>De Klonter</item>
+        <item>Het Noodlot</item>
+        <item>Het (duidelijke) Bewijs</item>
+        <item>De Aardbeving</item>
+        <item>De Renners (Paarden)</item>
+        <item>Dag des Oordeels</item>
+        <item>De Vergaring (van goederen)</item>
+        <item>De Namiddag</item>
+        <item>De Roddelaar, Lasteraar</item>
+        <item>De Olifant</item>
+        <item>De Qoeraisj</item>
+        <item>Kleine Vriendelijkheden, Liefdadigheid</item>
+        <item>De (Rivier/Bron van) Overvloed</item>
+        <item>De Ongelovigen</item>
+        <item>Goddelijke Hulp</item>
+        <item>Doorns, Palmvezels</item>
+        <item>Oprechtheid</item>
+        <item>De Dageraad</item>
+        <item>De Mensheid</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d collectie</item>
+        <item quantity="other">%d collecties</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Eén item verwijderd</item>
+        <item quantity="other">%d items verwijderd</item>
+    </plurals>
+    <plurals name="plural_recent_pages">
+        <item quantity="one">@string/menu_jump_last_page</item>
+        <item quantity="other">@string/recent_pages</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">Eén resultaat voor \"%1$s\":</item>
+        <item quantity="other">%2$d resultaten voor \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">Eén vers</item>
+        <item quantity="other">%s verzen</item>
+    </plurals>
+</resources>

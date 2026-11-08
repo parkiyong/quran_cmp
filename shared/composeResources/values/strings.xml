@@ -1,15 +1,963 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="label_title">Title</string>
-    <string name="label_artist">Artist</string>
-    <string name="label_date">Date</string>
-    <string name="label_dimensions">Dimensions</string>
-    <string name="label_medium">Medium</string>
-    <string name="label_department">Department</string>
-    <string name="label_repository">Repository</string>
-    <string name="label_credits">Credits</string>
-
-    <string name="back">Back</string>
-
-    <string name="no_data_available">No data available</string>
+    <string name="about_androidx">AndroidX</string>
+    <string name="about_androidx_url">https://developer.android.com/jetpack/androidx</string>
+    <string name="about_contributors">Contributors</string>
+    <string name="about_contributors_summary">A list of people who contributed to the development of Quran for Android</string>
+    <string name="about_contributors_url">https://github.com/quran/quran_android/blob/main/CONTRIBUTORS.md</string>
+    <string name="about_dagger2">Dagger 2</string>
+    <string name="about_dagger2_url">https://google.github.io/dagger</string>
+    <string name="about_data_sources">Data Sources</string>
+    <string name="about_description">Quran for Android is a free Quran application. Please do not forget the contributors in your prayers.</string>
+    <string name="about_dnsjava">dnsjava</string>
+    <string name="about_dnsjava_url">http://dnsjava.org</string>
+    <string name="about_furqan">Al-Bāḥith al-Qur’ānī (tafsir.app)</string>
+    <string name="about_furqan_summary">Uthmani text and Arabic Tafaseer</string>
+    <string name="about_furqan_url">https://tafsir.app</string>
+    <string name="about_images">Images</string>
+    <string name="about_kotlin">Kotlin</string>
+    <string name="about_kotlin_url">https://kotlinlang.org</string>
+    <string name="about_madani_images">The Quran images are based on the fonts from the King Fahd Quran Printing Complex</string>
+    <string name="about_madani_images_url">https://github.com/quran/quran.com-images</string>
+    <string name="about_material_components">Material Components for Android</string>
+    <string name="about_material_components_url">https://github.com/material-components/material-components-android</string>
+    <string name="about_moshi">Moshi</string>
+    <string name="about_moshi_url">https://github.com/square/moshi</string>
+    <string name="about_naskh_images">The Quran images for the Naskh app are taken (with permission) from SHL Info Systems</string>
+    <string name="about_naskh_images_url">http://www.shlinfosystems.com</string>
+    <string name="about_noorhidayat">Noorhidayat</string>
+    <string name="about_noorhidayat_summary">Noorehira font and Mufti Taqi Translation</string>
+    <string name="about_noorhidayat_url">http://www.noorehidayat.org</string>
+    <string name="about_numberPicker">Number Picker</string>
+    <string name="about_numberPicker_url">https://github.com/ShawnLin013/NumberPicker</string>
+    <string name="about_okhttp">OkHttp</string>
+    <string name="about_okhttp_url">https://github.com/square/okhttp</string>
+    <string name="about_open_source">Open Source Projects</string>
+    <string name="about_others">Others</string>
+    <string name="about_qaloon_images">Qaloon images are used with the permission of Nous Memes Editions Et Diffusion (Tunisia)</string>
+    <string name="about_quran_enc">Noble Quran Encyclopedia (QuranEnc)</string>
+    <string name="about_quran_enc_summary">Translations for many languages</string>
+    <string name="about_quran_enc_url">https://quranenc.com</string>
+    <string name="about_quran_ksu">Electronic Moshaf Project</string>
+    <string name="about_quran_ksu_summary">The King Saud University Electronic Moshaf Project is the app\'s source of Arabic Tafaseer and translations for various languages. It is also the source for Dr. Ayman Suwaid\'s recitation.</string>
+    <string name="about_quran_ksu_url">https://quran.ksu.edu.sa</string>
+    <string name="about_quranicaudio">QuranicAudio</string>
+    <string name="about_quranicaudio_summary">Gapless mp3 Quran recitations</string>
+    <string name="about_quranicaudio_url">https://quranicaudio.com</string>
+    <string name="about_rxandroid">RxAndroid</string>
+    <string name="about_rxandroid_url">https://github.com/ReactiveX/RxAndroid</string>
+    <string name="about_rxjava">RxJava</string>
+    <string name="about_rxjava_url">https://github.com/ReactiveX/RxJava</string>
+    <string name="about_sliding_panel">AndroidSlidingUpPanel</string>
+    <string name="about_sliding_panel_url">https://github.com/umano/AndroidSlidingUpPanel</string>
+    <string name="about_tanzil">Tanzil</string>
+    <string name="about_tanzil_summary">Translations for a few languages</string>
+    <string name="about_tanzil_url">http://tanzil.net</string>
+    <string name="about_timber">Timber</string>
+    <string name="about_timber_url">https://github.com/JakeWharton/timber</string>
+    <string name="app_name">Quran</string>
+    <string name="appearance">App theme</string>
+    <string name="audio_updated_text">Several Quran audio files have been updated. Quran has removed your copy of these files so that the newest versions can be downloaded the next time you play them back.</string>
+    <string name="audio_updated_title">Quran Audio files Update</string>
+    <string name="available_translations">Available for download</string>
+    <string name="ayah_copied_popup">Ayah Copied</string>
+    <string name="ayahs">Ayahs</string>
+    <string name="bookmark_ayah">Bookmark this Ayah</string>
+    <string name="bookmarks_empty_subtitle">Tap the bookmark icon to save a page, or long press an ayah to bookmark it.</string>
+    <string name="bookmarks_empty_title">No bookmarks yet</string>
+    <string name="bookmarks_list_empty">No Bookmarks</string>
+    <string name="cancel">Cancel</string>
+    <string name="canceling">Canceling…</string>
+    <string name="collapse_collection">Collapse</string>
+    <string name="collection_empty">No bookmarks in this collection yet.</string>
+    <string name="comma">,</string>
+    <string name="copy_ayah">Copy Ayah</string>
+    <string name="default_collection">Favorites</string>
+    <string name="delete">Delete</string>
+    <string name="delete_tag">Delete Tag</string>
+    <string name="delete_translation">Remove Translation</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">There is a small yet important update for the Quran images you have on your device. Would you like to download this patch now?</string>
+    <string name="downloadPrompt">In order for Quran Android to work properly, we need to download some files. If you do not do this now, the app may not work reliably and will require an Internet connection for reading. Would you like to download the required files now?</string>
+    <string name="downloadPrompt_no">No</string>
+    <string name="downloadPrompt_ok">Yes</string>
+    <string name="downloadPrompt_title">Download Required Files?</string>
+    <string name="downloadTabletPrompt">We recently added improved images for tablets. Would you like to download these images now?</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_error_disk">Not enough disk space to download</string>
+    <string name="download_error_general">Download failed</string>
+    <string name="download_error_invalid_download">Downloaded file was corrupted</string>
+    <string name="download_error_invalid_download_retry">Corrupted file, attempting to re-download</string>
+    <string name="download_error_network">Could not download due to network error</string>
+    <string name="download_error_network_retry">Network error, trying to resume…</string>
+    <string name="download_error_perms">Could not download due to permissions error</string>
+    <string name="download_extra_data">We need to download one or two small files to support sharing and translation. Download now?</string>
+    <string name="download_non_wifi_prompt">You are not on Wi-Fi. Download data anyway?</string>
+    <string name="download_processing">Processing Download…</string>
+    <string name="download_retry">Retry</string>
+    <string name="download_successful">Download Successful</string>
+    <string name="downloaded_translations">Downloaded</string>
+    <string name="downloading">Downloading…</string>
+    <string name="downloading_message">Please wait for the files to download (resume supported).</string>
+    <string name="edit_tag">Edit Tag</string>
+    <string name="email_us">If your question is not answered above, you can email quranandroid@gmail.com for support. Please note that we receive lots of emails, so we may not be able to reply to all of them.</string>
+    <string name="error_getting_translation_list">Unable to download the list of translations. Please try again later.</string>
+    <string name="expand_collection">Expand</string>
+    <string name="export_data_error">Error exporting data</string>
+    <string name="exported_data">Data exported to %1$s</string>
+    <string name="extracting_title">Processing…</string>
+    <string name="found_in_sura">Found in Surah (%1$d) %2$s: %3$d (page %4$d)</string>
+    <string name="from">From</string>
+    <string name="get_arabic_search_db">Get Arabic Search Database</string>
+    <string name="get_translations">Get Translations</string>
+    <string name="gotoPage">Go to page</string>
+    <string name="help">&lt;b&gt;How do I play audio?&lt;/b&gt; &lt;br/&gt;Open any Quran page. Tap on the screen once. At the bottom, you will notice a play button and some text with the name of a qari. Click the name of the qari to choose a different qari. Click play to download and play the current page or sura. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;How do I view translation?&lt;/b&gt; &lt;br/&gt;Open any Quran page. Tap on the screen once. In the top, you will notice a globe icon (or, if you don\'t see it, click an icon with three square dots) - click this and choose translation to view the translation. &lt;br/&gt; If you do not have any translations downloaded, it will take you to a screen where you can download translations. Choose and download a translation, then return back and tap the globe icon again to view the translation. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;How do I bookmark a page?&lt;/b&gt; &lt;br/&gt;Open any Quran page. Tap on the screen once. In the top right, you will see a bookmark icon. Tap the bookmark icon to bookmark the page (the color will turn solid white). Tap the bookmark icon again to remove the bookmark. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;How do I make the text larger?&lt;/b&gt; &lt;br/&gt;For the Arabic pages, hold your phone in landscape. This makes the text larger. For translations, go to settings and set translation text size. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;How do I share an ayah?&lt;/b&gt; &lt;br/&gt;While on any Arabic page, press and hold on any ayah to get a menu where you can choose to bookmark, share or copy that ayah to the clipboard, see the translation, or listen to its recitation.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;Malayalam/Tamil/Bengali/Urdu fonts don\'t work!&lt;/b&gt; &lt;br/&gt;Unfortunately, Android versions prior to 4.0 do not support these fonts, and there is little we can do to help with this.</string>
+    <string name="help_title">Frequently Asked Questions</string>
+    <string name="highlight_color_blue">Blue</string>
+    <string name="highlight_color_green">Green</string>
+    <string name="highlight_color_pink">Pink</string>
+    <string name="highlight_color_purple">Purple</string>
+    <string name="highlight_color_yellow">Yellow</string>
+    <string name="highlighting_database">Required Files</string>
+    <string name="highlights">Highlights</string>
+    <string name="highlights_empty">No highlighted ayahs in this color yet.</string>
+    <string name="icon_reveal_body">Quran now carries the shared mark of a family of tools built around Allah\'s word. Your bookmarks, progress, and settings are right where you left them.</string>
+    <string name="icon_reveal_title">Our new icon is here</string>
+    <string name="import_data">Import Data</string>
+    <string name="import_data_and_merge">If you import this file, it will add %1$d bookmark(s) and %2$d tag(s) to your current data. Import?</string>
+    <string name="import_data_error">Invalid backup file (or unable to read backup file).</string>
+    <string name="import_data_permissions_error">Unable to read backup file due to permissions error.</string>
+    <string name="import_successful">Import Successful</string>
+    <string name="imported_collection_name">%1$s (Imported)</string>
+    <string name="imported_system_collection_name">Imported %1$s</string>
+    <string name="infinity">∞</string>
+    <string name="juz2_description">Juz\' %1$s</string>
+    <string name="kitkat_external_message">Due to Android limitations, if you choose to place Quran data on your external SD card and later uninstall or clear data for Quran Android, all Quran Android pages and audio will be deleted and you will have to download them again. Are you sure you want to use the external SD card?</string>
+    <string name="loading">Loading…</string>
+    <string name="logs_email">quranandroid+logs@gmail.com</string>
+    <string name="madani">Madani</string>
+    <string name="madani_description">The classic Madani script.</string>
+    <string name="madani_title">Classic Madani Mushaf</string>
+    <string name="makki">Makki</string>
+    <string name="manzil_description">Manzil %1$s</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_back_to_page">Show Quran</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_bookmarks_page">Page Bookmarks</string>
+    <string name="menu_get_translations">Get Translations</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_jump">Go to page</string>
+    <string name="menu_jump_last_page">Last page</string>
+    <string name="menu_other_apps">Other apps</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_show_date">Show Date</string>
+    <string name="menu_show_recents">Recent pages</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_sort_date">Date Added</string>
+    <string name="menu_sort_group_by_tags">Group by Tags</string>
+    <string name="menu_sort_location">Location in Quran</string>
+    <string name="menu_translation">Show Translation</string>
+    <string name="more_arabic">المزيد…</string>
+    <string name="more_translations">More Translations</string>
+    <string name="move_down">Move Down</string>
+    <string name="move_up">Move Up</string>
+    <string name="naskh_description">15-line Naskh script Mushaf (610 pages)</string>
+    <string name="naskh_title">IndoPak / Naskh (15-line)</string>
+    <string name="need_translation">You don\'t have any translations/tafaseer downloaded yet.</string>
+    <string name="new_tag">New Tag</string>
+    <string name="next">Next</string>
+    <string name="no_arabic_search_available">You have not downloaded the Arabic search pack. Please download it and try your search again.</string>
+    <string name="no_results">No results found for \"%s\"</string>
+    <string name="notification_channel_audio">Quran Recitation</string>
+    <string name="notification_channel_download">Quran Downloads</string>
+    <string name="notification_download_canceled">Download canceled</string>
+    <string name="old_page_bookmarks">Old Page Bookmarks</string>
+    <string name="open_collection">Open</string>
+    <string name="page_description">Page %1$s, Juz\' %2$s</string>
+    <string name="page_theme_close">Close</string>
+    <string name="page_theme_match_app">Match app theme</string>
+    <string name="page_theme_match_app_summary">Dark when the app is dark</string>
+    <string name="page_theme_preview_text">نور</string>
+    <string name="page_theme_sepia">Sepia</string>
+    <string name="page_theme_summary">%1$s · %2$s</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="play_apply">Apply</string>
+    <string name="play_apply_and_play">Apply and Play</string>
+    <string name="play_each_verse">Play each verse:</string>
+    <string name="play_from">From</string>
+    <string name="play_from_here">Play from Here</string>
+    <string name="play_restrict_range">Only play the above verses</string>
+    <string name="play_to">To</string>
+    <string name="play_verses_range">Play set of verses:</string>
+    <string name="playback_prompt_title">Start playback from:</string>
+    <string name="playback_speed">Playback Speed:</string>
+    <string name="please_grant_permissions">Please grant permission in application settings</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="post_notification_permission">Allow Quran for Android to post notifications? This is only used to give updates on download status, or to warn when audio files are automatically updated.</string>
+    <string name="prefs_app_location_summary">Choose where to store Quran files</string>
+    <string name="prefs_app_location_title">Quran data directory</string>
+    <string name="prefs_app_size">Current data size is</string>
+    <string name="prefs_audio_manager">audio_manager</string>
+    <string name="prefs_audio_manager_summary">Manage and download Quranic audio</string>
+    <string name="prefs_ayah_before_translation_summary">Show ayah in Arabic above the translation</string>
+    <string name="prefs_ayah_before_translation_title">Ayah before translation</string>
+    <string name="prefs_ayah_text_title">Ayah text size</string>
+    <string name="prefs_calculating_app_size">Calculating App Size</string>
+    <string name="prefs_category_advanced">Advanced Options</string>
+    <string name="prefs_category_advanced_summary">Import/export bookmarks, set Quran data directory, etc.</string>
+    <string name="prefs_category_display_settings">Display Settings</string>
+    <string name="prefs_category_download">Download Options</string>
+    <string name="prefs_category_dual_screen">Dual Page Preferences</string>
+    <string name="prefs_category_reading">Reading Preferences</string>
+    <string name="prefs_category_translation">Translation Preferences</string>
+    <string name="prefs_copying_app_files">Copying App files</string>
+    <string name="prefs_display_marker_summary">Display popup on reaching juz\', hizb, etc.</string>
+    <string name="prefs_display_marker_title">Display marker popups</string>
+    <string name="prefs_download_amount_summary">Preferred download amount for non-gapless audio</string>
+    <string name="prefs_download_amount_title">Download amount</string>
+    <string name="prefs_dual_page_mode_disabled">In landscape, only one page will appear.</string>
+    <string name="prefs_dual_page_mode_enabled">In landscape, two pages will appear side by side.</string>
+    <string name="prefs_dual_page_mode_title">Dual Page Mode</string>
+    <string name="prefs_err_moving_app_files">Failed to move app files</string>
+    <string name="prefs_export_csv_summary">Export a copy of bookmarks and tags in CSV</string>
+    <string name="prefs_export_csv_title">Export CSV</string>
+    <string name="prefs_export_summary">Export a copy of bookmarks and tags</string>
+    <string name="prefs_export_title">Export</string>
+    <string name="prefs_highlight_bookmarks_summary">Highlight bookmarked ayahs while reading</string>
+    <string name="prefs_highlight_bookmarks_title">Highlight bookmarks</string>
+    <string name="prefs_import_summary">Import bookmarks and tags</string>
+    <string name="prefs_import_title">Import</string>
+    <string name="prefs_landscape_orientation_summary_off">Always use portrait mode</string>
+    <string name="prefs_landscape_orientation_summary_on">Always use landscape mode</string>
+    <string name="prefs_landscape_orientation_title">Landscape orientation</string>
+    <string name="prefs_lock_orientation_summary_off">Adaptive to current orientation mode</string>
+    <string name="prefs_lock_orientation_summary_on">Use fixed orientation mode</string>
+    <string name="prefs_lock_orientation_title">Lock screen orientation</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_megabytes_str">download_amount_in_megabytes</string>
+    <string name="prefs_night_mode_background_brightness_title">Background brightness</string>
+    <string name="prefs_night_mode_text_brightness_title">Text brightness</string>
+    <string name="prefs_no_enough_space_to_move_files">Insufficient space to move app files</string>
+    <string name="prefs_old_background_title">Old background</string>
+    <string name="prefs_overlay_page_info_summary">Overlay page number, surah name, and juz\' number while reading</string>
+    <string name="prefs_overlay_page_info_title">Show page info</string>
+    <string name="prefs_page_theme_title">Page theme</string>
+    <string name="prefs_page_type_summary">Select the type of reading pages</string>
+    <string name="prefs_page_type_title">Page Type (experimental)</string>
+    <string name="prefs_preview">Preview</string>
+    <string name="prefs_sdcard_external">External storage %1$d</string>
+    <string name="prefs_sdcard_internal">Internal storage</string>
+    <string name="prefs_send_logs_summary">Send debug logs to the developer</string>
+    <string name="prefs_send_logs_title">Send logs</string>
+    <string name="prefs_split_page_and_translation_summary">In dual page mode with translations, Quran page and translation is shown</string>
+    <string name="prefs_split_page_and_translation_title">Quran and translation in dual mode</string>
+    <string name="prefs_streaming_summary">Stream audio instead of downloading</string>
+    <string name="prefs_streaming_title">Streaming</string>
+    <string name="prefs_sura_translated_name_summary">Show the translation of surah name</string>
+    <string name="prefs_sura_translated_name_title">Surah translated name</string>
+    <string name="prefs_translation_text_title">Translation text size</string>
+    <string name="prefs_translations">Translations</string>
+    <string name="prefs_translations_summary">Download and manage translations</string>
+    <string name="prefs_use_arabic_summary_on">Use Arabic for application interface</string>
+    <string name="prefs_use_arabic_title">Arabic mode (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Display translations in dyslexia friendly font</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexia friendly font</string>
+    <string name="prefs_volume_key_navigation_summary">Navigate between pages using volume keys</string>
+    <string name="prefs_volume_key_navigation_title">Volume key navigation</string>
+    <string name="previous">Previous</string>
+    <string name="process_progress">Processing file %1$d / %2$d</string>
+    <string name="qaloon_description">Riwayat Qaloon ʿan Nafiʿ Mushaf edition</string>
+    <string name="qaloon_title">Qaloon (Nafiʿ)</string>
+    <string name="qari_abdulaziz_zahrani_gapless">Abdulaziz Az-Zahrani</string>
+    <string name="qari_abdulbaset">Abd Al-Basit (gapped)</string>
+    <string name="qari_abdulbaset_gapless">Abd Al-Basit</string>
+    <string name="qari_abdulbaset_mujawwad">Abd Al-Basit Mujawwad (gapped)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">Abd Al-Basit Mujawwad</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
+    <string name="qari_abdullah_matroud_gapless">Abdullah Matroud</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">AbdulMuhsin al Qasim</string>
+    <string name="qari_abdulrahman_alshahat_gapless">Abdulrahman Al-Shahat</string>
+    <string name="qari_abdurrashid_sufi_gapless">Abdur-Rashid Sufi</string>
+    <string name="qari_afasy">Mishary Al-Afasy (gapped)</string>
+    <string name="qari_afasy_cali_gapless">Mishari Al-Afasy (California)</string>
+    <string name="qari_afasy_gapless">Mishary Al-Afasy</string>
+    <string name="qari_ahmad_nauina_gapless">Ahmad Nauina</string>
+    <string name="qari_ahmed_al_nufais_gapless">Ahmed Al-Nufais</string>
+    <string name="qari_ajamy_gapless">Ahmed ibn Ali al-Ajamy</string>
+    <string name="qari_akram_al_alaqmi">Akram Al-Alaqmi</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">Ali Hajjaj Alsouasi</string>
+    <string name="qari_ali_jaber_gapless">Ali Jaber</string>
+    <string name="qari_alijon_qari_gapless">Alijon Qari</string>
+    <string name="qari_aloosi_gapless">Abdulrahman Aloosi</string>
+    <string name="qari_alzain_ahmad_gapless">Alzain Mohammad Ahmad</string>
+    <string name="qari_ayman_suwaid_gapless">Dr. Ayman Suwaid</string>
+    <string name="qari_ayman_suwaid_gapped">Dr. Ayman Suwaid (gapped)</string>
+    <string name="qari_ayyoub">Muhammad Ayyoub (gapped)</string>
+    <string name="qari_ayyoub_gapless">Muhammad Ayyoub</string>
+    <string name="qari_aziz_alili_gapless">Aziz Alili</string>
+    <string name="qari_badr_al_turki_gapless">Badr Al-Turki</string>
+    <string name="qari_bandar_baleela_gapless">Bandar Baleela</string>
+    <string name="qari_basfar">Abdullah Basfar (gapped)</string>
+    <string name="qari_basfar_gapless">Abdullah Basfar</string>
+    <string name="qari_dussary">Yasser Ad-Dussary (gapped)</string>
+    <string name="qari_fares_abbad_gapless">Fares Abbad</string>
+    <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+    <string name="qari_hady_toure_gapless">Hady Toure</string>
+    <string name="qari_hani_rifai">Hani Ar-Rifai (gapped)</string>
+    <string name="qari_hani_rifai_gapless">Hani Ar-Rifai</string>
+    <string name="qari_hudhayfi">Ali Al-Hudhaify (gapped)</string>
+    <string name="qari_hudhayfi_gapless">Ali Al-Hudhaify</string>
+    <string name="qari_husary_gapless">Husary</string>
+    <string name="qari_husary_iza3a_gapless">Husary Broadcast</string>
+    <string name="qari_husary_muallim_gapless">Husary (Muallim)</string>
+    <string name="qari_husary_mujawwad">Husary Mujawwad (gapped)</string>
+    <string name="qari_husary_mujawwad_gapless">Husary (Mujawwad)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">Ibrahim Al-Akhdar</string>
+    <string name="qari_idrees_abkar_gapless">Idrees Abkar</string>
+    <string name="qari_jibreel">Muhammad Jibreel (gapped)</string>
+    <string name="qari_jibreel_gapless">Muhammad Jibreel</string>
+    <string name="qari_juhany_gapless">Abdullah al Juhany</string>
+    <string name="qari_khaled_muhanna_gapless">Khaled Al-Muhanna (gapped)</string>
+    <string name="qari_khalid_jalil_gapless">Khalid Al-Jalil</string>
+    <string name="qari_khalid_qahtani_gapless">Khalid Al-Qahtani</string>
+    <string name="qari_khalifa_taniji_gapless">Khalifa Taniji</string>
+    <string name="qari_luhaidan_gapless">Muhammad Al-Luhaidan</string>
+    <string name="qari_mahmoud_ali_albana_gapless">Mahmoud Ali al Bana</string>
+    <string name="qari_minshawi_mujawwad">Minshawy Mujawwad (gapped)</string>
+    <string name="qari_minshawi_mujawwad_gapless">Minshawy Mujawwad</string>
+    <string name="qari_minshawi_murattal_gapless">Minshawi Murattal</string>
+    <string name="qari_mishari_walk_gapless">Mishari with Ibrahim Walk (English)</string>
+    <string name="qari_mohammad_altablawi_gapless">Mohammad al Tablawy</string>
+    <string name="qari_mokhtasar_asmari_gapless">Abdullah Al-Asmari (Arabic Commentary)</string>
+    <string name="qari_mostafa_ismaeel_gapless">Mostafa Ismaeel</string>
+    <string name="qari_muaiqly">Maher Al Muaiqly (gapped)</string>
+    <string name="qari_muaiqly_gapless">Maher Al Muaiqly</string>
+    <string name="qari_muaiqly_haramain_gapless">Maher Al Muaiqly (Haramain)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">Muhammad Rashad Al-Shereef</string>
+    <string name="qari_nabil_rifa3i_gapless">Nabil Ar-Rifai</string>
+    <string name="qari_noreen_siddiq_gapless">Noreen Siddiq</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
+    <string name="qari_qatami_gapless">Nasser Al Qatami</string>
+    <string name="qari_raad_al_kurdi_gapless">Raad Al-Kurdi</string>
+    <string name="qari_saad_al_ghamdi">Saad Al-Ghamdi (gapped)</string>
+    <string name="qari_saad_al_ghamidi_gapless">Saad Al-Ghamdi</string>
+    <string name="qari_sahl_yaseen_gapless">Sahl Yaseen</string>
+    <string name="qari_salah_budair_gapless">Salah Budair</string>
+    <string name="qari_salah_bukhatir_gapless">Salah Bukhatir</string>
+    <string name="qari_shatri">Abu Bakr Ash-Shatri (gapped)</string>
+    <string name="qari_shatri_gapless">Abu Bakr Ash-Shatri</string>
+    <string name="qari_shuraym">Saood Ash-Shuraym (gapped)</string>
+    <string name="qari_shuraym_gapless">Saood Ash-Shuraym</string>
+    <string name="qari_suadis">Abdurrahmaan As-Sudais (gapped)</string>
+    <string name="qari_sudais_gapless">Abdurrahman As-Sudais</string>
+    <string name="qari_tablawy">Mohammad al Tablaway (gapped)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">Tawfeeq as-Sawaigh</string>
+    <string name="qari_wadee3_alyamani_gapless">Wadee\' Al-Yamani</string>
+    <string name="qari_walk">Ibrahim Walk (English)</string>
+    <string name="qari_walk_gapless">Ibrahim Walk (English)</string>
+    <string name="qari_yasser_dussary_gapless">Yasser Ad-Dussary</string>
+    <string name="qari_yasser_salama_hadr_gapless">Yasser Salama (hadr)</string>
+    <string name="qarilist_dismiss">Dismiss</string>
+    <string name="qarilist_gapless">Gapless</string>
+    <string name="qarilist_gapped">Gapped</string>
+    <string name="qarilist_qaris_with_downloads">Qaris with Downloads</string>
+    <string name="qarilist_ready_to_play">Ready to Play</string>
+    <string name="qarilist_search_hint">Search</string>
+    <string name="qarilist_select_qari">Select a Qari</string>
+    <string name="qarilist_selected">Selected</string>
+    <string name="quranSearchType">Verses of the Quran</string>
+    <string name="quran_ayah">Ayah %1$d</string>
+    <string name="quran_ayah_details">%1$s - Ayah %2$s, Juz\' %3$s</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Juz\'</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Page</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Surahs</string>
+    <string name="quran_sura_title">Surah %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark">Reading Bookmark</string>
+    <string name="reading_bookmark_cleared_title">Cleared %1$s</string>
+    <string name="reading_bookmark_details">%1$s · %2$s</string>
+    <string name="reading_bookmark_dismiss_education">Dismiss</string>
+    <string name="reading_bookmark_movable_education_body">Saving a reading bookmark replaces your old one. To save multiple ayahs, long press an ayah and add it to a collection.</string>
+    <string name="reading_bookmark_movable_education_title">This is a movable reading bookmark</string>
+    <string name="reading_bookmark_moved_from">Moved from %1$s</string>
+    <string name="reading_bookmark_moved_to_title">Moved %1$s to %2$s</string>
+    <string name="reading_bookmark_orange">Orange</string>
+    <string name="reading_bookmark_placed_title">Placed %1$s at %2$s</string>
+    <string name="reading_bookmark_red">Red</string>
+    <string name="reading_bookmark_teal">Teal</string>
+    <string name="reading_bookmark_was_at">Was at %1$s</string>
+    <string name="reading_bookmarks">Reading Bookmarks</string>
+    <string name="recent_pages">Recent pages</string>
+    <string name="recite_from_here">Recite from here</string>
+    <string name="remove_button">Remove</string>
+    <string name="remove_dlg_msg">Are you sure you would like to remove the %1$s?</string>
+    <string name="remove_dlg_title">Remove Translation?</string>
+    <string name="remove_highlight">Remove Highlight</string>
+    <string name="scoped_storage_message">Due to Android changes to increase user privacy, copying files outside of the app directories might stop Quran from accessing its data in future versions of Android. Are you sure you\'d like to use this path?</string>
+    <string name="sdcard_error">Could not find SD card. Please mount it and try again.</string>
+    <string name="search_data">Search Data</string>
+    <string name="search_entire_mushaf">Search the entire mushaf</string>
+    <string name="search_full_results">Full Results</string>
+    <string name="search_hint">Search the Quran</string>
+    <string name="search_key">Press the search key to look up a verse</string>
+    <string name="see_tafseer_of_verse">This ayah\'s tafseer is included with the tafseer of ayah %d (Click to expand).</string>
+    <string name="share_ayah">Share Ayah Link</string>
+    <string name="share_ayah_image">Share as Image Card</string>
+    <string name="share_ayah_text">Share Ayah Text</string>
+    <string name="starting_page_label">Beginning of Page</string>
+    <string name="stop">Stop</string>
+    <string name="storage_permission_please_restart">Please restart the app for this to take effect.</string>
+    <string name="storage_permission_rationale">Quran wants your permission to store its data on external storage. Quran will work without this permission, but if you clear data or uninstall the app, all downloaded pages, audio, and data will be removed. Grant Quran permission?</string>
+    <string name="sura_and_ayah">Sura and Ayah</string>
+    <string name="sura_ayah">%1$d:%2$d</string>
+    <string name="sura_ayah_notification_str">Surah %1$s, Ayah %2$d</string>
+    <string name="sura_ayah_sharing_str">Surah %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">Tag names cannot be blank!</string>
+    <string name="tag_bookmark">Tag Bookmark</string>
+    <string name="tag_dlg_title">Tag</string>
+    <string name="tag_duplicate_tag_error">Tag name already exists!</string>
+    <string name="tag_name">Name</string>
+    <string name="tag_reserved_tag_error">This tag name is reserved!</string>
+    <string name="tag_save_error">Unable to rename this collection. It may no longer be available.</string>
+    <string name="tag_too_long_tag_error">Tag name is too long!</string>
+    <string name="tajweed_description">Color-coded Tajweed rules on the 604-page Madani Mushaf</string>
+    <string name="tajweed_title">Madani Tajweed</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="timing_database">Required Files</string>
+    <string name="to">To</string>
+    <string name="translation_ayah">Ayah Translation/Tafseer</string>
+    <string name="translation_dialog_later">Later</string>
+    <string name="translation_dialog_yes">Yes</string>
+    <string name="translation_updates_available">An update is available for some of your translations. Visit the translations screen now?</string>
+    <string name="translations">Translations</string>
+    <string name="undo">Undo</string>
+    <string name="update_available">Update Available</string>
+    <string name="warning">Warning</string>
+    <string name="warsh_description">Riwayat Warsh ʿan Nafiʿ Mushaf edition</string>
+    <string name="warsh_title">Warsh (Nafiʿ)</string>
+    <string name="whats_new_continue">Continue</string>
+    <string-array name="download_amount_preference">
+        <item>Page</item>
+        <item>Surahs</item>
+        <item>Juz\'</item>
+    </string-array>
+    <string-array name="download_amount_preference_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="quarter_prefix_array">
+        <item>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</item>
+        <item>إِنَّ اللَّهَ لَا يَسْتَحْيِي أَن</item>
+        <item>أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ</item>
+        <item>وَإِذِ اسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِ</item>
+        <item>أَفَتَطْمَعُونَ أَن يُؤْمِنُوا لَكُمْ</item>
+        <item>وَلَقَدْ جَاءَكُم مُّوسَىٰ</item>
+        <item>مَا نَنسَخْ مِنْ آيَةٍ أَوْ نُنسِهَا</item>
+        <item>وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ</item>
+        <item>سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ</item>
+        <item>إِنَّ الصَّفَا وَالْمَرْوَةَ مِن</item>
+        <item>لَّيْسَ الْبِرَّ أَن تُوَلُّوا</item>
+        <item>يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ ۖ قُلْ</item>
+        <item>وَاذْكُرُوا اللَّهَ فِي أَيَّامٍ</item>
+        <item>يَسْأَلُونَكَ عَنِ الْخَمْرِ</item>
+        <item>وَالْوَالِدَاتُ يُرْضِعْنَ</item>
+        <item>أَلَمْ تَرَ إِلَى الَّذِينَ خَرَجُوا</item>
+        <item>تِلْكَ الرُّسُلُ فَضَّلْنَا</item>
+        <item>قَوْلٌ مَّعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ</item>
+        <item>لَّيْسَ عَلَيْكَ هُدَاهُمْ وَلَٰكِنَّ</item>
+        <item>وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ</item>
+        <item>قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن</item>
+        <item>إِنَّ اللَّهَ اصْطَفَىٰ آدَمَ وَنُوحًا</item>
+        <item>فَلَمَّا أَحَسَّ عِيسَىٰ مِنْهُمُ</item>
+        <item>وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِن</item>
+        <item>كُلُّ الطَّعَامِ كَانَ حِلًّا لِّبَنِي</item>
+        <item>لَيْسُوا سَوَاءً ۗ مِّنْ أَهْلِ</item>
+        <item>وَسَارِعُوا إِلَىٰ مَغْفِرَةٍ مِّن</item>
+        <item>إِذْ تُصْعِدُونَ وَلَا تَلْوُونَ</item>
+        <item>يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ</item>
+        <item>لَتُبْلَوُنَّ فِي أَمْوَالِكُمْ</item>
+        <item>يَا أَيُّهَا النَّاسُ اتَّقُوا</item>
+        <item>وَلَكُمْ نِصْفُ مَا تَرَكَ</item>
+        <item>وَالْمُحْصَنَاتُ مِنَ النِّسَاءِ</item>
+        <item>وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا</item>
+        <item>إِنَّ اللَّهَ يَأْمُرُكُمْ أَن</item>
+        <item>فَلْيُقَاتِلْ فِي سَبِيلِ اللَّهِ</item>
+        <item>فَمَا لَكُمْ فِي الْمُنَافِقِينَ</item>
+        <item>وَمَن يُهَاجِرْ فِي سَبِيلِ اللَّهِ</item>
+        <item>لَّا خَيْرَ فِي كَثِيرٍ مِّن</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا</item>
+        <item>لَّا يُحِبُّ اللَّهُ الْجَهْرَ</item>
+        <item>إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا</item>
+        <item>وَلَقَدْ أَخَذَ اللَّهُ مِيثَاقَ بَنِي</item>
+        <item>وَاتْلُ عَلَيْهِمْ نَبَأَ ابْنَيْ</item>
+        <item>يَا أَيُّهَا الرَّسُولُ لَا يَحْزُنكَ</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا لَا</item>
+        <item>يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا</item>
+        <item>لَتَجِدَنَّ أَشَدَّ النَّاسِ</item>
+        <item>جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ</item>
+        <item>يَوْمَ يَجْمَعُ اللَّهُ الرُّسُلَ</item>
+        <item>وَلَهُ مَا سَكَنَ فِي اللَّيْلِ</item>
+        <item>إِنَّمَا يَسْتَجِيبُ الَّذِينَ</item>
+        <item>وَعِندَهُ مَفَاتِحُ الْغَيْبِ لَا</item>
+        <item>وَإِذْ قَالَ إِبْرَاهِيمُ لِأَبِيهِ</item>
+        <item>إِنَّ اللَّهَ فَالِقُ الْحَبِّ</item>
+        <item>وَلَوْ أَنَّنَا نَزَّلْنَا إِلَيْهِمُ</item>
+        <item>لَهُمْ دَارُ السَّلَامِ عِندَ</item>
+        <item>وَهُوَ الَّذِي أَنشَأَ جَنَّاتٍ</item>
+        <item>قُلْ تَعَالَوْا أَتْلُ مَا حَرَّمَ</item>
+        <item>المص</item>
+        <item>يَا بَنِي آدَمَ خُذُوا زِينَتَكُمْ</item>
+        <item>وَإِذَا صُرِفَتْ أَبْصَارُهُمْ</item>
+        <item>وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۗ</item>
+        <item>قَالَ الْمَلَأُ الَّذِينَ</item>
+        <item>وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ</item>
+        <item>وَوَاعَدْنَا مُوسَىٰ ثَلَاثِينَ</item>
+        <item>وَاكْتُبْ لَنَا فِي هَٰذِهِ الدُّنْيَا</item>
+        <item>وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ</item>
+        <item>هُوَ الَّذِي خَلَقَكُم مِّن نَّفْسٍ</item>
+        <item>يَسْأَلُونَكَ عَنِ الْأَنفَالِ ۖ قُلِ</item>
+        <item>إِنَّ شَرَّ الدَّوَابِّ عِندَ اللَّهِ</item>
+        <item>وَاعْلَمُوا أَنَّمَا غَنِمْتُم مِّن</item>
+        <item>وَإِن جَنَحُوا لِلسَّلْمِ فَاجْنَحْ</item>
+        <item>بَرَاءَةٌ مِّنَ اللَّهِ وَرَسُولِهِ</item>
+        <item>أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا إِنَّ</item>
+        <item>وَلَوْ أَرَادُوا الْخُرُوجَ</item>
+        <item>إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ</item>
+        <item>وَمِنْهُم مَّنْ عَاهَدَ اللَّهَ لَئِنْ</item>
+        <item>إِنَّمَا السَّبِيلُ عَلَى الَّذِينَ</item>
+        <item>إِنَّ اللَّهَ اشْتَرَىٰ مِنَ</item>
+        <item>وَمَا كَانَ الْمُؤْمِنُونَ</item>
+        <item>وَلَوْ يُعَجِّلُ اللَّهُ لِلنَّاسِ</item>
+        <item>لِّلَّذِينَ أَحْسَنُوا الْحُسْنَىٰ</item>
+        <item>وَيَسْتَنبِئُونَكَ أَحَقٌّ هُوَ ۖ قُلْ</item>
+        <item>وَاتْلُ عَلَيْهِمْ نَبَأَ نُوحٍ إِذْ</item>
+        <item>وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ</item>
+        <item>وَمَا مِن دَابَّةٍ فِي الْأَرْضِ</item>
+        <item>مَثَلُ الْفَرِيقَيْنِ كَالْأَعْمَىٰ</item>
+        <item>وَقَالَ ارْكَبُوا فِيهَا بِسْمِ</item>
+        <item>وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا ۚ</item>
+        <item>وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا</item>
+        <item>وَأَمَّا الَّذِينَ سُعِدُوا فَفِي</item>
+        <item>لَّقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ</item>
+        <item>وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ</item>
+        <item>وَمَا أُبَرِّئُ نَفْسِي ۚ إِنَّ</item>
+        <item>قَالُوا إِن يَسْرِقْ فَقَدْ سَرَقَ</item>
+        <item>رَبِّ قَدْ آتَيْتَنِي مِنَ الْمُلْكِ</item>
+        <item>وَإِن تَعْجَبْ فَعَجَبٌ قَوْلُهُمْ</item>
+        <item>أَفَمَن يَعْلَمُ أَنَّمَا أُنزِلَ</item>
+        <item>مَّثَلُ الْجَنَّةِ الَّتِي وُعِدَ</item>
+        <item>قَالَتْ رُسُلُهُمْ أَفِي اللَّهِ شَكٌّ</item>
+        <item>أَلَمْ تَرَ إِلَى الَّذِينَ بَدَّلُوا</item>
+        <item>الر ۚ تِلْكَ آيَاتُ الْكِتَابِ</item>
+        <item>نَبِّئْ عِبَادِي أَنِّي أَنَا الْغَفُورُ الرَّحِيمُ</item>
+        <item>أَتَىٰ أَمْرُ اللَّهِ فَلَا</item>
+        <item>وَقِيلَ لِلَّذِينَ اتَّقَوْا مَاذَا</item>
+        <item>وَقَالَ اللَّهُ لَا تَتَّخِذُوا</item>
+        <item>ضَرَبَ اللَّهُ مَثَلًا عَبْدًا</item>
+        <item>إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ</item>
+        <item>يَوْمَ تَأْتِي كُلُّ نَفْسٍ تُجَادِلُ</item>
+        <item>سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ</item>
+        <item>وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا</item>
+        <item>قُلْ كُونُوا حِجَارَةً أَوْ حَدِيدًا</item>
+        <item>وَلَقَدْ كَرَّمْنَا بَنِي آدَمَ</item>
+        <item>أَوَلَمْ يَرَوْا أَنَّ اللَّهَ الَّذِي</item>
+        <item>وَتَرَى الشَّمْسَ إِذَا طَلَعَت</item>
+        <item>وَاضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ</item>
+        <item>مَّا أَشْهَدتُّهُمْ خَلْقَ</item>
+        <item>قَالَ أَلَمْ أَقُل لَّكَ إِنَّكَ لَن</item>
+        <item>وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ</item>
+        <item>فَحَمَلَتْهُ فَانتَبَذَتْ بِهِ</item>
+        <item>فَخَلَفَ مِن بَعْدِهِمْ خَلْفٌ</item>
+        <item>طه</item>
+        <item>مِنْهَا خَلَقْنَاكُمْ وَفِيهَا</item>
+        <item>وَمَا أَعْجَلَكَ عَن قَوْمِكَ يَا</item>
+        <item>وَعَنَتِ الْوُجُوهُ لِلْحَيِّ</item>
+        <item>اقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ</item>
+        <item>وَمَن يَقُلْ مِنْهُمْ إِنِّي إِلَٰهٌ</item>
+        <item>وَلَقَدْ آتَيْنَا إِبْرَاهِيمَ</item>
+        <item>وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي</item>
+        <item>يَا أَيُّهَا النَّاسُ اتَّقُوا</item>
+        <item>هَٰذَانِ خَصْمَانِ اخْتَصَمُوا فِي</item>
+        <item>إِنَّ اللَّهَ يُدَافِعُ عَنِ الَّذِينَ</item>
+        <item>ذَٰلِكَ وَمَنْ عَاقَبَ بِمِثْلِ مَا</item>
+        <item>قَدْ أَفْلَحَ الْمُؤْمِنُونَ</item>
+        <item>هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ</item>
+        <item>وَلَوْ رَحِمْنَاهُمْ وَكَشَفْنَا مَا</item>
+        <item>سُورَةٌ أَنزَلْنَاهَا وَفَرَضْنَاهَا</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا لَا</item>
+        <item>اللَّهُ نُورُ السَّمَاوَاتِ</item>
+        <item>وَأَقْسَمُوا بِاللَّهِ جَهْدَ</item>
+        <item>تَبَارَكَ الَّذِي نَزَّلَ</item>
+        <item>وَقَالَ الَّذِينَ لَا يَرْجُونَ</item>
+        <item>وَهُوَ الَّذِي مَرَجَ الْبَحْرَيْنِ</item>
+        <item>طسم</item>
+        <item>وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ</item>
+        <item>قَالُوا أَنُؤْمِنُ لَكَ وَاتَّبَعَكَ</item>
+        <item>أَوْفُوا الْكَيْلَ وَلَا تَكُونُوا</item>
+        <item>طس ۚ تِلْكَ آيَاتُ الْقُرْآنِ</item>
+        <item>قَالَ سَنَنظُرُ أَصَدَقْتَ أَمْ كُنتَ</item>
+        <item>فَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا</item>
+        <item>وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ</item>
+        <item>وَحَرَّمْنَا عَلَيْهِ الْمَرَاضِعَ</item>
+        <item>فَلَمَّا قَضَىٰ مُوسَى الْأَجَلَ</item>
+        <item>وَلَقَدْ وَصَّلْنَا لَهُمُ الْقَوْلَ</item>
+        <item>إِنَّ قَارُونَ كَانَ مِن قَوْمِ</item>
+        <item>الم</item>
+        <item>فَآمَنَ لَهُ لُوطٌ ۘ وَقَالَ إِنِّي</item>
+        <item>وَلَا تُجَادِلُوا أَهْلَ الْكِتَابِ</item>
+        <item>الم</item>
+        <item>مُنِيبِينَ إِلَيْهِ وَاتَّقُوهُ</item>
+        <item>اللَّهُ الَّذِي خَلَقَكُم مِّن ضَعْفٍ</item>
+        <item>وَمَن يُسْلِمْ وَجْهَهُ إِلَى اللَّهِ</item>
+        <item>قُلْ يَتَوَفَّاكُم مَّلَكُ الْمَوْتِ</item>
+        <item>يَا أَيُّهَا النَّبِيُّ اتَّقِ</item>
+        <item>قَدْ يَعْلَمُ اللَّهُ الْمُعَوِّقِينَ</item>
+        <item>وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ</item>
+        <item>تُرْجِي مَن تَشَاءُ مِنْهُنَّ</item>
+        <item>لَّئِن لَّمْ يَنتَهِ الْمُنَافِقُونَ</item>
+        <item>وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا</item>
+        <item>قُلْ مَن يَرْزُقُكُم مِّنَ</item>
+        <item>قُلْ إِنَّمَا أَعِظُكُم بِوَاحِدَةٍ ۖ</item>
+        <item>يَا أَيُّهَا النَّاسُ أَنتُمُ</item>
+        <item>إِنَّ اللَّهَ يُمْسِكُ السَّمَاوَاتِ</item>
+        <item>وَمَا أَنزَلْنَا عَلَىٰ قَوْمِهِ مِن</item>
+        <item>أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي</item>
+        <item>احْشُرُوا الَّذِينَ ظَلَمُوا</item>
+        <item>وَإِنَّ مِن شِيعَتِهِ لَإِبْرَاهِيمَ</item>
+        <item>فَنَبَذْنَاهُ بِالْعَرَاءِ وَهُوَ</item>
+        <item>وَهَلْ أَتَاكَ نَبَأُ الْخَصْمِ إِذْ</item>
+        <item>وَعِندَهُمْ قَاصِرَاتُ الطَّرْفِ</item>
+        <item>وَإِذَا مَسَّ الْإِنسَانَ ضُرٌّ دَعَا</item>
+        <item>فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى</item>
+        <item>قُلْ يَا عِبَادِيَ الَّذِينَ</item>
+        <item>حم</item>
+        <item>أَوَلَمْ يَسِيرُوا فِي الْأَرْضِ</item>
+        <item>وَيَا قَوْمِ مَا لِي أَدْعُوكُمْ إِلَى</item>
+        <item>قُلْ إِنِّي نُهِيتُ أَنْ أَعْبُدَ</item>
+        <item>قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ</item>
+        <item>وَقَيَّضْنَا لَهُمْ قُرَنَاءَ</item>
+        <item>إِلَيْهِ يُرَدُّ عِلْمُ السَّاعَةِ ۚ</item>
+        <item>شَرَعَ لَكُم مِّنَ الدِّينِ مَا</item>
+        <item>وَلَوْ بَسَطَ اللَّهُ الرِّزْقَ</item>
+        <item>وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ</item>
+        <item>قَالَ أَوَلَوْ جِئْتُكُم بِأَهْدَىٰ</item>
+        <item>وَلَمَّا ضُرِبَ ابْنُ مَرْيَمَ مَثَلًا</item>
+        <item>وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ</item>
+        <item>اللَّهُ الَّذِي سَخَّرَ لَكُمُ</item>
+        <item>حم</item>
+        <item>وَاذْكُرْ أَخَا عَادٍ إِذْ أَنذَرَ</item>
+        <item>أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا</item>
+        <item>لَّقَدْ رَضِيَ اللَّهُ عَنِ</item>
+        <item>يَا أَيُّهَا الَّذِينَ آمَنُوا لَا</item>
+        <item>قَالَتِ الْأَعْرَابُ آمَنَّا ۖ قُل</item>
+        <item>قَالَ قَرِينُهُ رَبَّنَا مَا</item>
+        <item>قَالَ فَمَا خَطْبُكُمْ أَيُّهَا</item>
+        <item>وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ</item>
+        <item>وَكَم مِّن مَّلَكٍ فِي السَّمَاوَاتِ</item>
+        <item>كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ</item>
+        <item>الرَّحْمَٰنُ</item>
+        <item>إِذَا وَقَعَتِ الْوَاقِعَةُ</item>
+        <item>فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ</item>
+        <item>أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن</item>
+        <item>قَدْ سَمِعَ اللَّهُ قَوْلَ الَّتِي</item>
+        <item>أَلَمْ تَرَ إِلَى الَّذِينَ تَوَلَّوْا</item>
+        <item>أَلَمْ تَرَ إِلَى الَّذِينَ نَافَقُوا</item>
+        <item>عَسَى اللَّهُ أَن يَجْعَلَ بَيْنَكُمْ</item>
+        <item>يُسَبِّحُ لِلَّهِ مَا فِي</item>
+        <item>وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ</item>
+        <item>يَا أَيُّهَا النَّبِيُّ إِذَا</item>
+        <item>يَا أَيُّهَا النَّبِيُّ لِمَ</item>
+        <item>تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ</item>
+        <item>ن ۚ وَالْقَلَمِ وَمَا يَسْطُرُونَ</item>
+        <item>الْحَاقَّةُ</item>
+        <item>إِنَّ الْإِنسَانَ خُلِقَ هَلُوعًا</item>
+        <item>قُلْ أُوحِيَ إِلَيَّ أَنَّهُ</item>
+        <item>إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ</item>
+        <item>لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ</item>
+        <item>وَيَطُوفُ عَلَيْهِمْ وِلْدَانٌ</item>
+        <item>عَمَّ يَتَسَاءَلُونَ</item>
+        <item>عَبَسَ وَتَوَلَّىٰ</item>
+        <item>إِذَا السَّمَاءُ انفَطَرَتْ</item>
+        <item>إِذَا السَّمَاءُ انشَقَّتْ</item>
+        <item>سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى</item>
+        <item>لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ</item>
+        <item>أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ</item>
+        <item>أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا</item>
+    </string-array>
+    <string-array name="repeatValues">
+        <item>1 time</item>
+        <item>2 times</item>
+        <item>3 times</item>
+        <item>loop</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fātihah</item>
+        <item>Al-Baqarah</item>
+        <item>Āli-ʿImrān</item>
+        <item>An-Nisāʾ</item>
+        <item>Al-Māʾidah</item>
+        <item>Al-Anʿām</item>
+        <item>Al-Aʿrāf</item>
+        <item>Al-Anfāl</item>
+        <item>At-Tawbah</item>
+        <item>Yūnus</item>
+        <item>Hūd</item>
+        <item>Yūsuf</item>
+        <item>Ar-Raʿd</item>
+        <item>Ibrāhīm</item>
+        <item>Al-Ḥijr</item>
+        <item>An-Naḥl</item>
+        <item>Al-Isrāʾ</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ṭā-Hā</item>
+        <item>Al-Anbiyāʾ</item>
+        <item>Al-Ḥajj</item>
+        <item>Al-Muʾminūn</item>
+        <item>An-Nūr</item>
+        <item>Al-Furqān</item>
+        <item>Ash-Shuʿarāʾ</item>
+        <item>An-Naml</item>
+        <item>Al-Qaṣaṣ</item>
+        <item>Al-ʿAnkabūt</item>
+        <item>Ar-Rūm</item>
+        <item>Luqmān</item>
+        <item>As-Sajdah</item>
+        <item>Al-Aḥzāb</item>
+        <item>Sabaʾ</item>
+        <item>Fāṭir</item>
+        <item>Yā-Sīn</item>
+        <item>Aṣ-Ṣāffāt</item>
+        <item>Ṣād</item>
+        <item>Az-Zumar</item>
+        <item>Ghāfir</item>
+        <item>Fuṣṣilat</item>
+        <item>Ash-Shūrā</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhān</item>
+        <item>Al-Jāthiyah</item>
+        <item>Al-Aḥqāf</item>
+        <item>Muḥammad</item>
+        <item>Al-Fatḥ</item>
+        <item>Al-Ḥujurāt</item>
+        <item>Qāf</item>
+        <item>Adh-Dhāriyāt</item>
+        <item>Aṭ-Ṭūr</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Raḥmān</item>
+        <item>Al-Wāqiʿah</item>
+        <item>Al-Ḥadīd</item>
+        <item>Al-Mujādilah</item>
+        <item>Al-Ḥashr</item>
+        <item>Al-Mumtaḥanah</item>
+        <item>Aṣ-Ṣaff</item>
+        <item>Al-Jumuʿah</item>
+        <item>Al-Munāfiqūn</item>
+        <item>At-Taghābun</item>
+        <item>Aṭ-Ṭalāq</item>
+        <item>At-Taḥrīm</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Ḥāqqah</item>
+        <item>Al-Maʿārij</item>
+        <item>Nūḥ</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyāmah</item>
+        <item>Al-Insān</item>
+        <item>Al-Mursalāt</item>
+        <item>An-Nabaʾ</item>
+        <item>An-Nāziʿāt</item>
+        <item>ʿAbasa</item>
+        <item>At-Takwīr</item>
+        <item>Al-Infiṭār</item>
+        <item>Al-Muṭaffifīn</item>
+        <item>Al-Inshiqāq</item>
+        <item>Al-Burūj</item>
+        <item>Aṭ-Ṭāriq</item>
+        <item>Al-Aʿlā</item>
+        <item>Al-Ghāshiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Aḍ-Ḍuḥā</item>
+        <item>Ash-Sharḥ</item>
+        <item>At-Tīn</item>
+        <item>Al-ʿAlaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-ʿĀdiyāt</item>
+        <item>Al-Qāriʿah</item>
+        <item>At-Takāthur</item>
+        <item>Al-ʿAṣr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fīl</item>
+        <item>Quraysh</item>
+        <item>Al-Māʿūn</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kāfirūn</item>
+        <item>An-Naṣr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlāṣ</item>
+        <item>Al-Falaq</item>
+        <item>An-Nās</item>
+    </string-array>
+    <string-array name="sura_names_translation">
+        <item>The Opening</item>
+        <item>The Cow</item>
+        <item>The Family of Imran</item>
+        <item>The Women</item>
+        <item>The Table Spread With Food</item>
+        <item>The Cattle</item>
+        <item>The Heights (or The Wall with Elevations)</item>
+        <item>The Spoils of War</item>
+        <item>The Repentance</item>
+        <item>Jonah</item>
+        <item>(Prophet) Hūd</item>
+        <item>(Prophet) Joseph</item>
+        <item>The Thunder</item>
+        <item>Abraham</item>
+        <item>The Rocky Tract</item>
+        <item>The Bees</item>
+        <item>The Journey by Night</item>
+        <item>The Cave</item>
+        <item>Mary</item>
+        <item>Ta-Ha</item>
+        <item>The Prophets</item>
+        <item>The Pilgrimage</item>
+        <item>The Believers</item>
+        <item>The Light</item>
+        <item>The Criterion</item>
+        <item>The Poets</item>
+        <item>The Ants</item>
+        <item>The Narration</item>
+        <item>The Spider</item>
+        <item>The Romans</item>
+        <item>Luqmān</item>
+        <item>The Prostration</item>
+        <item>The Confederates</item>
+        <item>Sheba</item>
+        <item>The Originator of Creation</item>
+        <item>Ya Sin</item>
+        <item>Those Ranged in Ranks</item>
+        <item>The Letter \"Saad\"</item>
+        <item>The Groups</item>
+        <item>The Forgiver</item>
+        <item>They are explained in detail</item>
+        <item>The Consultation</item>
+        <item>The Gold Adornments</item>
+        <item>The Smoke</item>
+        <item>The Kneeling</item>
+        <item>The Curved Sand‑hills</item>
+        <item>Muḥammad صَلَّى ٱللَّهُ عَلَيۡهِ وَسَلَّمَ</item>
+        <item>The Victory</item>
+        <item>The Dwellings</item>
+        <item>The Letter \"Qaf\"</item>
+        <item>The Winds that Scatter</item>
+        <item>The Mount</item>
+        <item>The Star</item>
+        <item>The Moon</item>
+        <item>The Most Gracious</item>
+        <item>The Event</item>
+        <item>Iron</item>
+        <item>The Woman Who Disputes</item>
+        <item>The Gathering</item>
+        <item>The Woman to be examined</item>
+        <item>The Row or the Rank</item>
+        <item>Friday</item>
+        <item>The Hypocrites</item>
+        <item>Mutual Loss and Gain</item>
+        <item>The Divorce</item>
+        <item>The Prohibition</item>
+        <item>Dominion</item>
+        <item>The Pen</item>
+        <item>The Inevitable</item>
+        <item>The Ways of Ascent</item>
+        <item>Noah</item>
+        <item>The Jinn</item>
+        <item>The One wrapped in Garments</item>
+        <item>The One Enveloped</item>
+        <item>The Resurrection</item>
+        <item>Man</item>
+        <item>Those sent forth</item>
+        <item>The News</item>
+        <item>Those Who Pull Out</item>
+        <item>He Frowned</item>
+        <item>Winding Round and losing its Light</item>
+        <item>The Cleaving</item>
+        <item>Those Who Deal in Fraud</item>
+        <item>The Splitting Asunder</item>
+        <item>The Big Stars “Burūj”</item>
+        <item>The Night‑Comer</item>
+        <item>The Most High</item>
+        <item>The Overwhelming</item>
+        <item>The Break of Day or the Dawn</item>
+        <item>The City</item>
+        <item>The Sun</item>
+        <item>The Night</item>
+        <item>The Forenoon ‑ “After Sunrise”</item>
+        <item>The Opening Forth</item>
+        <item>The Fig</item>
+        <item>The Clot</item>
+        <item>The Night of Decree</item>
+        <item>The Clear Evidence</item>
+        <item>The Earthquake</item>
+        <item>Those That Run</item>
+        <item>The Striking Hour</item>
+        <item>The piling Up — The Emulous Desire</item>
+        <item>The Time</item>
+        <item>The Slanderer</item>
+        <item>The Elephant</item>
+        <item>Quraish</item>
+        <item>The Small Kindnesses</item>
+        <item>A River in Paradise</item>
+        <item>The Disbelievers</item>
+        <item>The Help</item>
+        <item>The Palm Fibre</item>
+        <item>The Purity</item>
+        <item>The Daybreak</item>
+        <item>Mankind</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d collection</item>
+        <item quantity="other">%d collections</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Deleted one item</item>
+        <item quantity="other">Deleted %d items</item>
+    </plurals>
+    <plurals name="plural_reading_bookmarks">
+        <item quantity="one">@string/reading_bookmark</item>
+        <item quantity="other">@string/reading_bookmarks</item>
+    </plurals>
+    <plurals name="plural_recent_pages">
+        <item quantity="one">@string/menu_jump_last_page</item>
+        <item quantity="other">@string/recent_pages</item>
+    </plurals>
+    <plurals name="removed_highlights">
+        <item quantity="one">Removed one highlight</item>
+        <item quantity="other">Removed %d highlights</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">One result for \"%1$s\":</item>
+        <item quantity="other">%2$d results for \"%1$s\":</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">One verse</item>
+        <item quantity="other">%s verses</item>
+    </plurals>
 </resources>

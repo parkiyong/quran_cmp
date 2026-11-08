@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">Ishtirokchilar</string>
+    <string name="about_contributors_summary">Ushbu \"Quran for Android\" ilovasini ishlab chiqarishda ishtirok etganlar roʻyxati</string>
+    <string name="about_data_sources">Maʼlumotlar manbalari</string>
+    <string name="about_description">\"Quran for Android\" - bu bepul Qurʼon ilovasidir. Iltimos, ilovani ishlab chiqarishda ishtirok etganlarni duolaringizda unutmang.</string>
+    <string name="about_furqan_summary">Usmoniy matn hamda arabcha tafsirlar</string>
+    <string name="about_images">Rasmlar</string>
+    <string name="about_madani_images">Qurʼon sahifalari rasmlari Podshoh Fahd Qurʼon Bosma Kompleksi shriftlari asosida yaratildi</string>
+    <string name="about_naskh_images">\"Quran - Naskh\" ilovasi uchun rasmlar \"SHL Info Systems\" ruhsati bilan olindi</string>
+    <string name="about_noorhidayat_summary">\"Noorehira\" shrifti hamda Mufti Taqi Usmoniy tarjimasi</string>
+    <string name="about_open_source">Ochiq kodli proyektlar</string>
+    <string name="about_others">Boshqalar</string>
+    <string name="about_qaloon_images">\"Quran - Qaloon\" ilovasi uchun rasmlar \"Nous Memes Editions Et Diffusion (Tunisia)\" ruhsati bilan olindi</string>
+    <string name="about_quran_enc_summary">Koʻplab tillardagi Qurʼon maʼnolari tarjimalari</string>
+    <string name="about_quran_ksu">Elektron Musʼhaf proyekti</string>
+    <string name="about_quran_ksu_summary">Arabcha tafsir hamda baʼzi tarjimalar Podshoh Saud Universiteti qoshidagi Elektron Musʼhaf proyektidan olindi. Shuningdek doktor Ayman Suvayd qiroati ham ushbu proyektdan olingan.</string>
+    <string name="about_quranicaudio_summary">Muttasil mp3 Qurʼon tilovatlari</string>
+    <string name="about_tanzil_summary">Baʼzi tillardagi Qurʼon maʼnolari tarjimalari</string>
+    <string name="app_name">Qurʼon</string>
+    <string name="appearance">Koʻrinish</string>
+    <string name="audio_updated_text">Bir necha Qurʼon audio fayllar yangilandi. Qurilmangizdagi eski versiyalar oʻchirildi, keyingi safar foydalanganingizda yangilangan versiyalari qayta saqlab olinadi.</string>
+    <string name="audio_updated_title">Audio fayllar yangilandi</string>
+    <string name="available_translations">Saqlab olish mumkin</string>
+    <string name="ayah_copied_popup">Oyat xotiraga koʻchirildi</string>
+    <string name="bookmark_ayah">Oyatni xatchoʻplash</string>
+    <string name="bookmarks_empty_subtitle">Sahifani saqlash uchun xatchoʻp belgisiga bosing yoki oyatni xatchoʻp qilish uchun uni bosib turing.</string>
+    <string name="bookmarks_empty_title">Hozircha xatchoʻplar yoʻq</string>
+    <string name="bookmarks_list_empty">Xatchoʻplar mavjud emas</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="canceling">Bekor qilinmoqda…</string>
+    <string name="copy_ayah">Oyatni koʻchirish</string>
+    <string name="default_collection">Sevimlilar</string>
+    <string name="delete">Oʻchirish</string>
+    <string name="delete_tag">Tegni oʻchirish</string>
+    <string name="delete_translation">Oʻchirish</string>
+    <string name="dialog_ok">OK</string>
+    <string name="downloadImportantPrompt">Uskunangizdagi Qurʼon rasmlari uchun kichik, ammo muhim oʻzgartirishlar kiritish lozim. Yangilangan fayllarni hozir saqlab olasizmi?</string>
+    <string name="downloadPrompt">Ilova toʻliq ishlashi uchun baʼzi fayllarni koʻchirib olish lozim. Agar fayllarni hozir saqlab olmasangiz, Qurʼon sahifalarining ochilishi biroz sekin amalga oshishi mumkin hamda doimiy Internet aloqasi kerak boʻladi. Fayllarni hozir saqlab olasizmi?</string>
+    <string name="downloadPrompt_no">Yoʻq</string>
+    <string name="downloadPrompt_ok">Ha</string>
+    <string name="downloadPrompt_title">Kerakli fayllar yuklansinmi?</string>
+    <string name="downloadTabletPrompt">Planshetlar uchun rasmlar yangilandi. Yangi fayllarni hozir saqlab olasizmi?</string>
+    <string name="download_cancel">Bekor qilish</string>
+    <string name="download_error_disk">Uskunada yetarli xotira mavjud emas</string>
+    <string name="download_error_general">Saqlash muvaffaqiyatsiz boʻldi</string>
+    <string name="download_error_invalid_download">Saqlab olingan fayl buzilgan</string>
+    <string name="download_error_invalid_download_retry">Fayl buzilgan, qayta saqlab olishga harakat qilinmoqda…</string>
+    <string name="download_error_network">Tarmoq bogʻlanishida xatolik yuz berdi</string>
+    <string name="download_error_network_retry">Tarqmoq xatoligi, qayta harakat qilinmoqda…</string>
+    <string name="download_error_perms">Ruhsat muammosi tufayli saqlab boʻlmadi</string>
+    <string name="download_extra_data">Boʻlishish va tarjimalardan foydalana olish uchun bir-ikkita kichik hajmdagi fayllar lozim. Hozir saqlab olasizmi?</string>
+    <string name="download_non_wifi_prompt">Wi-Fi tarmogʻiga ulanmagansiz, baribir fayllarni saqlab olmoqchimisiz?</string>
+    <string name="download_processing">Saqlanmoqda…</string>
+    <string name="download_retry">Qayta harakat qilish</string>
+    <string name="download_successful">Muvaffaqiyatli saqlandi</string>
+    <string name="downloaded_translations">Saqlab olingan</string>
+    <string name="downloading">Saqlanmoqda…</string>
+    <string name="downloading_message">Iltimos, fayllar toʻliq saqlanib olinguncha biroz kutib turing.</string>
+    <string name="edit_tag">Tegni tahrir qilish</string>
+    <string name="email_us">Agar savollaringizga yuqorida javob olmagan boʻlsangiz quranandroid@gmail.com adresiga maktub yoʻllashingiz mumkin. Faqat, shuni yodda tutingki, biz juda ham koʻplab e-mail xabarlar olamiz va shu sababli barcha xatlarga javob yoza olmasligimiz mumkin. Iltimos, maktubni ingliz tilida yuborishni unutmang.</string>
+    <string name="error_getting_translation_list">Tarjimalar roʻyxatini olib boʻlmadi. Iltimos, birozdan keyin qayta harakat qilib koʻring.</string>
+    <string name="export_data_error">Eksport qilishda xatolik yuz berdi</string>
+    <string name="exported_data">Maʼlumotlar \"%1$s\"ga eksport qilindi</string>
+    <string name="extracting_title">Ishlanmoqda…</string>
+    <string name="found_in_sura">(%1$d) %2$s surasi, %3$d-oyat (%4$d-bet)</string>
+    <string name="from">Boshi</string>
+    <string name="get_arabic_search_db">Arabcha izlash bazasini oʻrnatish</string>
+    <string name="get_translations">Tarjimalar saqlab olish</string>
+    <string name="gotoPage">Sahifaga oʻtish</string>
+    <string name="help">&lt;b&gt;Audiolarni qanday eshitish mumkin?&lt;/b&gt; &lt;br/&gt;Qurʼonning istalgan sahifasini oching va ekranga bir marta bosing. Ekranning quyi qismida chalish tugmasi va qorining ismini koʻrasiz. Qori nomiga bosib roʻyxatdan boshqalarini ham tanlash mumkin. Chalish tugmasiga bosib ochiq turgan sahifa yoki surani eshitish mumkin. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Tarjimalarni qanday oʻqish mumkin?&lt;/b&gt; &lt;br/&gt;Qurʼonning istalgan sahifasini oching va ekranga bir marta bosing. Ekranning yuqori qismida globus rasmini koʻrasiz. Globusga bosib tarjima tanlang. &lt;br/&gt; Agar avval saqlangan tarjimalar mavjud boʻlmasa, tarjimalarni saqlab olish sahifasi ochiladi. Istalgan tarjimani tanlab, saqlab oling. Shundan keyin orqaga qaytib globus rasmini yana bir marta bosing. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Sahifani qanday xatchoʻplash mumkin?&lt;/b&gt; &lt;br/&gt;Qurʼonning istalgan sahifasini oching va ekranga bir marta bosing. Ekranning yuqori qismida xatchoʻp rasmini koʻrasiz. Xatchoʻpga bir marta bosish orqali sahifani xatchoʻplang (rasm rangi toʻq oq rangga oʻzgaradi), yana bir marta bosilsa sahifa xatchoʻplardan oʻchiriladi. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Shriftlarni qanday kattalashtirish mumkin?&lt;/b&gt; &lt;br/&gt;Arabcha matnlarni kattalashtirish uchun uskunangizni landshaft (yotiq) holatda tuting. Tarjima matnlari shriftini esa sozlamalar orqali oʻzgartirishingiz mumkin. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Oyatni boshqalar bilan qanday boʻlishish mumkin?&lt;/b&gt; &lt;br/&gt;Qurʼonning istalgan sahifasini oching va biror oyat ustiga biroz bosib turing. Yangi ochilgan menyu orqali oyatni xatchoʻplarga qoʻshishingiz, boʻlishingiz, tarjimasini koʻrishingiz hamda qiroatini tinglashingiz mumkin. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;Malayalam/Tamil/Bengali/Urdu shriflari ishlamayabdi!&lt;/b&gt; &lt;br/&gt;Afsuski, Android 4.0 dan avvalgi versiyalarda ushbu shriftlar umuman ishlamaydi va bu boradi biz biror yordam qila olmaymiz.</string>
+    <string name="help_title">Koʻp soʻralgan savollar</string>
+    <string name="highlight_color_blue">Ko‘k</string>
+    <string name="highlight_color_green">Yashil</string>
+    <string name="highlight_color_purple">Binafsha</string>
+    <string name="highlight_color_yellow">Sariq</string>
+    <string name="highlighting_database">Kerakli fayllar</string>
+    <string name="icon_reveal_body">Quran ilovasi endi Allohning kalomi atrofida yaratilgan vositalar oilasining umumiy belgisini o‘zida aks ettiradi. Xatcho‘plaringiz, yutuqlaringiz va sozlamalaringiz aynan qoldirgan joyingizda.</string>
+    <string name="icon_reveal_title">Yangi belgimiz shu yerda</string>
+    <string name="import_data">Import</string>
+    <string name="import_data_and_merge">Ushbu fayl import qilinsa, joriy maʼlumotlaringizga %1$d ta xatchoʻp va %2$d ta teg qoʻshiladi. Import qilinsinmi?</string>
+    <string name="import_data_error">Yaroqsiz zaxira fayl (yoxud zaxira faylni oʻqib boʻlmadi).</string>
+    <string name="import_data_permissions_error">Ruxsat xatoliklari tufayli zaxira faylini oʻqib boʻlmadi.</string>
+    <string name="import_successful">Muvaffaqiyatli import qilindi</string>
+    <string name="juz2_description">%1$s-juz</string>
+    <string name="kitkat_external_message">Ilovani tashqi xotiraga (SD kartaga) koʻchirib oʻtkazgach, agar u oʻchirib tashlab-qayta oʻrnatilsa yoki maʼlumotlari tozalansa barcha Qurʼon rasmlari va audio fayllar ham oʻchib ketadi va ushbu kerakli maʼlumotlarni yana qayta saqlab olishga toʻgʻri keladi. Baribir tashqi xotiradan foydalanmoqchimisiz?</string>
+    <string name="loading">Yuklanmoqda…</string>
+    <string name="madani">Madaniy</string>
+    <string name="makki">Makkiy</string>
+    <string name="manzil_description">%1$s-manzil</string>
+    <string name="menu_about">Ilova haqida</string>
+    <string name="menu_back_to_page">Qurʼon</string>
+    <string name="menu_bookmarks">Xatchoʻplar</string>
+    <string name="menu_bookmarks_page">Sahifa xatchoʻplari</string>
+    <string name="menu_get_translations">Tarjimalar yuklab olish</string>
+    <string name="menu_help">Yordam</string>
+    <string name="menu_jump">Oʻtish</string>
+    <string name="menu_jump_last_page">Soʻnggi oʻqilgan sahifa</string>
+    <string name="menu_other_apps">Boshqa ilovalar</string>
+    <string name="menu_search">Izlash</string>
+    <string name="menu_settings">Sozlamalar</string>
+    <string name="menu_show_date">Sanalarni koʻrsatish</string>
+    <string name="menu_sort">Tartib</string>
+    <string name="menu_sort_date">Sana</string>
+    <string name="menu_sort_group_by_tags">Teglarga boʻlish</string>
+    <string name="menu_sort_location">Qurʼondagi yeri</string>
+    <string name="menu_translation">Tarjimalar</string>
+    <string name="more_translations">Yana tarjimalar</string>
+    <string name="move_down">Pastga</string>
+    <string name="move_up">Yuqoriga</string>
+    <string name="need_translation">Birorta ham tarjima saqlab olinmagan.</string>
+    <string name="new_tag">Yangi teg</string>
+    <string name="next">Keyingi</string>
+    <string name="no_arabic_search_available">Arabcha izlash moduli oʻrnatilmagan, iltimos, avval uni saqlab oling. Soʻngra qayta izlab koʻring.</string>
+    <string name="no_results">\"%s\" boʻyicha natija topilmadi</string>
+    <string name="notification_channel_audio">Qurʼon qiroati</string>
+    <string name="notification_channel_download">Qurʼon yuklamalari</string>
+    <string name="notification_download_canceled">Saqlash bekor qilindi</string>
+    <string name="old_page_bookmarks">Eski sahifa xatchoʻplari</string>
+    <string name="page_description">%1$s-bet, %2$s-juz</string>
+    <string name="pause">Pauza</string>
+    <string name="play">Chalish</string>
+    <string name="play_apply">Joriy qilish</string>
+    <string name="play_apply_and_play">Joriy qilish va chalish</string>
+    <string name="play_each_verse">Har bir oyatni:</string>
+    <string name="play_from_here">Shu yerdan boshlab chal</string>
+    <string name="play_restrict_range">Yuqorida oyatlarnigina eshitish</string>
+    <string name="play_verses_range">Oyatlar toʻplamini:</string>
+    <string name="playback_prompt_title">Boshlash joyi:</string>
+    <string name="playback_speed">Tezlik:</string>
+    <string name="please_grant_permissions">Iltimos, ilova sozlamalari orqali kerakli ruxsatlarni bering</string>
+    <string name="please_wait">Iltimos, biroz kuting…</string>
+    <string name="post_notification_permission">Qurʼon bildirishnomalar yuborishi uchun ruxsat berasizmi? Bu faqat fayllar saqlab olish statuslarini koʻrsatish yoxud audio fayllar avtomatik ravishda yuklab olinishida koʻrsatiladi.</string>
+    <string name="prefs_app_location_summary">Qurʼon fayllari saqlanadigan joy</string>
+    <string name="prefs_app_location_title">Maʼlumotlar jildi</string>
+    <string name="prefs_app_size">Mavjud fayllar hajmi:</string>
+    <string name="prefs_audio_manager_summary">Qurʼon audio fayllarini saqlab olish va boshqarish</string>
+    <string name="prefs_ayah_before_translation_summary">Arabcha oyatlarni tarjima matni ustida koʻrsatish</string>
+    <string name="prefs_ayah_before_translation_title">Oyatni avval koʻrsatish</string>
+    <string name="prefs_ayah_text_title">Oyat matni hajmi</string>
+    <string name="prefs_calculating_app_size">Ilova hajmi hisoblanmoqda…</string>
+    <string name="prefs_category_advanced">Ilgʻor</string>
+    <string name="prefs_category_advanced_summary">Xatchoʻplarni import/eksport qilish, maʼlumotlar jildini tanlash va h.k.</string>
+    <string name="prefs_category_display_settings">Displey</string>
+    <string name="prefs_category_download">Saqlab olish</string>
+    <string name="prefs_category_dual_screen">Juft sahifa sozlamalari</string>
+    <string name="prefs_category_reading">Oʻqish</string>
+    <string name="prefs_category_translation">Tarjima sozlamalari</string>
+    <string name="prefs_copying_app_files">Ilova fayllari koʻchirilmoqda…</string>
+    <string name="prefs_display_marker_summary">Juz, hizb kabi boʻlimlarga yetib kelganda bu haqida maʼlumot koʻrsatish</string>
+    <string name="prefs_display_marker_title">Boʻlim maʼlumotlari</string>
+    <string name="prefs_download_amount_summary">Nomuttasil audio fayllarni saqlab olish hajmi</string>
+    <string name="prefs_download_amount_title">Hajm</string>
+    <string name="prefs_dual_page_mode_disabled">Yotiq holatda ham faqat bitta sahifa koʻrinadi</string>
+    <string name="prefs_dual_page_mode_enabled">Yotiq holatda ikki sahifa yonma-yon koʻrinadi</string>
+    <string name="prefs_dual_page_mode_title">Juft sahifa rejimi</string>
+    <string name="prefs_err_moving_app_files">Fayllarni koʻchirib oʻtkazishda xatolik yuz berdi</string>
+    <string name="prefs_export_csv_summary">Xatchoʻp va teglarni CSV formatda eksport qilish</string>
+    <string name="prefs_export_csv_title">CSV formatda eksport</string>
+    <string name="prefs_export_summary">Xatchoʻp va teglarni eksport qilish</string>
+    <string name="prefs_export_title">Eksport</string>
+    <string name="prefs_highlight_bookmarks_summary">Xatchoʻplangan oyatlarni alohida ajratib koʻrsatish</string>
+    <string name="prefs_highlight_bookmarks_title">Xatchoʻp maʼlumotlari</string>
+    <string name="prefs_import_summary">Xatchoʻp va teglarni import qilish</string>
+    <string name="prefs_import_title">Import</string>
+    <string name="prefs_landscape_orientation_summary_off">Tik oriyentatsiyadan foydalaniladi</string>
+    <string name="prefs_landscape_orientation_summary_on">Yotiq oriyentatsiyadan foydalaniladi</string>
+    <string name="prefs_landscape_orientation_title">Landshaft rejim</string>
+    <string name="prefs_lock_orientation_summary_off">Joriy oriyentatsiyadan foydalaniladi</string>
+    <string name="prefs_lock_orientation_summary_on">Qurʼon sahifalari doim belgilangan oriyentatsiyada boʻladi</string>
+    <string name="prefs_lock_orientation_title">Ekran oriyentatsiyasini qulflash</string>
+    <string name="prefs_megabytes_int">%1$d Mb</string>
+    <string name="prefs_night_mode_background_brightness_title">Fon yorqinligi</string>
+    <string name="prefs_night_mode_text_brightness_title">Matn porloqliligi</string>
+    <string name="prefs_no_enough_space_to_move_files">Fayllarni koʻchirib oʻtkazish uchun yetarli joy mavjud emas</string>
+    <string name="prefs_overlay_page_info_summary">Sura nomi, sahifa va juz raqamlarini koʻrsatish</string>
+    <string name="prefs_overlay_page_info_title">Sahifa maʼlumotlari</string>
+    <string name="prefs_page_type_summary">Qurʼon sahifalari turini tanlash</string>
+    <string name="prefs_page_type_title">Sahifa turi (eksperimental)</string>
+    <string name="prefs_preview">Oldindan koʻrish</string>
+    <string name="prefs_sdcard_external">Tashqi xotira (SD karta %1$d)</string>
+    <string name="prefs_sdcard_internal">Ichki xotira</string>
+    <string name="prefs_send_logs_summary">Ishlab chiqaruvchiga debag qaydlarini yuborish</string>
+    <string name="prefs_send_logs_title">Qaydlarni yuborish</string>
+    <string name="prefs_split_page_and_translation_summary">Juft sahifa rejimi yoniq boʻlsa, tarjimalar ekranida Qurʼonning toʻliq sahifasi koʻrsatiladi</string>
+    <string name="prefs_split_page_and_translation_title">Tarjima rejimida Qurʼon</string>
+    <string name="prefs_streaming_summary">Imkon qadar audio strimingdan foydalanish</string>
+    <string name="prefs_streaming_title">Striming</string>
+    <string name="prefs_sura_translated_name_summary">Sura nomi tarjimasi koʻrsatilsin</string>
+    <string name="prefs_sura_translated_name_title">Sura nomi tarjimasi</string>
+    <string name="prefs_translation_text_title">Tarjima shrifti oʻlchami</string>
+    <string name="prefs_translations">Tarjimalar</string>
+    <string name="prefs_translations_summary">Tarjimalarni saqlab olish va boshqarish</string>
+    <string name="prefs_use_arabic_summary_on">Ilova arab tilida ishlaydi</string>
+    <string name="prefs_use_arabic_title">Arabcha rejim (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Tarjimalar matni disleksiyasi borlar uchun qulay shriftda ko‘rsatiladi</string>
+    <string name="prefs_use_dyslexic_font_title">Disleksiyaga mos shrift</string>
+    <string name="prefs_volume_key_navigation_summary">Qurilmaning ovoz tugmalari yordamida varoqlash</string>
+    <string name="prefs_volume_key_navigation_title">Ovoz tugmalaridan foydalanish</string>
+    <string name="previous">Avvalgi</string>
+    <string name="process_progress">%1$d/%2$d ishlandi</string>
+    <string name="qari_abdulaziz_zahrani_gapless">Abdulaziz Az-Zahroniy</string>
+    <string name="qari_abdulbaset">Abdulbosit (doimiy emas)</string>
+    <string name="qari_abdulbaset_gapless">Abdulbosit</string>
+    <string name="qari_abdulbaset_mujawwad">Abdulbosit (mujavvad)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">Abdulbosit (mujavvad)</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">AbdulHadi Kanakeri</string>
+    <string name="qari_abdullah_matroud_gapless">Abdulloh Matroud</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">Abdul Mohsen al-Qasim</string>
+    <string name="qari_abdulrahman_alshahat_gapless">Abdurahmon Ash-Shahat</string>
+    <string name="qari_abdurrashid_sufi_gapless">Abdurashid Sufiy</string>
+    <string name="qari_afasy">Mishariy al-Afasiy (doimiy emas)</string>
+    <string name="qari_afasy_cali_gapless">Mishariy al-Afasiy (Kalifornia)</string>
+    <string name="qari_afasy_gapless">Mishariy al-Afasiy</string>
+    <string name="qari_ahmad_nauina_gapless">Ahmad Nauiyna</string>
+    <string name="qari_ahmed_al_nufais_gapless">Ahmed Al-Nufais</string>
+    <string name="qari_ajamy_gapless">Ahmad ibn Ali al-Ajamiy</string>
+    <string name="qari_akram_al_alaqmi">Akram al-Alaqmiy</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">Ali Hajjoj Alsuaysiy</string>
+    <string name="qari_ali_jaber_gapless">Ali Jaber</string>
+    <string name="qari_alijon_qari_gapless">Alijon Qari</string>
+    <string name="qari_aloosi_gapless">Abdul Rahmon Aloosi</string>
+    <string name="qari_alzain_ahmad_gapless">Alzain Muhammad Ahmad</string>
+    <string name="qari_ayman_suwaid_gapless">Ayman Suvayd</string>
+    <string name="qari_ayman_suwaid_gapped">Ayman Suvayd (doimiy emas)</string>
+    <string name="qari_ayyoub">Muhammad Ayyub (doimiy emas)</string>
+    <string name="qari_ayyoub_gapless">Muhammad Ayyub</string>
+    <string name="qari_aziz_alili_gapless">Aziz Aliliy</string>
+    <string name="qari_badr_al_turki_gapless">Badr Al-Turki</string>
+    <string name="qari_bandar_baleela_gapless">Bandar Boliyla</string>
+    <string name="qari_basfar">Abdulloh Basfar (doimiy emas)</string>
+    <string name="qari_basfar_gapless">Abdulloh Basfar</string>
+    <string name="qari_dussary">Yosir Ad-Dussoriy (doimiy emas)</string>
+    <string name="qari_fares_abbad_gapless">Fares Abbad</string>
+    <string name="qari_farman_shawani_gapless">Farman Shawani</string>
+    <string name="qari_hady_toure_gapless">Hady Toure</string>
+    <string name="qari_hani_rifai">Honiy Ar-Rifoiy (doimiy emas)</string>
+    <string name="qari_hani_rifai_gapless">Honiy Ar-Rifoiy</string>
+    <string name="qari_hudhayfi">Ali al-Xuzayfiy (doimiy emas)</string>
+    <string name="qari_hudhayfi_gapless">Ali al-Xuzayfiy</string>
+    <string name="qari_husary_gapless">Xusoriy</string>
+    <string name="qari_husary_iza3a_gapless">Xusoriy (radio)</string>
+    <string name="qari_husary_muallim_gapless">Husariy (muallim)</string>
+    <string name="qari_husary_mujawwad">Xusoriy (mujavvad)</string>
+    <string name="qari_husary_mujawwad_gapless">Xusoriy (mujavvad)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">Ibrohim al-Axdar</string>
+    <string name="qari_idrees_abkar_gapless">Idrees Abkar</string>
+    <string name="qari_jibreel">Muhammad Jibriyl (doimiy emas)</string>
+    <string name="qari_jibreel_gapless">Muhammad Jibriyl</string>
+    <string name="qari_juhany_gapless">Abdulloh al-Juhany</string>
+    <string name="qari_khaled_muhanna_gapless">Xolid al-Muhanna</string>
+    <string name="qari_khalid_jalil_gapless">Khalid Al-Jalil</string>
+    <string name="qari_khalid_qahtani_gapless">Xolid Al Qahtoniy</string>
+    <string name="qari_khalifa_taniji_gapless">Xalifa Tengi</string>
+    <string name="qari_luhaidan_gapless">Muhammad Al-Luhaidan</string>
+    <string name="qari_mahmoud_ali_albana_gapless">Mahmud Ali al-Bana</string>
+    <string name="qari_minshawi_mujawwad">Minshoviy (mujavvad, doimiy emas)</string>
+    <string name="qari_minshawi_mujawwad_gapless">Minshoviy (mujavvad)</string>
+    <string name="qari_minshawi_murattal_gapless">Minshavi (murattal)</string>
+    <string name="qari_mishari_walk_gapless">Mishariy &amp; Ibrohim Volk (inglizcha)</string>
+    <string name="qari_mohammad_altablawi_gapless">Muhammad al-Toblaviy</string>
+    <string name="qari_mokhtasar_asmari_gapless">Abdullah Al-Asmari (Arabcha sharh)</string>
+    <string name="qari_mostafa_ismaeel_gapless">Mustafa Ismoil</string>
+    <string name="qari_muaiqly">Mohir al-Muayqliy (doimiy emas)</string>
+    <string name="qari_muaiqly_gapless">Mohir al-Muayqliy</string>
+    <string name="qari_muaiqly_haramain_gapless">Mohir al-Muayqliy (Haramain)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">Muhammad Rashad Al-Sherif</string>
+    <string name="qari_nabil_rifa3i_gapless">Nabil Ar-Rifai</string>
+    <string name="qari_noreen_siddiq_gapless">Noreen Siddiq</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">Peshewa Qadir al-Kurdi</string>
+    <string name="qari_qatami_gapless">Nosir al-Qotomiy</string>
+    <string name="qari_raad_al_kurdi_gapless">Raad Al-Kurdi</string>
+    <string name="qari_saad_al_ghamdi">Saʼd al-Gʻomdiy (doimiy emas)</string>
+    <string name="qari_saad_al_ghamidi_gapless">Saʼd al-Gʻomdiy</string>
+    <string name="qari_sahl_yaseen_gapless">Sohil Yosin</string>
+    <string name="qari_salah_budair_gapless">Saloh Budoyr</string>
+    <string name="qari_salah_bukhatir_gapless">Saloh Buxotir</string>
+    <string name="qari_shatri">Abu Bakr Ash-Shatriy (doimiy emas)</string>
+    <string name="qari_shatri_gapless">Abu Bakr Ash-Shatriy</string>
+    <string name="qari_shuraym">Saud Ash-Shuroym (doimiy emas)</string>
+    <string name="qari_shuraym_gapless">Saud Ash-Shuroym</string>
+    <string name="qari_suadis">Abdurahmon As-Sudays (doimiy emas)</string>
+    <string name="qari_sudais_gapless">Abdurahmon As-Sudays</string>
+    <string name="qari_tablawy">Muhammad al-Toblaviy (doimiy emas)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">Tawfeeq as-Sawaigh</string>
+    <string name="qari_wadee3_alyamani_gapless">Wadee\' Al-Yamani</string>
+    <string name="qari_walk">Ibrohim Volk (inglizcha)</string>
+    <string name="qari_walk_gapless">Ibrohim Volk (inglizcha)</string>
+    <string name="qari_yasser_dussary_gapless">Yosir Ad-Dussoriy</string>
+    <string name="qari_yasser_salama_hadr_gapless">Yosir Salama (hadr)</string>
+    <string name="qarilist_dismiss">Rad etish</string>
+    <string name="qarilist_gapless">uzluksiz</string>
+    <string name="qarilist_gapped">Bo\'shashgan</string>
+    <string name="qarilist_qaris_with_downloads">Yuklab olish bilan tilovatchilar</string>
+    <string name="qarilist_ready_to_play">Eshitishga tayyor</string>
+    <string name="qarilist_select_qari">Qori tanlang</string>
+    <string name="qarilist_selected">Tanlangan</string>
+    <string name="quranSearchType">Suralar</string>
+    <string name="quran_ayah">%1$d-oyat</string>
+    <string name="quran_ayah_details">%1$s %2$s-oyat, %3$s-juz</string>
+    <string name="quran_hizb">Hizb</string>
+    <string name="quran_juz2">Juz</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">Sahifa</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">Sura</string>
+    <string name="quran_sura_title">%1$s surasi</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">Yopish</string>
+    <string name="reading_bookmark_movable_education_body">Oʻqish xatchoʻpini saqlash eskisining oʻrnini bosadi. Bir nechta oyatni saqlash uchun oyatni bosib turing va toʻplamga qoʻshing.</string>
+    <string name="reading_bookmark_movable_education_title">Bu koʻchiriladigan oʻqish xatchoʻpi</string>
+    <string name="reading_bookmark_moved_from">%1$s dan koʻchirildi</string>
+    <string name="reading_bookmark_red">Qizil</string>
+    <string name="recent_pages">Soʻnggi sahifalar</string>
+    <string name="recite_from_here">Bu yerdan o\'qing</string>
+    <string name="remove_button">Oʻchirish</string>
+    <string name="remove_dlg_msg">Haqiqatda \"%1$s\" tarjimasini oʻchirmoqchimisiz??</string>
+    <string name="remove_dlg_title">Tarjima oʻchirilsinmi?</string>
+    <string name="scoped_storage_message">Foydalanuvchilar xavfsizligini taʼminotini oshirish boʻyicha oʻzgarishlar tufayli Android tizimining yangi versiyalarida ilovamiz ushbu jilddagi maʼlumotlarni oʻqiy olmay qolishi mumkin. Shunga qaramasdan hozir ushbu jilddan foydalanmoqchimisiz?</string>
+    <string name="sdcard_error">SD karta topilmadi.Iltimos, kartani montaj qiling va qayta harakat qilib koʻring.</string>
+    <string name="search_data">Maʼlumot izlash</string>
+    <string name="search_entire_mushaf">Butun musʼhafni qidirish</string>
+    <string name="search_full_results">Barcha natijalar</string>
+    <string name="search_hint">Izlash</string>
+    <string name="search_key">Sura topish uchun izlash tugmasiga bosing</string>
+    <string name="see_tafseer_of_verse">Ushbu oyatning tafsiri %d-oyatning tafsirida mavjud (koʻrish uchun bosing).</string>
+    <string name="share_ayah">Oyat bogʻichini boʻlishish</string>
+    <string name="share_ayah_text">Oyat matnini boʻlishish</string>
+    <string name="starting_page_label">Sahifa boshlanishi</string>
+    <string name="stop">Toʻxtatish</string>
+    <string name="storage_permission_please_restart">Iltimos, ushbu oʻzgarish amalga kirishi uchun ilovani qayta ishga tushiring.</string>
+    <string name="storage_permission_rationale">Qurʼon maʼlumotlarni saqlash uchun tashqi xotiraga bogʻlanishga ruxsat berishingizni soʻramoqda. Ushbu ruxsatni bermasangiz ham Qurʼon ishlashi mumkin, biroq ilovani oʻchirsangiz yoki maʼlumotlarni tozalasangiz barcha saqlab olingan suralar, audio va tarjimalar ham oʻchib ketadi. Tashqi xotiraga bogʻlanishga ruxsat berasizmi?</string>
+    <string name="sura_ayah_notification_str">%1$s surasi %2$d-oyat</string>
+    <string name="sura_ayah_sharing_str">%1$s - %2$d</string>
+    <string name="tag_blank_tag_error">Teg nomi boʻsh boʻlmasligi kerak!</string>
+    <string name="tag_bookmark">Xatchoʻpni teglash</string>
+    <string name="tag_dlg_title">Teg</string>
+    <string name="tag_duplicate_tag_error">Ushbu teg nom allaqachon mavjud!</string>
+    <string name="tag_name">Nom</string>
+    <string name="timing_database">Kerakli fayllar</string>
+    <string name="to">Oxiri</string>
+    <string name="translation_ayah">Oyat tarjimasi</string>
+    <string name="translation_dialog_later">Keyinroq</string>
+    <string name="translation_dialog_yes">Ha</string>
+    <string name="translation_updates_available">Tarjimalar uchun yangilanishlar mavjud, hozir tekshirib koʻrasizmi?</string>
+    <string name="undo">Bekor qilish</string>
+    <string name="update_available">Yangilanishlar mavjud</string>
+    <string name="warning">Ogohlantirish</string>
+    <string name="whats_new_continue">Davom etish</string>
+    <string-array name="repeatValues">
+        <item>1 marta</item>
+        <item>2 marta</item>
+        <item>3 marta</item>
+        <item>davomiy</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Fotiha</item>
+        <item>Baqara</item>
+        <item>Oli Imron</item>
+        <item>Niso</item>
+        <item>Moida</item>
+        <item>Anʼom</item>
+        <item>Aʼrof</item>
+        <item>Anfol</item>
+        <item>Tavba</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Raʼd</item>
+        <item>Ibrohim</item>
+        <item>Xijr</item>
+        <item>Nahl</item>
+        <item>Isro</item>
+        <item>Kahf</item>
+        <item>Maryam</item>
+        <item>Toxo</item>
+        <item>Anbiyo</item>
+        <item>Haj</item>
+        <item>Moʻminun</item>
+        <item>Nur</item>
+        <item>Furqon</item>
+        <item>Shuaro</item>
+        <item>Naml</item>
+        <item>Qasos</item>
+        <item>Ankabut</item>
+        <item>Rum</item>
+        <item>Luqmon</item>
+        <item>Sajda</item>
+        <item>Ahzob</item>
+        <item>Sabaʼ</item>
+        <item>Fotir</item>
+        <item>Yosin</item>
+        <item>As-Saffot</item>
+        <item>Sod</item>
+        <item>Zumar</item>
+        <item>Gʻofir</item>
+        <item>Fussilat</item>
+        <item>Shuro</item>
+        <item>Zuhruf</item>
+        <item>Duxon</item>
+        <item>Josiya</item>
+        <item>Ahqof</item>
+        <item>Muhammad</item>
+        <item>Fath</item>
+        <item>Hujurot</item>
+        <item>Qof</item>
+        <item>Zariyat</item>
+        <item>Tur</item>
+        <item>Najm</item>
+        <item>Qamar</item>
+        <item>Rahmon</item>
+        <item>Voqea</item>
+        <item>Hadid</item>
+        <item>Mujodala</item>
+        <item>Xashr</item>
+        <item>Mumtahana</item>
+        <item>Saf</item>
+        <item>Juma</item>
+        <item>Munofiqun</item>
+        <item>Tagʻobun</item>
+        <item>Taloq</item>
+        <item>Tahrim</item>
+        <item>Mulk</item>
+        <item>Qalam</item>
+        <item>Haaqqah</item>
+        <item>Maʼorij</item>
+        <item>Nuh</item>
+        <item>Jin</item>
+        <item>Muzzammil</item>
+        <item>Muddassir</item>
+        <item>Qiyomat</item>
+        <item>Inson</item>
+        <item>Mursalat</item>
+        <item>Naba</item>
+        <item>Naziyat</item>
+        <item>Abasa</item>
+        <item>Takvir</item>
+        <item>Infitor</item>
+        <item>Mutaffifun</item>
+        <item>Inshiqoq</item>
+        <item>Buruj</item>
+        <item>Toriq</item>
+        <item>Aʼlo</item>
+        <item>Gʻoshiya</item>
+        <item>Fajr</item>
+        <item>Balad</item>
+        <item>Shams</item>
+        <item>Layl</item>
+        <item>Zuho</item>
+        <item>Sharh</item>
+        <item>Tiyn</item>
+        <item>Alaq</item>
+        <item>Qadr</item>
+        <item>Bayyina</item>
+        <item>Zalzala</item>
+        <item>Оdiyot</item>
+        <item>Qoriʼa</item>
+        <item>Takasur</item>
+        <item>Asr</item>
+        <item>Humaza</item>
+        <item>Fil</item>
+        <item>Quraysh</item>
+        <item>Moʼun</item>
+        <item>Kavsar</item>
+        <item>Kofirun</item>
+        <item>Nasr</item>
+        <item>Masad</item>
+        <item>Ixlos</item>
+        <item>Falaq</item>
+        <item>Nos</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d toʻplam</item>
+        <item quantity="other">%d toʻplam</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">Bitta element oʻchirildi</item>
+        <item quantity="other">%d ta element oʻchirildi</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">\"%1$s\" boʻyicha bitta natija:</item>
+        <item quantity="other">\"%1$s\" boʻyicha %2$d ta natijalar:</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">Bir oyat</item>
+        <item quantity="other">%s oyat</item>
+    </plurals>
+</resources>

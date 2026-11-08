@@ -7,3 +7,7 @@ dependencies:
 
 settings:
   compose: enabled
+  jvm:
+    jdk:
+      version: 17
+

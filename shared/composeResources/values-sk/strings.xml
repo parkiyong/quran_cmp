@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_collection">Obľúbené</string>
+    <string name="highlight_color_blue">Modrá</string>
+    <string name="highlight_color_green">Zelená</string>
+    <string name="highlight_color_purple">Fialová</string>
+    <string name="highlight_color_yellow">Žltá</string>
+    <string name="qarilist_dismiss">Odmietnuť</string>
+    <string name="qarilist_gapless">Kontinuálne</string>
+    <string name="qarilist_gapped">nekontinuálne</string>
+    <string name="qarilist_qaris_with_downloads">Recitátori so súbormi na stiahnutie</string>
+    <string name="qarilist_ready_to_play">Pripravené na počúvanie</string>
+    <string name="qarilist_select_qari">Vyberte Qari</string>
+    <string name="qarilist_selected">Vybrané</string>
+    <string name="reading_bookmark_red">Červená</string>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d kolekcia</item>
+        <item quantity="few">%d kolekcie</item>
+        <item quantity="many">%d kolekcie</item>
+        <item quantity="other">%d kolekcií</item>
+    </plurals>
+</resources>

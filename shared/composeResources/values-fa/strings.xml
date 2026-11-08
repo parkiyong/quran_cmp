@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">همکاران</string>
+    <string name="about_contributors_summary">فهرستی از افرادی که به توسعه این برنامه یاری رسانده‌اند.</string>
+    <string name="about_data_sources">منبع داده‌ها</string>
+    <string name="about_description">این برنامه مجانی است. تهیه‌کنندگانش را از دعای خود محروم نسازید.</string>
+    <string name="about_furqan_summary">متن عثمانی و تفسیر عربی</string>
+    <string name="about_images">تصاویر</string>
+    <string name="about_madani_images">تصاویر صفحه‌های این قرآن متعلق به چاپخانه ملک فهد در مدینه منوره می‌باشد.</string>
+    <string name="about_naskh_images">تصاویر قرآنی برای برنامه ناسخ (با اجازه) از SHL Info Systems گرفته می شود</string>
+    <string name="about_noorhidayat_summary">قلم نور حرا و ترجمه مفتی تقی</string>
+    <string name="about_open_source">پروژه‌های متن‌باز</string>
+    <string name="about_others">دیگران</string>
+    <string name="about_qaloon_images">تصاویر قلون با اجازه Nous-Mêmes Éditions Et Diffusion (تونس) استفاده می شود</string>
+    <string name="about_quran_enc">دایرة المعارف قرآن کریم</string>
+    <string name="about_quran_enc_summary">ترجمه برای بسیاری از زبان ها</string>
+    <string name="about_quran_ksu">پروژه مصحف الکترونیکی</string>
+    <string name="about_quran_ksu_summary">پروژه مصحف الکترونیکی در دانشگاه ملک سعود منبع تفاسیر عربی و برخی ترجمه‌هاست.</string>
+    <string name="about_quranicaudio_summary">تلاوت‌های قرآنی (بی‌وقفه)</string>
+    <string name="about_tanzil_summary">بسیاری از ترجمه‌ها</string>
+    <string name="app_name">قرآن</string>
+    <string name="audio_updated_text">چندین فایل صوتی قرآن به روز شده است. قرآن برای اندروید کپی شما از این فایل ها را حذف کرده است به طوری که جدیدترین نسخه ها را می توانید دانلود کنید دفعه بعد که آنها را پخش می کنید.</string>
+    <string name="audio_updated_title">به روز رسانی فایل های صوتی قرآن</string>
+    <string name="available_translations">آماده بارگذاری</string>
+    <string name="ayah_copied_popup">آیه کپی شد</string>
+    <string name="bookmark_ayah">نشانک‌گذاری بر آیه</string>
+    <string name="bookmarks_empty_subtitle">برای ذخیره صفحه روی نماد نشانک ضربه بزنید، یا برای نشانک‌گذاری یک آیه، روی آن فشار طولانی دهید.</string>
+    <string name="bookmarks_empty_title">هنوز نشانکی وجود ندارد</string>
+    <string name="bookmarks_list_empty">نشانکی وجود ندارد</string>
+    <string name="cancel">لغو</string>
+    <string name="canceling">در حال لغو</string>
+    <string name="copy_ayah">کپی کردن آیه</string>
+    <string name="default_collection">برگزیده‌ها</string>
+    <string name="delete">حذف</string>
+    <string name="delete_tag">حذف برچسب</string>
+    <string name="delete_translation">حذف ترجمه</string>
+    <string name="dialog_ok">تأیید</string>
+    <string name="downloadImportantPrompt">یک به‌روزرسانی کوچک اما مهم برای تصاویر قرآن وجود دارد. آیا مایل‌اید این وصله را بارگذاری نمایید؟</string>
+    <string name="downloadPrompt">برای عملکرد بهینه بایستی تعدادی فایل از اینترنت دریافت گردد. این کار قدری طول خواهد کشید. آیا آمادگی این کار را دارید؟</string>
+    <string name="downloadPrompt_no">خیر</string>
+    <string name="downloadPrompt_ok">بلی</string>
+    <string name="downloadPrompt_title">فایل‌های موردنیاز بارگذاری شود؟</string>
+    <string name="downloadTabletPrompt">ما به تازگی اضافه شده تصاویر بهبود یافته برای قرص. آیا می خواهید این تصاویر را اکنون دانلود کنید؟</string>
+    <string name="download_cancel">لغو</string>
+    <string name="download_error_disk">فضای کافی برای بارگذاری وجود ندارد</string>
+    <string name="download_error_general">خطا در بارگذاری</string>
+    <string name="download_error_invalid_download">بارگذاری با خطا مواجه شد</string>
+    <string name="download_error_invalid_download_retry">فایل خراب است. دوباره بارگذاری نمایید</string>
+    <string name="download_error_network">خطای شبکه مانع بارگذاری است</string>
+    <string name="download_error_network_retry">خطای شبکه، تلاش مجدد…</string>
+    <string name="download_error_perms">خطا در دسترسی</string>
+    <string name="download_extra_data">برای عملکرد مناسب امکانات اشتراک‌گذاری و ترجمه باید یکی دو فایل را بارگذاری نمایید. موافق‌اید؟</string>
+    <string name="download_non_wifi_prompt">شبکه بی‌سیم قطع است. بارگذاری انجام شود؟</string>
+    <string name="download_processing">در حال بارگذاری…</string>
+    <string name="download_retry">تلاش دوباره</string>
+    <string name="download_successful">بارگذاری موفقیت‌آمیز بود</string>
+    <string name="downloaded_translations">بارگذاری انجام گرفت</string>
+    <string name="downloading">بارگذاری…</string>
+    <string name="downloading_message">لطفاً برای بارگذاری فایل‌ها صبر نمایید. (از ازسرگیری پشتیبانی می‌شود.(</string>
+    <string name="edit_tag">تغییر برچسب</string>
+    <string name="email_us">اگر پاسخ پرسشتان در بالا یافت نشد، می‌توانید برای پشتیبانی با رایانامه quranandroid@gmail.com تماس بگیرید. توجه داشته باشید که حجم نامه‌های دریافتی بالاست و شاید پاسخ به نامه شما اندکی طول بکشد.</string>
+    <string name="error_getting_translation_list">خطا در بارگذاری فهرست ترجمه‌ها. لطفاً بعداً دوباره تلاش نمایید.</string>
+    <string name="export_data_error">خطا در برون‌بُرد داده‌ها</string>
+    <string name="exported_data">بُرون‌برد به %1$s انجام گرفت.</string>
+    <string name="extracting_title">در حال پردازش…</string>
+    <string name="found_in_sura">در آیه %3$d از سوره (%1$d) %2$s (صفحه %4$d)</string>
+    <string name="from">از</string>
+    <string name="get_arabic_search_db">متن عربی قرآن را برای جستجو در متن دریافت کنید.</string>
+    <string name="get_translations">دریافت ترجمه‌ها</string>
+    <string name="gotoPage">رفتن به صفحه</string>
+    <string name="help">&lt;b&gt;چگونه فایل‌های صوتی را پخش کنم؟&lt;/b&gt; &lt;br/&gt;برای فعال کردن صوت در این برنامه کافی است بر صفحه مورد نظر ضربه زده تا دکمه‌های پخش صدا را مشاهده نمایید. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;چگونه ترجمه را مشاهده نمایم؟&lt;/b&gt; &lt;br/&gt;کافی است بر صفحه مورد نظر ضربه زده و سپس علامت جهان یا در برخی دستگاه‌ها علامت سه‌نقطه را بفشارید. &lt;br/&gt;اگر در دستگاه خود هیچ ترجمه‌ای نداشته باشید، باید به قسمت تنظیمات رفته و ترجمه‌هایی را بارگذاری نمایید. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;چگونه یک صفحه را نشانک‌گذاری کنم؟&lt;/b&gt; &lt;br/&gt;صفحه مورد نظر خود را انتخاب نمایید، سپس بر صفحه ضربه زده و روبان بالای صحفه را لمس نمایید. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;چگونه اندازه قلم را بزرگتر کنم؟&lt;/b&gt; &lt;br/&gt;برای متن عربی قرآن دستگاه خود را در حالت افقی نگه دارید و برای اندازه متن ترجمه به قسمت تنظیمات مراجعه نمایید. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;چگونه یک آیه را به اشتراک بگذارم؟&lt;/b&gt; &lt;br/&gt;کافی است آیه مورد نظر خود را برای مدت زمان کوتاهی لمس نمایید تا دکمه اشتراک‌گذاری نمایان شود. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;در دیدن متن ترجمه مشکل دارم.&lt;/b&gt; &lt;br/&gt;متأسفانه برخی قلم‌ها در آندرویدهای قدیمی‌تر از نسخه ۴ پیش‌بینی نشده است.</string>
+    <string name="help_title">پرسش و پاسخ‌های متداول</string>
+    <string name="highlight_color_blue">آبی</string>
+    <string name="highlight_color_green">سبز</string>
+    <string name="highlight_color_purple">بنفش</string>
+    <string name="highlight_color_yellow">زرد</string>
+    <string name="highlighting_database">فایل‌های موردنیاز</string>
+    <string name="icon_reveal_body">برنامه قرآن اکنون نشان مشترک خانواده‌ای از ابزارهایی را بر خود دارد که پیرامون کلام خدا ساخته شده‌اند. نشانک‌ها، پیشرفت و تنظیمات شما همان‌جایی است که رهایشان کرده بودید.</string>
+    <string name="icon_reveal_title">آیکون جدید ما رسید</string>
+    <string name="import_data">درون‌بُرد داده‌ها</string>
+    <string name="import_data_and_merge">اگر این پرونده را درون‌ریزی کنید، %1$d نشانک و %2$d برچسب به داده‌های فعلی شما افزوده می‌شود. درون‌ریزی شود؟</string>
+    <string name="import_data_error">درون‌برد با خطا مواجه شد. داده‌ها معتبر نیست.</string>
+    <string name="import_data_permissions_error">هنگام عملیات درون‌برد خطای دسترسی رخ داد.</string>
+    <string name="import_successful">درون‌بُرد موفقیت‌آمیز</string>
+    <string name="juz2_description">جزء %1$s</string>
+    <string name="kitkat_external_message">با توجه به محدودیت های اندروید، اگر انتخاب کنید که داده های قرآن را روی کارت SD خارجی خود قرار داده و بعداً داده های قرآن اندروید را حذف یا روشن کنید، تمام صفحات قرآن اندروید و صوتی حذف می شوند و شما مجبور خواهید بود دوباره آنها را دانلود کنید. آیا مطمئن هستید که می خواهید از کارت SD خارجی استفاده کنید؟</string>
+    <string name="loading">بارگذاری…</string>
+    <string name="madani">مدنی</string>
+    <string name="makki">مکی</string>
+    <string name="menu_about">درباره ما</string>
+    <string name="menu_back_to_page">مشاهده قرآن</string>
+    <string name="menu_bookmarks">نشانک‌ها</string>
+    <string name="menu_bookmarks_page">نشانک‌های صفحه</string>
+    <string name="menu_get_translations">دریافت ترجمه‌ها</string>
+    <string name="menu_help">راهنما</string>
+    <string name="menu_jump">پرش</string>
+    <string name="menu_jump_last_page">آخرین صفحه</string>
+    <string name="menu_other_apps">برنامه‌های دیگر</string>
+    <string name="menu_search">جستجو</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_show_date">تاریخ نمایش</string>
+    <string name="menu_sort">مرتب‌سازی</string>
+    <string name="menu_sort_date">تاریخ اضافه شدن</string>
+    <string name="menu_sort_group_by_tags">گروه‌بندی برچسب‌ها</string>
+    <string name="menu_sort_location">محل در قرآن</string>
+    <string name="menu_translation">مشاهده ترجمه</string>
+    <string name="more_translations">ترجمه‌های دیگر</string>
+    <string name="move_down">حرکت به پایین</string>
+    <string name="move_up">حرکت به بالا</string>
+    <string name="need_translation">تفسیر یا ترجمه‌ای بارگذاری نشده‌ است.</string>
+    <string name="new_tag">برچسب جدید</string>
+    <string name="next">بعدی</string>
+    <string name="no_arabic_search_available">متن عربی قرآن هنوز بارگذاری نشده است. لطفاً ابتدا آن را دریافت نمایید.</string>
+    <string name="no_results">جستجوی «%s» هیچ نتیجه‌ای دربرنداشت.</string>
+    <string name="notification_channel_audio">قرائت قرآن</string>
+    <string name="notification_channel_download">دانلود فایل های قرآن</string>
+    <string name="notification_download_canceled">بارگذاری لغو شد</string>
+    <string name="old_page_bookmarks">نشانک‌های قدیمی صفحات</string>
+    <string name="page_description">صفحه %1$s، جزء %2$s</string>
+    <string name="pause">مکث</string>
+    <string name="play">پخش</string>
+    <string name="play_apply">اِعمال</string>
+    <string name="play_apply_and_play">اِعمال و پخش</string>
+    <string name="play_each_verse">پخش هر آیه:</string>
+    <string name="play_from_here">شروع پخش از این آیه</string>
+    <string name="play_restrict_range">تنها این آیات را پخش کن</string>
+    <string name="play_verses_range">پخش مجموعه آیات:</string>
+    <string name="playback_prompt_title">شروع از:</string>
+    <string name="playback_speed">سرعت پخش:</string>
+    <string name="please_grant_permissions">لطفاً اجازه در تنظیمات برنامه را اعطا کنید</string>
+    <string name="please_wait">لطفاً منتظر بمانید...</string>
+    <string name="prefs_app_location_summary">حافظه‌ای که تمایل دارید فایل‌ها روی آن ذخیره شود را انتخاب نمایید</string>
+    <string name="prefs_app_location_title">پوشه داده‌های قرآن</string>
+    <string name="prefs_app_size">حجم کنونی داده‌ها</string>
+    <string name="prefs_audio_manager_summary">بارگذاری و مدیریت فایل‌های صوتی</string>
+    <string name="prefs_ayah_before_translation_summary">نمایش متن عربی آیه پیش از ترجمه</string>
+    <string name="prefs_ayah_before_translation_title">آیه پیش از ترجمه</string>
+    <string name="prefs_calculating_app_size">محاسبه حجم برنامه</string>
+    <string name="prefs_category_advanced">گزینه‌های پیشرفته</string>
+    <string name="prefs_category_advanced_summary">درون‌برد و برون‌برد نشانک‌ها و برچسب‌ها، تعیین پوشه داده‌های قرآن و …</string>
+    <string name="prefs_category_display_settings">تنظیمات نمایش</string>
+    <string name="prefs_category_download">بارگذاری تنظیمات</string>
+    <string name="prefs_category_dual_screen">ترجیحات برای دو صفحه مجاور</string>
+    <string name="prefs_category_reading">تنظیمات خواندن</string>
+    <string name="prefs_category_translation">تنظیمات ترجمه</string>
+    <string name="prefs_copying_app_files">در حال کپی نمودن فایل‌های برنامه</string>
+    <string name="prefs_display_marker_summary">فعال‌سازی پیغام‌های رسیدن به جزء، حزب و …</string>
+    <string name="prefs_display_marker_title">نمایش پیغام‌ها</string>
+    <string name="prefs_download_amount_summary">میزان پیشنهادی برای بارگذاری فایل‌های صوتی</string>
+    <string name="prefs_download_amount_title">حجم بارگذاری</string>
+    <string name="prefs_dual_page_mode_disabled">تنها یک صفحه در حالت افقی</string>
+    <string name="prefs_dual_page_mode_enabled">نمایش دو صحفه در حالت افقی</string>
+    <string name="prefs_dual_page_mode_title">حالت مخصوص رایانه دستی</string>
+    <string name="prefs_err_moving_app_files">خطا در جابجایی فایل‌های برنامه</string>
+    <string name="prefs_export_summary">برون‌بُرد نشانک‌ها و برچسب‌ها</string>
+    <string name="prefs_export_title">برون‌بُرد</string>
+    <string name="prefs_highlight_bookmarks_summary">برجسته‌سازی آیه‌های نشانکدار</string>
+    <string name="prefs_highlight_bookmarks_title">برجسته‌سازی نشانک‌ها</string>
+    <string name="prefs_import_summary">درون‌برد نشانک‌ها و برچسب‌ها</string>
+    <string name="prefs_import_title">درون‌برد</string>
+    <string name="prefs_landscape_orientation_summary_off">استفاده در جهت عمودی</string>
+    <string name="prefs_landscape_orientation_summary_on">استفاده در جهت افقی</string>
+    <string name="prefs_landscape_orientation_title">جهت افقی</string>
+    <string name="prefs_lock_orientation_summary_off">تطبیق خودکار با جهت دستگاه</string>
+    <string name="prefs_lock_orientation_summary_on">عدم تغییر خودکار جهت نمایش</string>
+    <string name="prefs_lock_orientation_title">حفظ جهت نمایش</string>
+    <string name="prefs_night_mode_background_brightness_title">درخشش پس زمینه</string>
+    <string name="prefs_night_mode_text_brightness_title">روشنایی متن</string>
+    <string name="prefs_no_enough_space_to_move_files">فضای کافی برای جابجایی فایل‌های برنامه وجود ندارد</string>
+    <string name="prefs_overlay_page_info_summary">نمایش شماره صفحه، نام سوره و شماره جزء هنگام خواندن</string>
+    <string name="prefs_overlay_page_info_title">نمایش اطلاعات صفحه</string>
+    <string name="prefs_page_type_summary">نوع صفحات خواندن را انتخاب کنید</string>
+    <string name="prefs_page_type_title">نوع صفحه (تجربی)</string>
+    <string name="prefs_preview">پیشنمایش</string>
+    <string name="prefs_sdcard_external">حافظه خارجی %1d</string>
+    <string name="prefs_sdcard_internal">حافظه داخلی</string>
+    <string name="prefs_send_logs_summary">ارسال سیاهههای مربوط به اشکال زدایی به توسعه دهنده</string>
+    <string name="prefs_send_logs_title">ارسال سیاهههای مربوط</string>
+    <string name="prefs_split_page_and_translation_summary">هنگامی که دو صفحه مجاور فعال می شوند، صفحه قرآن و ترجمه با هم نمایش داده می شوند</string>
+    <string name="prefs_split_page_and_translation_title">مشاهده یک صفحه از قرآن و دیگری از ترجمه</string>
+    <string name="prefs_streaming_summary">پخش جویباری صوت از اینترنت</string>
+    <string name="prefs_streaming_title">پخش اینترنتی</string>
+    <string name="prefs_sura_translated_name_summary">نمایش ترجمه نام سور</string>
+    <string name="prefs_sura_translated_name_title">نام ترجمه شده سوره</string>
+    <string name="prefs_translation_text_title">اندازه قلم ترجمه</string>
+    <string name="prefs_translations">ترجمه‌ها</string>
+    <string name="prefs_translations_summary">بارگذاری و مدیریت ترجمه‌ها</string>
+    <string name="prefs_use_arabic_summary_on">تغییر زبان برنامه به عربی</string>
+    <string name="prefs_use_arabic_title">حالت عربی (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">Display translations in dyslexia friendly font</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexia friendly font</string>
+    <string name="prefs_volume_key_navigation_summary">استفاده از دکمه‌های صدا برای ورق زدن</string>
+    <string name="prefs_volume_key_navigation_title">ورق زدن با دکمه‌های صدا</string>
+    <string name="previous">قبلی</string>
+    <string name="process_progress">در حال پردازش %1$d / %2$d</string>
+    <string name="qari_abdulaziz_zahrani_gapless">عبد العزيز بن صالح الزهراني</string>
+    <string name="qari_abdulbaset">عبدالباسط عبدالصمد (شکاف زده)</string>
+    <string name="qari_abdulbaset_gapless">عبدالباسط</string>
+    <string name="qari_abdulbaset_mujawwad">عبدالباسط عبدالصمد مجود (شکاف زده)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">عبدالباسط مجود</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">عبدالهادی کناکری</string>
+    <string name="qari_abdullah_matroud_gapless">عبدالله المطرود</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">عبد ال محسن القاسم</string>
+    <string name="qari_abdulrahman_alshahat_gapless">عبد الرحمن الشحات</string>
+    <string name="qari_abdurrashid_sufi_gapless">عبد الرشيد صوفي</string>
+    <string name="qari_afasy">مشاري بن راشد العفاسي (شکاف زده)</string>
+    <string name="qari_afasy_cali_gapless">مشاري العفاسي (كاليفورنيا)</string>
+    <string name="qari_afasy_gapless">مشاري بن راشد العفاسي</string>
+    <string name="qari_ahmad_nauina_gapless">أحمد نعينع</string>
+    <string name="qari_ahmed_al_nufais_gapless">احمد النفیس</string>
+    <string name="qari_ajamy_gapless">أحمد بن علي العجمي</string>
+    <string name="qari_akram_al_alaqmi">أكرم العلقمي</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">علي حجاج السويسي</string>
+    <string name="qari_ali_jaber_gapless">علی جابر</string>
+    <string name="qari_alijon_qari_gapless">عليجون قاری</string>
+    <string name="qari_aloosi_gapless">عبدالرحمن العوسي</string>
+    <string name="qari_alzain_ahmad_gapless">الزين محمد احمد</string>
+    <string name="qari_ayman_suwaid_gapless">أيمن سويد</string>
+    <string name="qari_ayman_suwaid_gapped">أيمن سويد (شکاف زده)</string>
+    <string name="qari_ayyoub">محمد أيوب (شکاف زده)</string>
+    <string name="qari_ayyoub_gapless">محمد أيوب</string>
+    <string name="qari_aziz_alili_gapless">عزيز عليلي</string>
+    <string name="qari_badr_al_turki_gapless">بدر الترکی</string>
+    <string name="qari_bandar_baleela_gapless">بندر بليلة</string>
+    <string name="qari_basfar">عبدالله بصفر (شکاف زده)</string>
+    <string name="qari_basfar_gapless">عبدالله بصفر</string>
+    <string name="qari_dussary">ياسر الدوسري (شکاف زده)</string>
+    <string name="qari_fares_abbad_gapless">فارس عباد</string>
+    <string name="qari_farman_shawani_gapless">فەرمان شوانی</string>
+    <string name="qari_hady_toure_gapless">محمد الهادي توري</string>
+    <string name="qari_hani_rifai">هاني الرفاعي (شکاف زده)</string>
+    <string name="qari_hani_rifai_gapless">هاني الرفاعي</string>
+    <string name="qari_hudhayfi">الحذيفي (شکاف زده)</string>
+    <string name="qari_hudhayfi_gapless">الحذيفي</string>
+    <string name="qari_husary_gapless">الحصري</string>
+    <string name="qari_husary_iza3a_gapless">الحصري تسجيل الإذاعة</string>
+    <string name="qari_husary_muallim_gapless">الحصري (معلم، بی‌وقفه)</string>
+    <string name="qari_husary_mujawwad">الحصري مجود (شکاف زده)</string>
+    <string name="qari_husary_mujawwad_gapless">الحصري (مجود، بی‌وقفه)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">ابراهیم الاخضر</string>
+    <string name="qari_idrees_abkar_gapless">ادریس ابکر</string>
+    <string name="qari_jibreel">محمد جبريل (شکاف زده)</string>
+    <string name="qari_jibreel_gapless">محمد جبريل</string>
+    <string name="qari_juhany_gapless">عبدالله الجهني</string>
+    <string name="qari_khaled_muhanna_gapless">خالد المهنا</string>
+    <string name="qari_khalid_jalil_gapless">خالد الجليل</string>
+    <string name="qari_khalid_qahtani_gapless">خالد القحطانی</string>
+    <string name="qari_khalifa_taniji_gapless">خليفة الطنيجي</string>
+    <string name="qari_luhaidan_gapless">محمد اللحیدان</string>
+    <string name="qari_mahmoud_ali_albana_gapless">محمود علي البنا</string>
+    <string name="qari_minshawi_mujawwad">المنشاوي مجود (شکاف زده)</string>
+    <string name="qari_minshawi_mujawwad_gapless">المنشاوي مجود</string>
+    <string name="qari_minshawi_murattal_gapless">المنشاوي</string>
+    <string name="qari_mishari_walk_gapless">مشاري, إبراهيم والك (ترجمه انگلیسی)</string>
+    <string name="qari_mohammad_altablawi_gapless">محمد الطبلاوي</string>
+    <string name="qari_mokhtasar_asmari_gapless">عبدالله الأسمري (المختصر الصوتي، بی‌وقفه)</string>
+    <string name="qari_mostafa_ismaeel_gapless">مصطفي إسماعيل</string>
+    <string name="qari_muaiqly">ماهر المعيلقي (شکاف زده)</string>
+    <string name="qari_muaiqly_gapless">ماهر المعيقلي</string>
+    <string name="qari_muaiqly_haramain_gapless">ماهر المعيلقي (الحرمين، بی‌وقفه)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">محمد رشاد الشريف</string>
+    <string name="qari_nabil_rifa3i_gapless">نبيل الرفاعي</string>
+    <string name="qari_noreen_siddiq_gapless">نورين محمد صديق</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">پێشەوا قادر الکردی</string>
+    <string name="qari_qatami_gapless">ناصر القطامي</string>
+    <string name="qari_raad_al_kurdi_gapless">رعد الکردی</string>
+    <string name="qari_saad_al_ghamdi">سعد الغامدي (شکاف زده)</string>
+    <string name="qari_saad_al_ghamidi_gapless">سعد الغامدي</string>
+    <string name="qari_sahl_yaseen_gapless">سهل ياسين</string>
+    <string name="qari_salah_budair_gapless">صلاح بدير</string>
+    <string name="qari_salah_bukhatir_gapless">صلاح بوخاطر</string>
+    <string name="qari_shatri">أبوبكر الشاطري (شکاف زده)</string>
+    <string name="qari_shatri_gapless">أبوبكر الشاطري</string>
+    <string name="qari_shuraym">سعود الشريم (شکاف زده)</string>
+    <string name="qari_shuraym_gapless">سعود الشريم</string>
+    <string name="qari_suadis">عبدالرحمن السديس (شکاف زده)</string>
+    <string name="qari_sudais_gapless">عبدالرحمن السديس</string>
+    <string name="qari_tablawy">محمد الطبلاوي (شکاف زده)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">توفيق الصايغ</string>
+    <string name="qari_wadee3_alyamani_gapless">وديع اليمني</string>
+    <string name="qari_walk">إبراهيم والك (ترجمه انگلیسی)</string>
+    <string name="qari_walk_gapless">إبراهيم والك (ترجمه انگلیسی)</string>
+    <string name="qari_yasser_dussary_gapless">ياسر الدوسري</string>
+    <string name="qari_yasser_salama_hadr_gapless">یاسر سلامه (حدر، ی‌وقفه)</string>
+    <string name="qarilist_dismiss">اخراج</string>
+    <string name="qarilist_gapless">مداوم</string>
+    <string name="qarilist_gapped">غیر پیوسته</string>
+    <string name="qarilist_qaris_with_downloads">قاری با دانلود</string>
+    <string name="qarilist_ready_to_play">آماده برای گوش دادن</string>
+    <string name="qarilist_select_qari">یک قاری را انتخاب کنید</string>
+    <string name="qarilist_selected">انتخاب</string>
+    <string name="quranSearchType">آیات قرآن</string>
+    <string name="quran_ayah">آیه %1$d</string>
+    <string name="quran_ayah_details">%1$s - آیه %2$s، جزء %3$s</string>
+    <string name="quran_hizb">حزب</string>
+    <string name="quran_juz2">جزء</string>
+    <string name="quran_nos">نصف</string>
+    <string name="quran_page">صفحه</string>
+    <string name="quran_rob3">ربع</string>
+    <string name="quran_sura">سوره</string>
+    <string name="quran_sura_title">سوره %1$s</string>
+    <string name="quran_talt_arb3">سه‌ربع</string>
+    <string name="reading_bookmark_dismiss_education">رد کردن</string>
+    <string name="reading_bookmark_movable_education_body">ذخیره نشانک مطالعه، نشانک قبلی را جایگزین می‌کند. برای ذخیره چند آیه، روی یک آیه فشار طولانی دهید و آن را به یک مجموعه اضافه کنید.</string>
+    <string name="reading_bookmark_movable_education_title">این یک نشانک مطالعه قابل‌جابجایی است</string>
+    <string name="reading_bookmark_moved_from">جابجا شده از %1$s</string>
+    <string name="reading_bookmark_red">قرمز</string>
+    <string name="recent_pages">آخرین صفحات</string>
+    <string name="recite_from_here">از اینجا بخوان</string>
+    <string name="remove_button">حذف</string>
+    <string name="remove_dlg_msg">آیا مطمئن‌اید که می‌خواهید %1$s را حذف کنید؟</string>
+    <string name="remove_dlg_title">حذف ترجمه</string>
+    <string name="scoped_storage_message">با توجه به تغییرات آندروید برای افزایش حریم خصوصی کاربر، کپی کردن فایل های خارج از مدیران برنامه ممکن است قرآن برای اندروید را از دسترسی به داده های خود در نسخه های آینده اندروید باز دارد. مطمئني ميخواي از اين مسير استفاده کني؟</string>
+    <string name="sdcard_error">کارت حافظه یافت نشد. آن را دوباره در دستگاه قرار داده و بار دیگر امتحان نمایید.</string>
+    <string name="search_data">جستجو</string>
+    <string name="search_entire_mushaf">به کل قرآن نگاه کن.</string>
+    <string name="search_full_results">نتایج کامل</string>
+    <string name="search_hint">جستجو در قرآن</string>
+    <string name="search_key">دکمه جستجو را بفشارید</string>
+    <string name="see_tafseer_of_verse">تفسیر آیه متعلق به آیه %d است (برای مشاهده کلیک کنید).</string>
+    <string name="share_ayah">اشتراک‌گذاری آیه</string>
+    <string name="share_ayah_text">اشتراک‌گذاری متن آیه</string>
+    <string name="starting_page_label">آغاز صفحه</string>
+    <string name="stop">توقف</string>
+    <string name="storage_permission_please_restart">برنامه را از نو آغاز کنید تا تغییرات اثر کند.</string>
+    <string name="storage_permission_rationale">برنامه قرآن برای ذخیره داده‌ها در حافظه خارجی به اجازه شما نیاز دارد. بدون این اجازه برنامه کار می‌کند؛ اما در صورتی که داده‌ها یا برنامه را پاک نمایید، تمام صفحات، فایل‌های صوتی و دیگر داده‌های بارگذاری‌شده از بین خواهد رفت. آیا اجازه ذخیره داده‌ها در حافظه خارجی را صادر می‌کنید؟</string>
+    <string name="sura_ayah_notification_str">سوره %1$s، آیه %2$d</string>
+    <string name="sura_ayah_sharing_str">سوره %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">نام برچسب نمی تواند خالی باشد!</string>
+    <string name="tag_bookmark">تعیین برچسب برای نشانک</string>
+    <string name="tag_dlg_title">برچسب</string>
+    <string name="tag_duplicate_tag_error">نام برچسب در حال حاضر وجود دارد!</string>
+    <string name="tag_name">نام</string>
+    <string name="timing_database">فایل‌های موردنیاز</string>
+    <string name="to">تا</string>
+    <string name="translation_ayah">ترجمه آیه</string>
+    <string name="translation_dialog_later">بعداً</string>
+    <string name="translation_dialog_yes">بلی</string>
+    <string name="translation_updates_available">برای برخی از ترجمه‌ها به‌روزرسانی موجود است. مایل‌اید به صفحه ترجمه‌ها بروید؟</string>
+    <string name="undo">واگرد</string>
+    <string name="update_available">به‌روزرسانی موجود است</string>
+    <string name="warning">هشدار</string>
+    <string name="whats_new_continue">ادامه</string>
+    <string-array name="repeatValues">
+        <item>یک بار</item>
+        <item>دو بار</item>
+        <item>سه بار</item>
+        <item>بی‌پایان</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>الفاتحة</item>
+        <item>البقرة</item>
+        <item>آل عمران</item>
+        <item>النساء</item>
+        <item>المائدة</item>
+        <item>اﻷنعام</item>
+        <item>اﻷعراف</item>
+        <item>اﻷنفال</item>
+        <item>التوبة</item>
+        <item>يونس</item>
+        <item>هود</item>
+        <item>يوسف</item>
+        <item>الرعد</item>
+        <item>إبراهيم</item>
+        <item>الحجر</item>
+        <item>النحل</item>
+        <item>اﻹسراء</item>
+        <item>الكهف</item>
+        <item>مريم</item>
+        <item>طه</item>
+        <item>اﻷنبياء</item>
+        <item>الحج</item>
+        <item>المؤمنون</item>
+        <item>النور</item>
+        <item>الفرقان</item>
+        <item>الشعراء</item>
+        <item>النمل</item>
+        <item>القصص</item>
+        <item>العنكبوت</item>
+        <item>الروم</item>
+        <item>لقمان</item>
+        <item>السجدة</item>
+        <item>اﻷحزاب</item>
+        <item>سبأ</item>
+        <item>فاطر</item>
+        <item>يس</item>
+        <item>الصافات</item>
+        <item>ص</item>
+        <item>الزمر</item>
+        <item>غافر</item>
+        <item>فصلت</item>
+        <item>الشورى</item>
+        <item>الزخرف</item>
+        <item>الدخان</item>
+        <item>الجاثية</item>
+        <item>اﻷحقاف</item>
+        <item>محمد</item>
+        <item>الفتح</item>
+        <item>الحجرات</item>
+        <item>ق</item>
+        <item>الذاريات</item>
+        <item>الطور</item>
+        <item>النجم</item>
+        <item>القمر</item>
+        <item>الرحمن</item>
+        <item>الواقعة</item>
+        <item>الحديد</item>
+        <item>المجادلة</item>
+        <item>الحشر</item>
+        <item>الممتحنة</item>
+        <item>الصف</item>
+        <item>الجمعة</item>
+        <item>المنافقون</item>
+        <item>التغابن</item>
+        <item>الطلاق</item>
+        <item>التحريم</item>
+        <item>الملك</item>
+        <item>القلم</item>
+        <item>الحاقة</item>
+        <item>المعارج</item>
+        <item>نوح</item>
+        <item>الجن</item>
+        <item>المزمل</item>
+        <item>المدثر</item>
+        <item>القيامة</item>
+        <item>اﻹنسان</item>
+        <item>المرسلات</item>
+        <item>النبأ</item>
+        <item>النازعات</item>
+        <item>عبس</item>
+        <item>التكوير</item>
+        <item>الانفطار</item>
+        <item>المطففين</item>
+        <item>الانشقاق</item>
+        <item>البروج</item>
+        <item>الطارق</item>
+        <item>اﻷعلى</item>
+        <item>الغاشية</item>
+        <item>الفجر</item>
+        <item>البلد</item>
+        <item>الشمس</item>
+        <item>الليل</item>
+        <item>الضحى</item>
+        <item>الشرح</item>
+        <item>التين</item>
+        <item>العلق</item>
+        <item>القدر</item>
+        <item>البينة</item>
+        <item>الزلزلة</item>
+        <item>العاديات</item>
+        <item>القارعة</item>
+        <item>التكاثر</item>
+        <item>العصر</item>
+        <item>الهمزة</item>
+        <item>الفيل</item>
+        <item>قريش</item>
+        <item>الماعون</item>
+        <item>الكوثر</item>
+        <item>الكافرون</item>
+        <item>النصر</item>
+        <item>المسد</item>
+        <item>اﻹخلاص</item>
+        <item>الفلق</item>
+        <item>الناس</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d مجموعه</item>
+        <item quantity="other">%d مجموعه</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">%d برچسب حذف شد</item>
+        <item quantity="other">%d برچسب حذف شد</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">%2$d نتیجه از جستجوی «%1$s» به دست آمد:</item>
+        <item quantity="other">%2$d نتیجه از جستجوی «%1$s» به دست آمد:</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">%s آیه</item>
+        <item quantity="other">%s آیه</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_collection">Suosikit</string>
+    <string name="highlight_color_blue">Sininen</string>
+    <string name="highlight_color_green">Vihreä</string>
+    <string name="highlight_color_purple">Violetti</string>
+    <string name="highlight_color_yellow">Keltainen</string>
+    <string name="qarilist_dismiss">Vapauttakaa</string>
+    <string name="qarilist_gapless">Jatkuva</string>
+    <string name="qarilist_gapped">Ei-jatkuva</string>
+    <string name="qarilist_qaris_with_downloads">Reciters kanssa Lataukset</string>
+    <string name="qarilist_ready_to_play">Valmis kuuntelemaan</string>
+    <string name="qarilist_select_qari">Valitse Kari</string>
+    <string name="qarilist_selected">Valitut</string>
+    <string name="reading_bookmark_red">Punainen</string>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d kokoelma</item>
+        <item quantity="other">%d kokoelmaa</item>
+    </plurals>
+</resources>

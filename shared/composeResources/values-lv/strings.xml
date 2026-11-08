@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_collection">Izlase</string>
+    <string name="highlight_color_blue">Zila</string>
+    <string name="highlight_color_green">Zaļa</string>
+    <string name="highlight_color_purple">Violeta</string>
+    <string name="highlight_color_yellow">Dzeltena</string>
+    <string name="qarilist_dismiss">Atbrīvot</string>
+    <string name="qarilist_gapless">Nepārtraukts</string>
+    <string name="qarilist_gapped">bez nepārtrauktas</string>
+    <string name="qarilist_qaris_with_downloads">Atskaņotāji ar lejupielādes</string>
+    <string name="qarilist_ready_to_play">Gatavs klausīties</string>
+    <string name="qarilist_select_qari">Izvēlieties Qari</string>
+    <string name="qarilist_selected">Atlasīts</string>
+    <string name="reading_bookmark_red">Sarkana</string>
+    <plurals name="ayah_collections">
+        <item quantity="zero">%d kolekciju</item>
+        <item quantity="one">%d kolekcija</item>
+        <item quantity="other">%d kolekcijas</item>
+    </plurals>
+</resources>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_contributors">تۆھپىكارلار</string>
+    <string name="about_contributors_summary">قۇرئان ئاندىرويىدنىڭ تەرەققىياتىغا تۆھپە قوشقان كىشىلەر تىزىمى</string>
+    <string name="about_data_sources">سانلىق مەلۇمات مەنبەسى</string>
+    <string name="about_description">ئاندىرويىد قۇرئان ھەقسىز قۇرئان ئەپى. نامازلىرىڭىزدا تۆھپىكارلارغا دۇئا قىلىشنى ئۇنۇتماڭ.</string>
+    <string name="about_furqan_summary">ئۇسمانى تېكىست ۋە ئەرەبچە تەپسىر</string>
+    <string name="about_images">سۈرەتلەر</string>
+    <string name="about_madani_images">قۇرئان سۈرەتلىرى پادىشاھ فاھىد قۇرئان باسما زاۋۇتىنىڭ خەت نۇسخىسىنى ئاساس قىلغان</string>
+    <string name="about_naskh_images">Naskh ئەپىنىڭ قۇرئان سۈرەتلىرى (ئىجازەت بىلەن) SHL ئۇچۇر سىستېمىسىدىن ئېلىنغان</string>
+    <string name="about_noorhidayat_summary">نۇرېخىرا خەت نۇسخىسى ۋە تەپسىرچى تاقى تەرجىمىسى</string>
+    <string name="about_open_source">ئوچۇق مەنبەلىك قۇرۇلۇش</string>
+    <string name="about_others">باشقىلار</string>
+    <string name="about_qaloon_images">قالۇن سۈرەتلىرى Nous Memes Editions Et Diffusion (تۇنىس) نىڭ رۇخسىتى بىلەن ئىشلىتىلدى.</string>
+    <string name="about_quran_enc">قۇرئان كەرىم ئىنىسكىلوپىدىيىسى</string>
+    <string name="about_quran_enc_summary">نۇرغۇن تىللارنىڭ تەرجىمىسى</string>
+    <string name="about_quran_ksu">ئېلېكترونلۇق موشاف قۇرۇلۇشى</string>
+    <string name="about_quran_ksu_summary">پادىشاھ سەئۇد ئۇنىۋېرسىتېتى ئېلېكترونلۇق موشاف قۇرۇلۇشى كۆپلىگەن تىلدىكى ئەرەبچە تەپسىر ۋە تەرجىمىلەرنىڭ مەنبەسى. ئۇ يەنە دوكتور ئايمان سۇۋەيدنىڭ قىرائىتىنىڭمۇ مەنبەسى.</string>
+    <string name="about_quranicaudio_summary">يوچۇقسىز mp3 قۇرئان تىلاۋەتلىرى</string>
+    <string name="about_tanzil_summary">ئازراق تىللارنىڭ تەرجىمىسى</string>
+    <string name="app_name">قۇرئان</string>
+    <string name="audio_updated_text">بىر قانچە قۇرئان ئاۋاز ھۆججىتى يېڭىلاندى. قۇرئان بۇ ھۆججەتلەرنىڭ كۆپەيتىلگەن نۇسخىسىنى چىقىرىۋەتتى، بۇنداق بولغاندا ئەڭ يېڭى نەشرىنى كېلەر قېتىم قايتا قويسىڭىز چۈشۈرگىلى بولىدۇ.</string>
+    <string name="audio_updated_title">قۇرئان ئاۋاز ھۆججىتى يېڭىلاش</string>
+    <string name="available_translations">چۈشۈرگىلى بولىدۇ</string>
+    <string name="ayah_copied_popup">ئايەت كۆچۈرۈلدى</string>
+    <string name="bookmark_ayah">بۇ ئايەتنى خەتكۈچلە</string>
+    <string name="bookmarks_empty_subtitle">بەتنى ساقلاش ئۈچۈن خەتكۈچ سىنبەلگىسىنى چېكىڭ ياكى ئايەتنى خەتكۈچلەش ئۈچۈن ئۇنى بېسىپ تۇرۇڭ.</string>
+    <string name="bookmarks_empty_title">تېخى خەتكۈچ يوق</string>
+    <string name="bookmarks_list_empty">خەتكۈچ يوق</string>
+    <string name="cancel">ۋاز كەچ</string>
+    <string name="canceling">ۋاز كېچىۋاتىدۇ…</string>
+    <string name="copy_ayah">ئايەت كۆچۈر</string>
+    <string name="default_collection">ياقتۇرىدىغانلار</string>
+    <string name="delete">ئۆچۈرۈش</string>
+    <string name="delete_tag">بەلگە ئۆچۈر</string>
+    <string name="delete_translation">تەرجىمىنى چىقىرىۋەت</string>
+    <string name="dialog_ok">جەزملە</string>
+    <string name="downloadImportantPrompt">ئۈسكۈنىڭىز ئۈچۈن ئۆزى كىچىك ئەمما مۇھىم بولغان قۇرئان سۈرەتلىرىنىڭ يېڭىلانمىسى بار. بۇ ياماقنى ھازىرلا چۈشۈرەمسىز؟</string>
+    <string name="downloadPrompt">قۇرئان ئاندىرويىدنىڭ نورمال ئىشلىشى ئۈچۈن بەزى ھۆججەتلەرنى چۈشۈرۈشىمىز كېرەك. ئەگەر ھازىر بۇنى قىلمىسىڭىز، بۇ دېتال ئىشەنچلىك ئىشلىمەسلىكى مۇمكىن، ئوقۇش ئۈچۈن ئىنتېرنېت ئۇلىنىشى تەلەپ قىلىنىدۇ. لازىملىق ھۆججەتلەرنى ھازىر چۈشۈرەمسىز؟</string>
+    <string name="downloadPrompt_no">ياق</string>
+    <string name="downloadPrompt_ok">ھەئە</string>
+    <string name="downloadPrompt_title">لازىملىق ھۆججەتلەرنى چۈشۈرەمدۇ؟</string>
+    <string name="downloadTabletPrompt">بىز يېقىندا تاختا كومپيۇتېر ئۈچۈن ياخشىلانغان سۈرەتلەرنى قوشتۇق. ئۇ سۈرەتلەرنى ھازىر چۈشۈرەمسىز؟</string>
+    <string name="download_cancel">ۋاز كەچ</string>
+    <string name="download_error_disk">چۈشۈرۈشكە يېتەرلىك دىسكا بوشلۇقى يوق</string>
+    <string name="download_error_general">چۈشۈرەلمىدى</string>
+    <string name="download_error_invalid_download">چۈشۈرگەن ھۆججەت بۇزۇلدى</string>
+    <string name="download_error_invalid_download_retry">ھۆججەت بۇزۇلغان، قايتا چۈشۈرۈشنى سىناۋاتىدۇ</string>
+    <string name="download_error_network">تور خاتالىقى تۈپەيلىدىن چۈشۈرەلمەيدۇ</string>
+    <string name="download_error_network_retry">تور خاتالىقى، داۋاملاشتۇرۇشنى سىناۋاتىدۇ…</string>
+    <string name="download_error_perms">ھوقۇق خاتالىقى تۈپەيلىدىن چۈشۈرەلمەيدۇ</string>
+    <string name="download_extra_data">ھەمبەھىر ۋە تەرجىمە ئىقتىدارىنى قوللاش ئۈچۈن بىر ياكى ئىككى كىچىك ھۆججەت چۈشۈرۈشىمىز كېرەك. ھازىر چۈشۈرەمدۇ؟</string>
+    <string name="download_non_wifi_prompt">سىز wifi تورىدا ئەمەس. سانلىق مەلۇماتنى چۈشۈرۈۋېرەمسىز؟</string>
+    <string name="download_processing">چۈشۈرۈشنى بىر تەرەپ قىلىۋاتىدۇ…</string>
+    <string name="download_retry">قايتا سىنا</string>
+    <string name="download_successful">چۈشۈرۈش مۇۋەپپەقىيەتلىك</string>
+    <string name="downloaded_translations">چۈشۈرۈلدى</string>
+    <string name="downloading">چۈشۈرۈۋاتىدۇ…</string>
+    <string name="downloading_message">ھۆججەتلەرنى چۈشۈرۈشنى كۈتۈڭ. (داۋاملاشتۇرۇشنى قوللايدۇ)</string>
+    <string name="edit_tag">بەلگە تەھرىر</string>
+    <string name="email_us">ئەگەر سوئالىڭىزنىڭ تۆۋەندە جاۋابى بولمىسا، سىز quranandroid@gmail.com ئېلخەت ئادرېسقا قوللاش ھەققىدە خەت يازسىڭىز بولىدۇ. بىز نۇرغۇن ئېلخەت تاپشۇرۇۋالىمىز، شۇڭلاشقا ھەممە ئېلخەتكە جاۋاب قايتۇرالىشىمىز ناتايىن.</string>
+    <string name="error_getting_translation_list">تەرجىمە تىزىمىنى چۈشۈرەلمىدى. كېيىن قايتا سىناڭ.</string>
+    <string name="export_data_error">سانلىق مەلۇمات چىقارغاندا خاتالىق كۆرۈلدى</string>
+    <string name="exported_data">سانلىق مەلۇماتنى %1$s غا چىقاردى</string>
+    <string name="extracting_title">بىر تەرەپ قىلىۋاتىدۇ…</string>
+    <string name="found_in_sura">سۈرە (%1$d) %2$s تېپىلدى: %3$d (%4$d-بەت)</string>
+    <string name="from">ئايەتتىن</string>
+    <string name="get_arabic_search_db">ئەرەبچە ئىزدەش ساندانىغا ئېرىش</string>
+    <string name="get_translations">تەرجىمىگە ئېرىش</string>
+    <string name="gotoPage">بەتكە يۆتكەل</string>
+    <string name="help">&lt;b&gt;قىرائەت ئاۋازىنى قانداق قويىدۇ؟&lt;/b&gt; &lt;br/&gt; خالىغان قۇرئان بېتىنى ئېچىپ، بارماق ئېكرانغا بوش تەگكەندە، ئېكران ئاستىدا قىرائەت توپچىسى ۋە قىرائەت قىلغۇچىنىڭ ئىسمى كۆرۈنىدۇ. قىرائەت قىلغۇچىنىڭ ئىسمىنى چېكىپ قىرائەت قىلغۇچىلارنى تاللىغىلى بولىدۇ، چېلىش توپچىسىنى چېكىلسە نۆۋەتتىكى بەت ياكى نۆۋەتتىكى سۈرەنىڭ قىرائەت ئاۋازىنى چۈشۈرگەندىن كېيىن ئاۋازنى قويۇشنى باشلايدۇ . &lt;br/&gt; &lt;br/&gt;&lt;b&gt;تەرجىمىنى قانداق كۆرۈمەن؟&lt;/b&gt; &lt;br/&gt;خالىغان قۇرئان بېتىنى ئېچىپ، بارماق ئېكرانغا بوش تەگكەندە، ئېكران چوققىسىدىكى يەر شارى سىنبەلگە (ياكى ئۈچ يۇمۇلاق چېكىتتىن شەكىللەنگەن سىنبەلگە) نى چەككەندىن كېيىن تەرجىمە بېتىنى كۆرگىلى بولىدۇ. &lt;br/&gt; ئەگەر سىز تېخى ھېچقانداق تەرجىمە نەشرىنى چۈشۈرمىگەن بولسىڭىز، بۇ چاغدا تەرجىمە تېكىستىنى چۈشۈرۈش ۋە باشقۇرۇش بېتىگە كىرىدۇ، لازىملىق تەرجىمىنى تاللاپ چۈشۈرگەندىن كېيىن قايتىدۇ، يەر شارى سىنبەلگە قايتا چېكىلسە تەرجىمە تېكىست بېتىگە كىرىدۇ. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;بەتكە خەتكۈچنى قانداق قوشىمەن؟&lt;/b&gt; &lt;br/&gt;خالىغان قۇرئان بېتىنى ئېچىپ، بارماق ئېكرانغا بوش تەگكەندە، ئېكران چوققىسىدا بەش يۇلتۇز سىنبەلگىسى كۆرۈنىدۇ، ئۇنى چەككەندىن كېيىن نۆۋەتتىكى بەتنى خەتكۈچكە قوشقىلى بولىدۇ، شۇنىڭ بىلەن بىللە كاۋاك بەش يۇلتۇز ئۇيۇل بەش يۇلتۇزغا ئۆزگىرىدۇ. سىنبەلگە قايتا چېكىلسە خەتكۈچ بىكار قىلىنىدۇ. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;تېكىستنى قانداق چوڭايتىمەن؟&lt;/b&gt; &lt;br/&gt;ئەرەبچە ئەسلى تېكىست بېتىدە، توغرىسىغا ئېكرانغا ئالماشقاندا خەت چوڭىيىدۇ. تەرجىمە تېكىست بېتىدە تەڭشەكلەردىن خەت چوڭلۇقىنى تاللىغىلى بولىدۇ. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;بىر ئايەتنى قانداق ھەمبەھىرلەيمەن؟&lt;/b&gt; &lt;br/&gt;ئەرەبچە ئەسلى تېكىست بېتىدە، مەلۇم بىر ئايەت ئۇزۇن چېكىلسە تىل مۇھىت تىزىملىكى قاڭقىپ چىقىدۇ، ئۇنىڭدا خەتكۈچ، ھەمبەھىر، تەرجىمىنى كۆرۈش، چاپلاش تاختىسىغا كۆچۈرۈش قاتارلىق ئىقتىدارلار بار. &lt;br/&gt; &lt;br/&gt;&lt;b&gt;مالايالام/تامىل/بىنگال/ئوردۇچە خەت نۇسخىسى ئىشلىمەيدۇ!&lt;/b&gt; &lt;br/&gt;ناھايىتى ئەپسۇس، ئاندىرويىد 4.0 دىن ئىلگىرىكى نەشرىلىرىدە بۇ خەت نۇسخىلىرىنى قوللىماىدۇ، ھازىرچە ياخشىراق ھەل قىلىش چارىسى يوق.</string>
+    <string name="help_title">كۆپ سورىلىدىغان سوئاللار</string>
+    <string name="highlight_color_blue">كۆك</string>
+    <string name="highlight_color_green">يېشىل</string>
+    <string name="highlight_color_purple">بىنەپشە</string>
+    <string name="highlight_color_yellow">سېرىق</string>
+    <string name="highlighting_database">زۆرۈر ھۆججەتلەر</string>
+    <string name="icon_reveal_body">قۇرئان ئەپى ئەمدى ئاللاھنىڭ كالامى ئەتراپىدا قۇرۇلغان قوراللار ئائىلىسىنىڭ ئورتاق بەلگىسىنى ئېلىپ يۈرىدۇ. خەتكۈچلىرىڭىز، ئىلگىرىلىشىڭىز ۋە تەڭشەكلىرىڭىز دەل سىز قالدۇرغان جايدا.</string>
+    <string name="icon_reveal_title">يېڭى سىنبەلگىمىز كەلدى</string>
+    <string name="import_data">سانلىق مەلۇمات ئەكىر</string>
+    <string name="import_data_and_merge">ئەگەر بۇ ھۆججەتنى ئەكىرسىڭىز، ھازىرقى سانلىق مەلۇماتىڭىزغا %1$d خەتكۈچ ۋە %2$d بەلگە قوشۇلىدۇ. ئەكىرەمدۇ؟</string>
+    <string name="import_data_error">ئىناۋەتسىز زاپاس ھۆججەت (ياكى زاپاس ھۆججەتنى ئوقۇيالمىدى).</string>
+    <string name="import_data_permissions_error">ئىجازەت خاتالىقى سەۋەبىدىن زاپاس ھۆججەتنى ئوقۇيالمىدى.</string>
+    <string name="import_successful">مۇۋەپپەقىيەتلىك ئەكىرىلدى</string>
+    <string name="juz2_description">%1$s -پارە</string>
+    <string name="kitkat_external_message">ئاندىرويىدنىڭ چەكلىمىسى تۈپەيلىدىن، ئەگەر سىز قۇرئان سانلىق مەلۇماتلىرىنى سىرتقى SD كارتىڭىزغا ساقلىماقچى بولسىڭىز، كېيىن قۇرئان ئاندىرويىدنىڭ سانلىق مەلۇماتلارنى ئۆچۈرۈۋەتسىڭىز ياكى ئۆچۈرسىڭىز، بارلىق قۇرئان ئاندىرويىد بەتلىرى ۋە ئاۋازلىرى ئۆچۈرۈلىدۇ، ئۇلارنى قايتا چۈشۈرۈشىڭىز كېرەك. سىرتقى SD كارتىنى ئىشلىتىشنى خالامسىز؟</string>
+    <string name="loading">يۈكلەۋاتىدۇ…</string>
+    <string name="madani">مەدىنە</string>
+    <string name="makki">مەككە</string>
+    <string name="manzil_description">مەنزىل %1$s</string>
+    <string name="menu_about">بىز ھەققىدە</string>
+    <string name="menu_back_to_page">قۇرئاننى كۆرسەت</string>
+    <string name="menu_bookmarks">خەتكۈچلەر</string>
+    <string name="menu_bookmarks_page">بەت خەتكۈچلىرى</string>
+    <string name="menu_get_translations">تەرجىمىگە ئېرىش</string>
+    <string name="menu_help">ياردەم</string>
+    <string name="menu_jump">يۆتكەل</string>
+    <string name="menu_jump_last_page">ئاخىرقى بەت</string>
+    <string name="menu_other_apps">باشقا ئەپلەر</string>
+    <string name="menu_search">ئىزدە</string>
+    <string name="menu_settings">تەڭشەكلەر</string>
+    <string name="menu_show_date">چېسلانى كۆرسەت</string>
+    <string name="menu_sort">تەرتىپلە</string>
+    <string name="menu_sort_date">قوشۇلغان چېسلا</string>
+    <string name="menu_sort_group_by_tags">بەلگە بويىچە گۇرۇپپىلا</string>
+    <string name="menu_sort_location">قۇرئاندىكى ئورنى</string>
+    <string name="menu_translation">تەرجىمە كۆرسەت</string>
+    <string name="more_translations">تېخىمۇ كۆپ تەرجىمىلەر</string>
+    <string name="move_down">ئاستىغا</string>
+    <string name="move_up">ئۈستىگە</string>
+    <string name="need_translation">سىز تېخى ھېچقانداق تەرجىمە/تەپسىر چۈشۈرمىگەن.</string>
+    <string name="new_tag">يېڭى بەلگە</string>
+    <string name="next">كېيىنكى</string>
+    <string name="no_arabic_search_available">سىز ئەرەبچە ئىزدەش بوغچىسىنى چۈشۈرمىگەن. ئۇنى چۈشۈرۈپ ئاندىن قايتا ئىزدەڭ.</string>
+    <string name="no_results">\"%s\" نىڭ نەتىجىلىرى تېپىلمىدى</string>
+    <string name="notification_channel_audio">قۇرئان قىرائىتى</string>
+    <string name="notification_channel_download">قۇرئان چۈشۈرۈش</string>
+    <string name="notification_download_canceled">چۈشۈرۈشتىن ۋاز كەچتى</string>
+    <string name="old_page_bookmarks">كونا بەت خەتكۈچلىرى</string>
+    <string name="page_description">%1$s-بەت، %2$s-پارە</string>
+    <string name="pause">ۋاقتىنچە توختاش</string>
+    <string name="play">قويۇش</string>
+    <string name="play_apply">ئىلتىماس قىلىڭ</string>
+    <string name="play_apply_and_play">ئىلتىماس قىلىڭ ۋە قويۇش</string>
+    <string name="play_each_verse">ھەر بىر ئايەتنى ئاڭلاڭ:</string>
+    <string name="play_from_here">بۇ جايدىن باشلاپ چال</string>
+    <string name="play_restrict_range">پەقەت يۇقىرىدىكى ئايەتلەرنىلا ئاڭلاڭ</string>
+    <string name="play_verses_range">بىر يۈرۈش ئايەتلەرنى ئاڭلاڭ:</string>
+    <string name="playback_prompt_title">ئويناشنى باشلاڭ:</string>
+    <string name="playback_speed">Ujinu uri vifujio:</string>
+    <string name="please_grant_permissions">ئەپ تەڭشىكىدە ئىجازەت بېرىڭ</string>
+    <string name="please_wait">سەل كۈتۈڭ…</string>
+    <string name="post_notification_permission">قۇرئان ئاندىرويىدنىڭ ئۇقتۇرۇش يوللىشىغا يول قويامسىز؟ بۇ پەقەت يېڭىلاشنى چۈشۈرۈش ياكى ئاۋاز ھۆججىتى ئاپتوماتىك يېڭىلانغاندا ئاگاھلاندۇرۇش ئۈچۈن ئىشلىتىلىدۇ.</string>
+    <string name="prefs_app_location_summary">قۇرئان ھۆججەتلىرىنى قەيەرگە ساقلاش تاللىنىدۇ</string>
+    <string name="prefs_app_location_title">قۇرئان سانلىق مەلۇمات مۇندەرىجىسى</string>
+    <string name="prefs_app_size">نۆۋەتتىكى سانلىق مەلۇمات چوڭلۇقى</string>
+    <string name="prefs_audio_manager_summary">فۇرئان ئاۋازىنى چۈشۈرىدۇ ۋە باشقۇرىدۇ</string>
+    <string name="prefs_ayah_before_translation_summary">تەرجىمىدىن ئىلگىرى ئەرەبچە ئەسلى تېكىستنى كۆرسىتىدۇ</string>
+    <string name="prefs_ayah_before_translation_title">تەرجىمىدىن ئىلگىرى ئايەت</string>
+    <string name="prefs_calculating_app_size">ئەپ چوڭلۇقىنى ھېسابلاۋاتىدۇ</string>
+    <string name="prefs_category_advanced">ئالىي تاللانما</string>
+    <string name="prefs_category_advanced_summary">خەتكۈچ ئەكىر/چىقار، قۇرئان سانلىق مەلۇماتلىرى مۇندەرىجىسىنى بەلگىلەش قاتارلىق.</string>
+    <string name="prefs_category_display_settings">كۆرۈنۈش تەڭشەكلىرى</string>
+    <string name="prefs_category_download">چۈشۈرۈش تاللانمىلىرى</string>
+    <string name="prefs_category_dual_screen">قوش بەت مايىللىقى</string>
+    <string name="prefs_category_reading">ئوقۇش مايىللىقى</string>
+    <string name="prefs_category_translation">تەرجىمە مايىللىقى</string>
+    <string name="prefs_copying_app_files">ئەپ ھۆججەتلىرىنى كۆچۈرۈۋاتىدۇ</string>
+    <string name="prefs_display_marker_summary">يېتىپ كەلگەن پارە، ھىزب قاتارلىقلارنى قاڭقىش كۆزنىكىدە كۆرسىتىدۇ.</string>
+    <string name="prefs_display_marker_title">بەلگە قاڭقىش كۆزنىكىنى كۆرسەت</string>
+    <string name="prefs_download_amount_summary">ئالدى بىلەن غەيرى يوچۇقسىز ئاۋازنى چۈشۈرىدۇ</string>
+    <string name="prefs_download_amount_title">چۈشۈرۈش مىقدارى</string>
+    <string name="prefs_dual_page_mode_disabled">توغرىسىغا ھالەتتە، بىرلا بەتنى كۆرسىتىدۇ.</string>
+    <string name="prefs_dual_page_mode_enabled">توغرىسىغا ھالەتتە، ئىككى بەت يانمۇيان كۆرۈنىدۇ.</string>
+    <string name="prefs_dual_page_mode_title">قوش بەت ھالىتى</string>
+    <string name="prefs_err_moving_app_files">ئەپ ھۆججەتلىرىنى يۆتكىيەلمىدى</string>
+    <string name="prefs_export_csv_summary">خەتكۈچ ۋە بەلگىلەرنىڭ كۆپەيتىلمىسىنى CSV غا چىقىرىدۇ</string>
+    <string name="prefs_export_csv_title">CSV غا چىقار</string>
+    <string name="prefs_export_summary">خەتكۈچ ۋە بەلگىلەرنىڭ كۆپەيتىلمىسىنى چىقىرىدۇ</string>
+    <string name="prefs_export_title">چىقار</string>
+    <string name="prefs_highlight_bookmarks_summary">ئايەتلەرنى گەۋدىلەندۈرىدۇ</string>
+    <string name="prefs_highlight_bookmarks_title">خەتكۈچنى گەۋدىلەندۈرىدۇ</string>
+    <string name="prefs_import_summary">خەتكۈچ ۋە بەلگىلەرنى ئەكىرىدۇ</string>
+    <string name="prefs_import_title">ئەكىر</string>
+    <string name="prefs_landscape_orientation_summary_off">ھەمىشە بويىغا يۆنىلىش ھالىتىنى ئىشلىتىدۇ</string>
+    <string name="prefs_landscape_orientation_summary_on">ھەمىشە توغرىسىغا يۆنىلىش ھالىتىنى ئىشلىتىدۇ</string>
+    <string name="prefs_landscape_orientation_title">توغرىسىغا يۆنىلىش</string>
+    <string name="prefs_lock_orientation_summary_off">نۆۋەتتىكى يۆنىلىش ھالىتىگە ماسلىشىدۇ</string>
+    <string name="prefs_lock_orientation_summary_on">مۇقىم يۆنىلىش ھالىتىنى ئىشلىتىدۇ</string>
+    <string name="prefs_lock_orientation_title">قۇلۇپ ئېكران يۆنىلىشى</string>
+    <string name="prefs_megabytes_int">%1$d MB</string>
+    <string name="prefs_night_mode_background_brightness_title">تەگلىك يورۇقلۇقى</string>
+    <string name="prefs_night_mode_text_brightness_title">تېكىست يورۇقلۇقى</string>
+    <string name="prefs_no_enough_space_to_move_files">ئەپ ھۆججەتلىرىنى يۆتكەشكە يېتەرلىك بوشلۇق يوق</string>
+    <string name="prefs_overlay_page_info_summary">قىرائەت قىلىۋاتقاندا بەت سانى، سۈرە ئىسمى ۋە پارە سانىنى كۆرسىتىدۇ</string>
+    <string name="prefs_overlay_page_info_title">بەت ئۇچۇرىنى كۆرسەت</string>
+    <string name="prefs_page_type_summary">ئوقۇش بېتىنىڭ تىپى تاللىنىدۇ</string>
+    <string name="prefs_page_type_title">بەت تىپى (سىناق)</string>
+    <string name="prefs_preview">ئالدىن كۆزەت</string>
+    <string name="prefs_sdcard_external">سىرتقى ساقلىغۇچ %1$d</string>
+    <string name="prefs_sdcard_internal">ئىچىدىكى ساقلىغۇچ</string>
+    <string name="prefs_send_logs_summary">سازلاش خاتىرىسىنى ئىجادكارغا يوللايدۇ</string>
+    <string name="prefs_send_logs_title">خاتىرە يوللا</string>
+    <string name="prefs_split_page_and_translation_summary">تەرجىمە بار قوش بەت ھالىتىدە ، قۇرئان بېتى ۋە تەرجىمە كۆرۈنىدۇ</string>
+    <string name="prefs_split_page_and_translation_title">قوش بەت ھالىتىدىكى قۇرئان ۋە تەرجىمە</string>
+    <string name="prefs_streaming_summary">چۈشۈرگەننىڭ ئورنىغا ئېقىم ئاۋازىنى ئىشلىتىدۇ</string>
+    <string name="prefs_streaming_title">ئېقىم</string>
+    <string name="prefs_sura_translated_name_summary">سۈرە ئىسمىنىڭ تەرجىمىسىنى كۆرسەت</string>
+    <string name="prefs_sura_translated_name_title">سۈرىنىڭ تەرجىمە قىلىنغان ئىسمى</string>
+    <string name="prefs_translation_text_title">تەرجىمە تېكىست چوڭلۇقى</string>
+    <string name="prefs_translations">تەرجىمىلەر</string>
+    <string name="prefs_translations_summary">تەرجىمىلەرنى چۈشۈرۈش ۋە باشقۇرۇش</string>
+    <string name="prefs_use_arabic_summary_on">ئەپ ئارا يۈزىگە ئەرەبچە ئىشلىتىدۇ</string>
+    <string name="prefs_use_arabic_title">ئەرەبچە ھالەت (الوضع العربي)</string>
+    <string name="prefs_use_dyslexic_font_summary">تەرجىمەنى دوستانە خەت نۇسخىسىدا كۆرسىتىدۇ</string>
+    <string name="prefs_use_dyslexic_font_title">Dyslexia دوستانە خەت نۇسخىسى</string>
+    <string name="prefs_volume_key_navigation_summary">ئاۋاز كۇنۇپكىسىدا بەت ئۆرۈشكە يول باشلايدۇ</string>
+    <string name="prefs_volume_key_navigation_title">ئاۋاز كۇنۇپكا يولباشچى</string>
+    <string name="previous">ئالدىنقى</string>
+    <string name="process_progress">بىر تەرەپ قىلىۋاتقىنى %1$d / %2$d</string>
+    <string name="qari_abdulaziz_zahrani_gapless">ئابدۇلئەزىز ئاز-زاھرانى</string>
+    <string name="qari_abdulbaset">ئابدۇلباسىت ئابدۇلسەمەد (ئايرىملىق)</string>
+    <string name="qari_abdulbaset_gapless">ئابدۇلباسىت</string>
+    <string name="qari_abdulbaset_mujawwad">ئابدۇلباسىت ئادۇلسەمەد مۇجاۋۋاد (ئايرىملىق)</string>
+    <string name="qari_abdulbaset_mujawwad_gapless">ئابدۇلباسىت مۇجاۋۋاد</string>
+    <string name="qari_abdulhadi_kanakeri_gapless">ئابدۇلھادى كاناكېرى</string>
+    <string name="qari_abdullah_matroud_gapless">ئابدۇللا ماترود</string>
+    <string name="qari_abdulmuhsin_qasim_gapless">ئابدۇل مۇھسىن قاسىم</string>
+    <string name="qari_abdulrahman_alshahat_gapless">ئابدۇرراھمان ئال شاھات</string>
+    <string name="qari_abdurrashid_sufi_gapless">ئابدۇرراشىد سۇفى</string>
+    <string name="qari_afasy">مىشارى بىن راشىد ئافاسى (ئايرىملىق)</string>
+    <string name="qari_afasy_cali_gapless">مىشارى ئال ئافاسى (كالىفورنىيە)</string>
+    <string name="qari_afasy_gapless">مىشارى بىن راشىد ئافاسى</string>
+    <string name="qari_ahmad_nauina_gapless">ئەھمەد نائۇينا</string>
+    <string name="qari_ahmed_al_nufais_gapless">ئەھمەد ئەن-نۇفەيس</string>
+    <string name="qari_ajamy_gapless">ئەھمەد ئىبن ئەلى ئال ئەجەمى</string>
+    <string name="qari_akram_al_alaqmi">ئەكرەم ئال ئەلەقمى</string>
+    <string name="qari_ali_hajjaj_alsouasi_gapless">ئەلى ھاججاج ئالسۇئاسى</string>
+    <string name="qari_ali_jaber_gapless">ئەلى جابىر</string>
+    <string name="qari_alijon_qari_gapless">ئەلىجون قارى</string>
+    <string name="qari_aloosi_gapless">ئابدۇرراھمان ئال ئەئۇسى</string>
+    <string name="qari_alzain_ahmad_gapless">ئاز-زەيىن مۇھەممەد ئەھمەد</string>
+    <string name="qari_ayman_suwaid_gapless">ئايمان سۇۋەيد</string>
+    <string name="qari_ayman_suwaid_gapped">ئايمان سۇۋەيد (ئايرىملىق)</string>
+    <string name="qari_ayyoub">مۇھەممەد ئەييۇب (ئايرىملىق)</string>
+    <string name="qari_ayyoub_gapless">مۇھەممەد ئەييۇب</string>
+    <string name="qari_aziz_alili_gapless">ئەزىز ئەلىلى</string>
+    <string name="qari_badr_al_turki_gapless">بەدىر ئەت-تۈركى</string>
+    <string name="qari_bandar_baleela_gapless">بەندار بەلىلا</string>
+    <string name="qari_basfar">ئابدۇللاھ باسفار (ئايرىملىق)</string>
+    <string name="qari_basfar_gapless">ئابدۇللاھ باسفار</string>
+    <string name="qari_dussary">ياسر الدوسري (ئايرىملىق)</string>
+    <string name="qari_fares_abbad_gapless">فارىس ئەببەد</string>
+    <string name="qari_farman_shawani_gapless">فەرمان شاۋانى</string>
+    <string name="qari_hady_toure_gapless">مۇھەممەد ئەل-ھادى تۇرې</string>
+    <string name="qari_hani_rifai">ھانى رىفائى (ئايرىملىق)</string>
+    <string name="qari_hani_rifai_gapless">ھانى رىفائى</string>
+    <string name="qari_hudhayfi">ئالى ھۇدەيفى (ئايرىملىق)</string>
+    <string name="qari_hudhayfi_gapless">ئالى ھۇدەيفى</string>
+    <string name="qari_husary_gapless">ھۇسارى</string>
+    <string name="qari_husary_iza3a_gapless">ھۇسارى (رادىئو ئاۋازى)</string>
+    <string name="qari_husary_muallim_gapless">الحصري (ئوقۇتقۇچى، يوچۇقسىز)</string>
+    <string name="qari_husary_mujawwad">ھۇسارى مۇجاۋۋاد (ئايرىملىق)</string>
+    <string name="qari_husary_mujawwad_gapless">الحصري (مۇجاۋۋاد، يوچۇقسىز)</string>
+    <string name="qari_ibrahim_alakhdar_gapless">ئىبراھىم ئەل ئاخدار</string>
+    <string name="qari_idrees_abkar_gapless">ئىدرىس ئابكار</string>
+    <string name="qari_jibreel">مۇھەممەد جىبرىل (ئايرىملىق)</string>
+    <string name="qari_jibreel_gapless">مۇھەممەد جىبرىل</string>
+    <string name="qari_juhany_gapless">ئابدۇللاھ ئەلجەھنى</string>
+    <string name="qari_khaled_muhanna_gapless">خالىد المهنا</string>
+    <string name="qari_khalid_jalil_gapless">خالىد ئەل-جەلىل</string>
+    <string name="qari_khalid_qahtani_gapless">خالىد ئەلقاھتانى</string>
+    <string name="qari_khalifa_taniji_gapless">خەلىفە تېڭگى</string>
+    <string name="qari_luhaidan_gapless">مۇھەممەد ئەل-لۇھەيدان</string>
+    <string name="qari_mahmoud_ali_albana_gapless">مەھمۇد ئەلى ئال بانا</string>
+    <string name="qari_minshawi_mujawwad">مىنشاۋى مۇجاۋۋاد (ئايرىملىق)</string>
+    <string name="qari_minshawi_mujawwad_gapless">مىنشاۋى مۇجاۋۋاد</string>
+    <string name="qari_minshawi_murattal_gapless">مىنشاۋى مۇراتتال</string>
+    <string name="qari_mishari_walk_gapless">مىشارى, ئىبراھىم ۋالىك (ئىنگلىزچە)</string>
+    <string name="qari_mohammad_altablawi_gapless">مۇھەممەد ئال تابلاۋى</string>
+    <string name="qari_mokhtasar_asmari_gapless">ئابدۇللاھ ئەل ئەسمەرى (ئاۋاز قىسقارتىلمىسى)</string>
+    <string name="qari_mostafa_ismaeel_gapless">مۇستافا ئىسمائىل</string>
+    <string name="qari_muaiqly">ماھەر ئال مۇئائىقلى (ئايرىملىق)</string>
+    <string name="qari_muaiqly_gapless">ماھەر ئال مۇئائىقلى</string>
+    <string name="qari_muaiqly_haramain_gapless">ماھەر ئال مۇئائىقلى (الحرمين، يوچۇقسىز)</string>
+    <string name="qari_muhammad_rashad_shereef_gapless">مۇھەممەد رەشاد ئالشەرىف</string>
+    <string name="qari_nabil_rifa3i_gapless">نەبىل ئەر-رىفائى</string>
+    <string name="qari_noreen_siddiq_gapless">نۇرەيىن مۇھەممەد سىددىق</string>
+    <string name="qari_peshawa_qadir_al_qurdi_gapless">پێشەوا قادر ئەل-كۇردى</string>
+    <string name="qari_qatami_gapless">ناسىر ئال قاتامى</string>
+    <string name="qari_raad_al_kurdi_gapless">رائاد ئەل-كۇردى</string>
+    <string name="qari_saad_al_ghamdi">سەئەد غامدى (ئايرىملىق)</string>
+    <string name="qari_saad_al_ghamidi_gapless">سەئەد ئال غامدى</string>
+    <string name="qari_sahl_yaseen_gapless">سەھىل ياسىن</string>
+    <string name="qari_salah_budair_gapless">سالاھ بۇدەيىر</string>
+    <string name="qari_salah_bukhatir_gapless">سالاھ بۇخاتىر</string>
+    <string name="qari_shatri">ئەبۇ بەكىر ئەششاتىرى (ئايرىملىق)</string>
+    <string name="qari_shatri_gapless">ئەبۇ بەكىر ئەششاتىرى</string>
+    <string name="qari_shuraym">سەئود ئەششۇرايىم (ئايرىملىق)</string>
+    <string name="qari_shuraym_gapless">سەئود ئەششۇرايىم</string>
+    <string name="qari_suadis">ئابدۇرراھمان ئەلسۇدەيس (ئايرىملىق)</string>
+    <string name="qari_sudais_gapless">ئابدۇرراھمان ئەلسۇدەيس</string>
+    <string name="qari_tablawy">مۇھەممەد ئال تابلاۋى (ئايرىملىق)</string>
+    <string name="qari_tawfeeq_as_sawaigh_gapless">تەۋفىق ئەس-ساۋايىغ</string>
+    <string name="qari_wadee3_alyamani_gapless">ۋادىھ ئەل يامانى</string>
+    <string name="qari_walk">ئىبراھىم ۋالىك (ئىنگلىزچە تەرجىمە)</string>
+    <string name="qari_walk_gapless">ئىبراھىم ۋالىك (ئىنگلىزچە)</string>
+    <string name="qari_yasser_dussary_gapless">ياسەر ئەد-دوسارى</string>
+    <string name="qari_yasser_salama_hadr_gapless">ياسىر سالاما (حدر، يوچۇقسىز)</string>
+    <string name="qarilist_dismiss">خىزمەتتىن ھەيدەش</string>
+    <string name="qarilist_gapless">ئۈزلۈكسىز</string>
+    <string name="qarilist_gapped">ئىزچىل ئەمەس</string>
+    <string name="qarilist_qaris_with_downloads">چۈشۈرۈش بىلەن كارى</string>
+    <string name="qarilist_ready_to_play">ئاڭلاشقا تەييار</string>
+    <string name="qarilist_select_qari">ئوقۇرمەننى تاللاڭ</string>
+    <string name="qarilist_selected">تاللانغان</string>
+    <string name="quranSearchType">قۇرئان سۈرەلىرى</string>
+    <string name="quran_ayah">%1$d-ئايەت</string>
+    <string name="quran_ayah_details">%1$s-ئايەت %2$s، %3$s-پارە</string>
+    <string name="quran_hizb">ھىزب</string>
+    <string name="quran_juz2">پارە</string>
+    <string name="quran_nos">½</string>
+    <string name="quran_page">بەت</string>
+    <string name="quran_rob3">¼</string>
+    <string name="quran_sura">سۈرە</string>
+    <string name="quran_sura_title">سۈرە %1$s</string>
+    <string name="quran_talt_arb3">¾</string>
+    <string name="reading_bookmark_dismiss_education">تاقاش</string>
+    <string name="reading_bookmark_movable_education_body">ئوقۇش خەتكۈچىنى ساقلاش كونىسىنىڭ ئورنىنى ئالىدۇ. بىر قانچە ئايەتنى ساقلاش ئۈچۈن، ئايەتنى بېسىپ تۇرۇپ يىغقۇچقا قوشۇڭ.</string>
+    <string name="reading_bookmark_movable_education_title">بۇ يۆتكىلىشچان ئوقۇش خەتكۈچى</string>
+    <string name="reading_bookmark_moved_from">%1$s دىن يۆتكەلدى</string>
+    <string name="reading_bookmark_red">قىزىل</string>
+    <string name="recent_pages">يېقىنقى بەتلەر</string>
+    <string name="recite_from_here">بۇ يەردىن ئوقۇڭ</string>
+    <string name="remove_button">چىقىرىۋەت</string>
+    <string name="remove_dlg_msg">سىز %1$s نى راسلا چىقىرىۋېتەمسىز؟</string>
+    <string name="remove_dlg_title">تەرجىمىنى چىقىرىۋېتەمدۇ؟</string>
+    <string name="scoped_storage_message">ئاندىرويىد ئىشلەتكۈچى شەخسىيەت ھوقۇقىنى يۇقىرىلىتىپ ئۆزگەرتكەنلىكتىن، ھۆججەتلەرنى ئەپ مۇندەرىجىسىنىڭ سىرتىغا كۆچۈرگەندە قۇرئان ئەپنىڭ سانلىق مەلۇماتنى زىيارەت قىلىشى كەلگۈسىدىكى ئاندىرويىد نەشرىدە توختىتىلىشى مۇمكىن. بۇ يولنى راستىنلا ئىشلىتەمسىز؟</string>
+    <string name="sdcard_error">SD كارتىنى تاپالمىدى. ئۇنى قىستۇرۇپ ئاندىن قايتا سىناڭ.</string>
+    <string name="search_data">سانلىق مەلۇمات ئىزدە</string>
+    <string name="search_entire_mushaf">پۈتكۈل سەھىپەدىن ئىزدە</string>
+    <string name="search_full_results">تولۇق نەتىجە</string>
+    <string name="search_hint">قۇرئاندىن ئىزدە</string>
+    <string name="search_key">ئىزدە كۇنۇپكىسى بېسىلسا سۈرە ئىزدەيدۇ</string>
+    <string name="see_tafseer_of_verse">بۇ ئايەتنىڭ تەپسىرى %d (چېكىلسە يايىدۇ) ئايەتنىڭ تەپسىرىسىدە بار.</string>
+    <string name="share_ayah">ئايەت ئۇلانمىسىنى ھەمبەھىرلە</string>
+    <string name="share_ayah_text">ئايەت تېكىستتىنى ھەمبەھىرلە</string>
+    <string name="starting_page_label">بەت ئۈستى</string>
+    <string name="stop">توختا</string>
+    <string name="storage_permission_please_restart">كۈچكە ئىگە بولۇشى ئۈچۈن ئەپنى قايتا قوزغىتىڭ.</string>
+    <string name="storage_permission_rationale">قۇرئان سانلىق مەلۇماتلىرىنى سىرتقى ساقلىغۇچقا ساقلاش ئۈچۈن ئىجازىتىڭىزگە موھتاج. قۇرئان بۇ ئىجازەتنى ئالماي ئىشلەيدۇ، ئەمما ئەگەر سانلىق مەلۇماتلارنى ئۆچۈرۈپ ياكى ئەپنى ئۆچۈرۈۋەتسىڭىز، چۈشۈرگەن بارلىق بەت، ئۈن ۋە سانلىق مەلۇماتلارنىڭ ھەممىسى ئۆچۈرۈلىدۇ، شۇڭا ئىجازەت بېرەمسىز؟</string>
+    <string name="sura_ayah_notification_str">سۈرە %1$s، %2$d-ئايەت</string>
+    <string name="sura_ayah_sharing_str">سۈرە %1$s: %2$d</string>
+    <string name="tag_blank_tag_error">بەلگە ئاتى بوش قالمايدۇ!</string>
+    <string name="tag_bookmark">خەتكۈچكە بەلگە قوش</string>
+    <string name="tag_dlg_title">بەلگە</string>
+    <string name="tag_duplicate_tag_error">بەلگە ئاتى مەۋجۇت!</string>
+    <string name="tag_name">ئاتى</string>
+    <string name="timing_database">زۆرۈر ھۆججەتلەر</string>
+    <string name="to">ئايەتكىچە</string>
+    <string name="translation_ayah">ئايەت تەرجىمە/تەپسىر</string>
+    <string name="translation_dialog_later">كېيىن</string>
+    <string name="translation_dialog_yes">ھەئە</string>
+    <string name="translation_updates_available">تەرجىمە ئۈچۈن بىر يېڭىلانما بار. تەرجىمە ئېكرانىنى ھازىرلا زىيارەت قىلامسىز؟</string>
+    <string name="undo">يېنىۋال</string>
+    <string name="update_available">يېڭىلانما بار</string>
+    <string name="warning">ئاگاھلاندۇرۇش</string>
+    <string name="whats_new_continue">داۋاملاشتۇرۇش</string>
+    <string-array name="sura_names">
+        <item>فاتىھە</item>
+        <item>بەقەرە</item>
+        <item>ئال ئىمران</item>
+        <item>نىسا</item>
+        <item>مائىدە</item>
+        <item>ئەنئام</item>
+        <item>ئەئراف</item>
+        <item>ئەنفال</item>
+        <item>تەۋبە</item>
+        <item>يۇنۇس</item>
+        <item>ھۇد</item>
+        <item>يۈسۈف</item>
+        <item>رەئىد</item>
+        <item>ئىبراھىم</item>
+        <item>ھىجر</item>
+        <item>نەھل</item>
+        <item>ئىسرا</item>
+        <item>كەھف</item>
+        <item>مەريەم</item>
+        <item>تاھا</item>
+        <item>ئەنبىيا</item>
+        <item>ھەج</item>
+        <item>مۆئمىنۇن</item>
+        <item>نۇر</item>
+        <item>فۇرقان</item>
+        <item>شۇئەرا</item>
+        <item>نەمل</item>
+        <item>قەسەس</item>
+        <item>ئەنكەبۇت</item>
+        <item>رۇم</item>
+        <item>لوقمان</item>
+        <item>سەجدە</item>
+        <item>ئەھزاب</item>
+        <item>سەبەئ</item>
+        <item>فاتىر</item>
+        <item>ياسىن</item>
+        <item>ساففات</item>
+        <item>ساد</item>
+        <item>زۇمەر</item>
+        <item>غافىر</item>
+        <item>فۇسسىلەت</item>
+        <item>شۇرا</item>
+        <item>زۇخرۇف</item>
+        <item>دۇخان</item>
+        <item>جاسىيە</item>
+        <item>ئەھقاف</item>
+        <item>مۇھەممەد</item>
+        <item>فەتىھ</item>
+        <item>ھۇجۇرات</item>
+        <item>قاف</item>
+        <item>زارىيات</item>
+        <item>تۇر</item>
+        <item>نەجم</item>
+        <item>قەمەر</item>
+        <item>رەھمان</item>
+        <item>ۋاقىئە</item>
+        <item>ھەدىد</item>
+        <item>مۇجادەلە</item>
+        <item>ھەشر</item>
+        <item>مۇمتەھىنە</item>
+        <item>سەپ</item>
+        <item>جۇمۇئە</item>
+        <item>مۇنافىقۇن</item>
+        <item>تەغابۇن</item>
+        <item>تەلاق</item>
+        <item>تەھرىم</item>
+        <item>مۇلك</item>
+        <item>قەلەم</item>
+        <item>ھاققە</item>
+        <item>مائارىج</item>
+        <item>نۇھ</item>
+        <item>جىن</item>
+        <item>مۇززەممىل</item>
+        <item>مۇددەسسىر</item>
+        <item>قىيامەت</item>
+        <item>ئىنسان</item>
+        <item>مۇرسەلات</item>
+        <item>نەبە</item>
+        <item>نازىئات</item>
+        <item>ئەبەسە</item>
+        <item>تەكۋىر</item>
+        <item>ئىنفىتار</item>
+        <item>مۇتەففىفىن</item>
+        <item>ئىنشىقاق</item>
+        <item>بۇرۇج</item>
+        <item>تارىق</item>
+        <item>ئەئلا</item>
+        <item>غاشىيە</item>
+        <item>ھىجر</item>
+        <item>بەلەد</item>
+        <item>شەمس</item>
+        <item>لەيل</item>
+        <item>زۇھا</item>
+        <item>ئىنشىراھ</item>
+        <item>تىن</item>
+        <item>ئەلەق</item>
+        <item>قەدر</item>
+        <item>بەييىنە</item>
+        <item>زەلزەلە</item>
+        <item>ئادىيات</item>
+        <item>قارىئە</item>
+        <item>تەكاسۇر</item>
+        <item>ئەسر</item>
+        <item>ھۇمەزە</item>
+        <item>فىل</item>
+        <item>قۇرەيش</item>
+        <item>مائۇن</item>
+        <item>كەۋسەر</item>
+        <item>كافىرون</item>
+        <item>نەسر</item>
+        <item>مەسەد</item>
+        <item>ئىخلاس</item>
+        <item>فەلەق</item>
+        <item>ناس</item>
+    </string-array>
+    <plurals name="ayah_collections">
+        <item quantity="one">%d يىغقۇچ</item>
+        <item quantity="other">%d يىغقۇچ</item>
+    </plurals>
+    <plurals name="bookmark_tag_deleted">
+        <item quantity="one">بىر تۈر ئۆچۈرۈلدى</item>
+        <item quantity="other">%d تۈر ئۆچۈرۈلدى</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">\"%s\" نىڭ بىر نەتىجىسى:</item>
+        <item quantity="other">\"%1$s\" نىڭ %2$d نەتىجىسى:</item>
+    </plurals>
+    <plurals name="verses">
+        <item quantity="one">%s سۈرە</item>
+        <item quantity="other">%s سۈرە</item>
+    </plurals>
+</resources>
