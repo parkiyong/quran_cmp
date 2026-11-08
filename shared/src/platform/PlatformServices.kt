@@ -3,6 +3,7 @@ package com.jetbrains.kmpapp.platform
 import androidx.compose.ui.graphics.ImageBitmap
 import okio.FileSystem
 import okio.Path.Companion.toPath
+import okio.SYSTEM
 
 expect object PlatformEnvironment {
     fun getAppDataDirectory(): String

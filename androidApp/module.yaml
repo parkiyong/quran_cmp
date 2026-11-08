@@ -10,7 +10,7 @@ settings:
   compose:
     enabled: true
   android:
-    applicationId: com.jetbrains.kmpapp
+    applicationId: com.quran.cmp
     namespace: com.jetbrains.kmpapp
   jvm:
     release: 17

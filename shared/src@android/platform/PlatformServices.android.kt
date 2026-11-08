@@ -11,6 +11,7 @@ import android.media.PlaybackParams
 import android.os.Build
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asAndroidBitmap
+import androidx.compose.ui.graphics.asImageBitmap
 import java.io.ByteArrayOutputStream
 import java.io.File
 
@@ -194,7 +195,7 @@ actual object PlatformShareService {
     actual fun decodeImageBitmap(bytes: ByteArray): ImageBitmap? {
         return try {
             val bmp = android.graphics.BitmapFactory.decodeByteArray(bytes, 0, bytes.size) ?: return null
-            androidx.compose.ui.graphics.asImageBitmap(bmp)
+            bmp.asImageBitmap()
         } catch (_: Exception) {
             null
         }
