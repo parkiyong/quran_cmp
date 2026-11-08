@@ -114,6 +114,7 @@ import com.jetbrains.kmpapp.platform.shareOrSavePngImage
 import com.jetbrains.kmpapp.platform.shareText
 import com.jetbrains.kmpapp.repository.AudioPlaybackController
 import com.jetbrains.kmpapp.repository.QuranRepository
+import com.jetbrains.kmpapp.ui.settings.ReaderAppearanceSettings
 import com.jetbrains.kmpapp.repository.VerseWithTranslations
 import com.jetbrains.kmpapp.ui.audio.AudioBar
 import com.jetbrains.kmpapp.ui.audio.QariListSheet
@@ -1189,56 +1190,7 @@ private fun PageThemeBottomSheet(
                 fontWeight = FontWeight.Bold
             )
 
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                PageAppearance.entries.forEach { app ->
-                    FilterChip(
-                        selected = settings.pageAppearance == app,
-                        onClick = { repository.settingsRepository.setPageAppearance(app) },
-                        label = { Text(app.displayName) }
-                    )
-                }
-            }
-
-            if (settings.pageAppearance == PageAppearance.NIGHT) {
-                Text("Night Text Brightness (${settings.nightModeTextBrightness})")
-                Slider(
-                    value = settings.nightModeTextBrightness.toFloat(),
-                    onValueChange = {
-                        repository.settingsRepository.setNightModeBrightness(
-                            it.toInt(),
-                            settings.nightModeBackgroundBrightness
-                        )
-                    },
-                    valueRange = 50f..255f
-                )
-
-                Text("Night Background Brightness (${settings.nightModeBackgroundBrightness})")
-                Slider(
-                    value = settings.nightModeBackgroundBrightness.toFloat(),
-                    onValueChange = {
-                        repository.settingsRepository.setNightModeBrightness(
-                            settings.nightModeTextBrightness,
-                            it.toInt()
-                        )
-                    },
-                    valueRange = 0f..150f
-                )
-            }
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Text("Show Page Header & Footer Overlay")
-                Switch(
-                    checked = settings.showPageInfoOverlay,
-                    onCheckedChange = { repository.settingsRepository.setShowPageInfoOverlay(it) }
-                )
-            }
+            ReaderAppearanceSettings(repository = repository)
         }
     }
 }
