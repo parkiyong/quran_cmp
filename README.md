@@ -72,7 +72,7 @@ It is a faithful Compose Multiplatform reimplementation inspired by the acclaime
 | Category | Technology |
 |---|---|
 | **Language & Framework** | [Kotlin 2.1.0](https://kotlinlang.org/) Multiplatform (KMP), [Compose Multiplatform 1.7.3](https://www.jetbrains.com/lp/compose-multiplatform/) |
-| **Project System** | [JetBrains Amper](https://github.com/JetBrains/amper) (`project.yaml`, `module.yaml`) |
+| **Project System** | [Kotlin Toolchain](https://github.com/JetBrains/amper) (v0.13.0, `project.yaml`, `module.yaml`) |
 | **UI Components** | Jetpack / Compose Material 3 & Material Icons Extended |
 | **Dependency Injection** | [Koin](https://insert-koin.io/) (`koin-core`, `koin-compose-viewmodel`) |
 | **Navigation** | [Navigation Compose](https://developer.android.com/guide/navigation) (Type-safe routes) |
@@ -87,10 +87,10 @@ It is a faithful Compose Multiplatform reimplementation inspired by the acclaime
 
 ```text
 quran_cmp/
-├── project.yaml                 # Amper project configuration
+├── project.yaml                 # Kotlin Toolchain project configuration
 ├── libs.versions.toml           # Version catalog for dependencies
-├── kotlin                       # Amper CLI launcher (Unix)
-├── kotlin.bat                   # Amper CLI launcher (Windows)
+├── kotlin                       # Kotlin Toolchain CLI launcher (Unix)
+├── kotlin.bat                   # Kotlin Toolchain CLI launcher (Windows)
 ├── shared/                      # Kotlin Multiplatform shared module
 │   ├── module.yaml              # Shared module configuration (JVM, Android, iOS)
 │   ├── composeResources/       # Multiplatform resources & localized strings (50+ languages)
@@ -120,7 +120,7 @@ quran_cmp/
 
 ### Running the Applications
 
-The project uses the bundled `./kotlin` ([JetBrains Amper](https://github.com/JetBrains/amper)) wrapper.
+The project uses the bundled `./kotlin` ([Kotlin Toolchain](https://github.com/JetBrains/amper)) wrapper.
 
 #### 🖥️ Desktop (Linux, macOS, Windows)
 ```bash
