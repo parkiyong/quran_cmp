@@ -2,6 +2,12 @@ package com.jetbrains.kmpapp.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
+import androidx.compose.material3.LocalTextStyle
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
@@ -131,6 +137,28 @@ private val DarkColorScheme = darkColorScheme(
     surface = Color(0xFF181E1B)
 )
 
+/**
+ * Compact type scale in line with Material 3 / iOS HIG guidance for dense reading apps
+ * (body 14sp / 15pt-ish, secondary 12-13sp, captions 11sp).
+ */
+private val QuranTypography = Typography(
+    displayLarge = TextStyle(fontSize = 48.sp, lineHeight = 56.sp),
+    displayMedium = TextStyle(fontSize = 38.sp, lineHeight = 46.sp),
+    displaySmall = TextStyle(fontSize = 30.sp, lineHeight = 38.sp),
+    headlineLarge = TextStyle(fontSize = 28.sp, lineHeight = 36.sp),
+    headlineMedium = TextStyle(fontSize = 24.sp, lineHeight = 32.sp),
+    headlineSmall = TextStyle(fontSize = 20.sp, lineHeight = 28.sp),
+    titleLarge = TextStyle(fontSize = 18.sp, lineHeight = 24.sp, fontWeight = FontWeight.Medium),
+    titleMedium = TextStyle(fontSize = 15.sp, lineHeight = 22.sp, fontWeight = FontWeight.Medium),
+    titleSmall = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, fontWeight = FontWeight.Medium),
+    bodyLarge = TextStyle(fontSize = 15.sp, lineHeight = 22.sp),
+    bodyMedium = TextStyle(fontSize = 13.sp, lineHeight = 18.sp),
+    bodySmall = TextStyle(fontSize = 11.sp, lineHeight = 16.sp),
+    labelLarge = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, fontWeight = FontWeight.Medium),
+    labelMedium = TextStyle(fontSize = 11.sp, lineHeight = 16.sp, fontWeight = FontWeight.Medium),
+    labelSmall = TextStyle(fontSize = 10.sp, lineHeight = 14.sp, fontWeight = FontWeight.Medium)
+)
+
 @Composable
 fun QuranTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -138,6 +166,10 @@ fun QuranTheme(
 ) {
     MaterialTheme(
         colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme,
-        content = content
-    )
+        typography = QuranTypography
+    ) {
+        CompositionLocalProvider(LocalTextStyle provides QuranTypography.bodyLarge) {
+            content()
+        }
+    }
 }
